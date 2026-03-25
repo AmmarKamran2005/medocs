@@ -1,0 +1,770 @@
+﻿<!DOCTYPE html><html lang="en"><head><title>Medocs - Top Medical AI scribe for clinicians - Top Medical AI scribe for clinicians</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="keywords" content="healthcare services, medical clinic, medical advice, clinic, patient care, doctor, preventative medicine, health, medocs.ai, Berlin" /><meta name="description" content="Medocs is a sophisticated AI-powered medical scribe that revolutionizes how healthcare professionals handle clinical documentation. Leveraging advanced AI and ambient listening technology, Medocs automates the transcription of patient-provider conversations, significantly reducing time spent on paperwork and improving accuracy. Whether you&#039;re a physician, nurse practitioner, or any other healthcare provider, Medocs enables you to focus on what matters most to deliver outstanding patient care." /><meta property="og:description" content="Medocs is a sophisticated AI-powered medical scribe that revolutionizes how healthcare professionals handle clinical documentation. Leveraging advanced AI and ambient listening technology, Medocs automates the transcription of patient-provider conversations, significantly reducing time spent on paperwork and improving accuracy. Whether you&#039;re a physician, nurse practitioner, or any other healthcare provider, Medocs enables you to focus on what matters most to deliver outstanding patient care." /><meta name="icbm" content="52.5200066,13.404954" /><meta name="geo.position" content="52.5200066;13.404954" /><meta name="geo.placename" content="Naperville" /><meta property="og:title" content="Medocs - Top Medical AI scribe for clinicians - Top Medical AI scribe for clinicians" /><meta property="og:type" content="website" /><meta property="og:locale" content="en" /><meta property="og:image" content="./images/1200x630/12423931/medocslogo.png" /><meta property="og:url" content="" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content="Medocs: AI-powered medical scribe that automates clinical documentation, supports 40+ languages, integrates with EHRs, and is HIPAA-compliant."><meta name="keywords" content="medical scribe, AI medical scribe, clinical documentation, EHR integration, HIPAA, medical transcription, multilingual medical notes"><meta name="author" content="Medocs"><!-- Canonical --><link rel="canonical" href="https://medocs.ai/"><!-- Open Graph (Facebook, LinkedIn previews) --><meta property="og:locale" content="en_US"><meta property="og:type" content="website"><meta property="og:title" content="Medocs — AI Medical Scribe | HIPAA-Compliant Clinical Notes"><meta property="og:description" content="Automate clinical documentation with Medocs — AI-driven transcription, ambient listening, EHR integration and multi-language support."><meta property="og:url" content="https://medocs.ai/"><meta property="og:site_name" content="Medocs"><!-- Replace with an absolute URL to your main preview image (1200x630 recommended) --><meta property="og:image" content="https://medocs.ai/path-to-og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@MedocsAI"><meta name="twitter:creator" content="@MedocsAI"><meta name="twitter:title" content="Medocs — AI Medical Scribe | HIPAA-Compliant Clinical Notes"><meta name="twitter:description" content="Automate clinical documentation with Medocs — AI-driven transcription, ambient listening, EHR integration and multi-language support."><meta name="twitter:image" content="https://medocs.ai/path-to-og-image.jpg"><!-- Misc / Mobile --><meta name="theme-color" content="#0a6cff"><!-- Structured data (Organization + product/feature short summary) --><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Medocs",
+  "url": "https://medocs.ai/",
+  "logo": "https://medocs.ai/path-to-logo.png",
+  "sameAs": [
+    "https://www.linkedin.com/company/medocs-ai",
+    "https://twitter.com/MedocsAI"
+  ],
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "email": "contact@medocs.ai",
+    "url": "https://medocs.ai/contact"
+  }]
+}
+</script><link rel="icon" type="image/png" href="./images/16x16/12606855/favicon.png" sizes="16x16"><link rel="icon" type="image/png" href="./images/32x32/12606855/favicon.png" sizes="32x32"><link rel="icon" type="image/png" href="./images/96x96/12606855/favicon.png" sizes="96x96"><link rel="apple-touch-icon-precomposed" sizes="152x152" href="./images/152x152/12606855/favicon.png"><link rel="preconnect" href="" /><link rel="stylesheet" type="text/css" media="screen" href="./webcard/static/app.min.1761590887.css"/><link rel="stylesheet" type="text/css" media="screen" href="./css/custom.251023234853.css" id="customcss"/><link rel="canonical" href=""/><script>if (!webcard) var webcard={};webcard.id=1052959;webcard.moduleId=8994334;webcard.culture="en";webcard.type=2;webcard.isEdit=false;webcard.isPreview=true;webcard.isMobile=/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent);webcard.isTouch='ontouchstart' in window || navigator.msMaxTouchPoints > 0;webcard.googleMapsEmbedApiKey='AIzaSyDoOLq_ts27g3vEog9sGYB0GJSyWBDK9gs';webcard.googleMapsApiKey='';webcard.apiHost=location.host + './api.php';var extraPath='';</script><link rel="preload" as="style" href="./g/fonts.css?family=PT+Sans:regular,700%7CRoboto+Slab:300,regular,700%7CNoto+Sans+JP:300,regular,700&amp;subset=latin&amp;display=swap" /><link rel="stylesheet" media="print" onload="this.media='all'" href="./g/fonts.css?family=PT+Sans:regular,700%7CRoboto+Slab:300,regular,700%7CNoto+Sans+JP:300,regular,700&amp;subset=latin&amp;display=swap" /><style>figure{margin:0}.stars{      width: 25px;    height: 20px;  }    .stars svg {    fill: #fff;    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));}    .ask-ai-btn {    position: relative;    font-family: 'Poppins', sans-serif;    font-weight: 700;    color: #fff;    background: linear-gradient(45deg, #007BFF, #6A00FF, #FF0080);    background-size: 300% 300%;    padding: 8px 16px;    justify-content: center;    border-radius: 50px;    display: flex;     text-decoration: none;     width: 200px;    align-items: center;    gap: 0px;    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);    transition: transform 0.3s ease, box-shadow 0.3s ease;    animation: gradientFlow 5s ease infinite;}                                        .ask-ai-btn:hover {                                            color: #fff;                                            transform: translateY(-3px);                                            box-shadow: 0 6px 20px rgba(0, 123, 255, 0.6);                                            text-decoration: none; /* Prevent underline on hover */                                        }                                    /* Gradient animation */                                    @keyframes gradientFlow {                                        0% {                                            background-position: 0% 50%;                                        }                                        50% {                                            background-position: 100% 50%;                                        }                                        100% {                                            background-position: 0% 50%;                                        }                                    }                                    /* Stars container */                                    .stars {                                      margin-top:-5px;                                        animation: sparkle 2s infinite ease-in-out;                                    }                                    /* Star animation */                                    @keyframes sparkle {                                        0%, 100% {                                            opacity: 1;                                            transform: scale(1);                                        }                                        50% {                                            opacity: 0.6;                                            transform: scale(1.2);                                        }                                    }                                    .stars svg {                                        fill: #fff;                                        filter: drop-shadow(0 0 4px rgba(255,255,255,0.8));                                    }                                        .myButtons{            padding:8px 16px;            border-radius: 150px;    width: 200px;    color:#fff;    border-style: solid;    border-width: 1px;        }                        /* Tablet (<= 1024px) */@media (max-width: 1024px) {  .myButtons{    width: 150px;   /* shrink buttons */    font-size: 14px;    padding: 8px 12px;  }    img[src*="medocslogo"] {    max-width: 200px; /* shrink logo */  }}/* Mobile (<= 768px) */@media (max-width: 768px) {  .myButtons {    width: 120px;   /* keep buttons equal */    font-size: 13px;    padding: 6px 10px;  }   img[src*="medocslogo"] {    max-width: 150px; /* smaller logo */  }  /* Keep buttons centered */  .myButtons,  .ask-ai-btn {    text-align: center;  }} #ed-889611454 > .inner { place-content: center; align-items: center; } #ed-889611454 { position: sticky; } #ed-889611463 { flex-basis: auto; flex-grow: 1; padding: 15px 0px; } #ed-889611466 { flex-grow: 1; flex-basis: auto; } #ed-889611466 > .inner { place-content: center flex-end; align-items: center; } @media screen and (max-width: 975px) {  #ed-889611466 > .inner { justify-content: space-evenly; padding: 20px 0px; }} @media screen and (max-width: 575px) {  #ed-889611466 > .inner { justify-content: space-between; padding: 15px 0px 15px 20px; }} #ed-889611451 > .inner { justify-content: space-between; align-items: center; } #ed-475907105 { margin: 0px 0px 10px; } #ed-475897535 { flex-basis: 300px; max-width: 600px; margin: 100px 0px 0px; } #ed-475897535 > .inner { justify-content: center; flex-direction: row; padding: 0px 0px 20px; } @media screen and (max-width: 975px) {  #ed-475897535 { margin: 0px; }} @media screen and (max-width: 575px) {  #ed-475897535 { max-width: 300px; margin: 0px; }} #ed-484760905 a.button { width: 200px; border-radius: 150px; box-shadow: none; border-style: solid; border-width: 1px; } #ed-476049073 > .inner { align-items: center; place-content: center flex-start; } @media screen and (max-width: 575px) {  #ed-476049073 > .inner { justify-content: center; }} @media screen and (max-width: 575px) {  #ed-476049073 { margin: 0px; }} #ed-484760867 a.button { width: 200px; border-radius: 150px; box-shadow: none; border-style: solid; border-width: 1px; } @media screen and (max-width: 575px) {  #ed-484760867 { margin: 10px 0px 0px; }} #ed-476049079 > .inner { align-items: center; place-content: center; } @media screen and (max-width: 575px) {  #ed-476049079 { margin: auto; }} #ed-476049070 > .inner { place-content: center; align-items: center; } @media screen and (max-width: 975px) {  #ed-476049070 > .inner { align-items: center; align-content: center; }} @media screen and (max-width: 575px) {  #ed-476049070 > .inner { justify-content: center; }} #ed-475813646 > .inner { justify-content: center; } #ed-484762340 { margin: 20px 0px 0px; } #ed-484762340 a.button { width: 200px; border-radius: 150px; box-shadow: none; border-style: solid; border-width: 1px; } #ed-475813655 { flex-basis: 700px; } #ed-475813655 img { padding: 50px 10px 50px 0px; } @media screen and (max-width: 975px) {  #ed-475813655 { flex-basis: 500px; }} @media screen and (max-width: 575px) {  #ed-475813655 img { padding: 50px 10px; }} @media screen and (max-width: 575px) {  #ed-475813655 { flex-basis: 310px; }} @media screen and (max-width: 975px) {  #ed-475813652 > .inner { justify-content: center; }} #ed-475758079 > .inner { justify-content: space-between; align-items: stretch; } .metrics-bar {  display: flex;  justify-content: center;  align-items: center;  flex-wrap: wrap;  border-top: 1px solid #ddd;  border-bottom: 1px solid #ddd;  padding: 20px 0;  background: white;}.metric {  flex: 1;  min-width: 150px;  text-align: center;  padding: 10px 20px;  position: relative;}.metric:not(:last-child)::after {  content: "";  position: absolute;  right: 0;  top: 25%;  height: 50%;  width: 1px;  background: #ccc;}.metric h2 {  font-size: 1.8rem;  font-weight: bold;  margin: 0;  color: #222;}.metric p {  margin: 5px 0 0;  font-size: 0.9rem;  color: #666;} #ed-484669223 > .inner { padding: 0px; } /* Smooth glowing gradient animation */@keyframes gradientShift {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }} #ed-468214973 .space { height: 1rem; } #ed-468214964 { margin: 0px; } #ed-900746467 { margin: 0px; } #ed-900753767 { margin: 0px 0px 50px; } /* Slider Wrapper */.custom-testimonial-slider {  width: 100%;  overflow: hidden;  position: relative;  background: #fff;}/* Viewport */.custom-slider-viewport {  width: 100%;  overflow: hidden;}/* Track - duplicate content for infinite effect */.custom-slider-track {  display: flex;  gap: 20px;  animation: scrollLeft 2000s linear infinite;  width: max-content;}/* Card Styling */.custom-testimonial-card {  flex: 0 0 300px;  border-radius: 16px;  padding: 20px; box-shadow: 0 6px 16px rgba(0,0,0,0.1);  position: relative;  background: #fff;}.custom-card-accent {  position: absolute;  top: 0;  left: 0;  height: 6px;  width: 100%;  border-radius: 16px 16px 0 0;}.custom-stars {      display: flex;    gap: 4px;    margin-bottom: 10px;    justify-content: center;}.custom-stars svg {  width: 24px;  height: 24px;  fill: #ffb400;}.custom-testimonial-body {  font-size: 20px;  line-height: 1.5;  color: #333;  margin-bottom: 12px;}.custom-specialty {  font-size: 18px;  font-weight: 600;  color: #555;}/* Animation */@keyframes scrollLeft {  from { transform: translateX(0); }  to { transform: translateX(-50%); }} #ed-900734382 > .inner { padding: 50px 0px 70px; } #ed-900734382 { margin: 0px; } .storeIcons{          width:200px;      }     .ssImgHeight{         height:400px;     }      .myDivBoxFlex h1{          margin-top:50px;          font-size:45px;      }    .myDivBoxFlex {        display: flex;        justify-content: space-around;    }       @media (max-width: 900px) {             .storeIcons{          width:200px;      }            .ssImgHeight{         height:400px;     }       }    @media (max-width: 500px) {         .ssImgHeight{         height:400px;     }     .imgMyDivBoxFlex{         text-align: center;     }         .myDivBoxFlex h1{             margin-top:20px;          font-size:25px;      }        .myDivBoxFlex {            padding-top: 30px;            display: block;        }    } #ed-468381094 { margin: 0px; } #ed-467986544 { opacity: 1; padding: 70px 0px 40px; } #ed-450728992 .space { height: 15px; } .fa-secondary{opacity:.4} #ed-454680817 { text-align: center; } .fa-secondary{opacity:.4} #ed-454683578 { text-align: center; } #ed-547473502 { text-align: center; } #ed-450728974 > .inner { padding: 0px 20px 50px; } #ed-450728974 { margin: 0px; opacity: 1; } #ed-454689796 { opacity: 1; } #ed-1116143785 { opacity: 1; } #ed-454689751 > .inner { place-content: flex-start center; align-items: stretch; } #ed-454689766 > .inner { place-content: flex-start center; align-items: stretch; } #ed-454689781 > .inner { place-content: flex-start center; align-items: stretch; } #ed-468017109 { margin: 50px 10px 0px; opacity: 1; } #ed-468007451 { flex: 1 0 0px; } #ed-468007460 { flex-basis: 70%; } #ed-468007460 img { width: 100%; } @media screen and (max-width: 575px) {  #ed-468007460 { flex-basis: 100%; }} #ed-468007448 > .inner { align-content: center; align-items: center; } #ed-547457690 { flex: 1 0 0px; } #ed-547457699 { flex-basis: 70%; } #ed-547457699 img { width: 100%; } @media screen and (max-width: 575px) {  #ed-547457699 { flex-basis: 100%; }} #ed-547457687 { opacity: 1; } #ed-547457687 > .inner { align-content: center; align-items: center; flex-direction: row-reverse; } #ed-468017115 { flex: 1 0 0px; } @media screen and (max-width: 575px) {  #ed-468017115 { flex-basis: 100%; flex-grow: 1; }} #ed-468017124 img { width: 100%; } #ed-468017112 { opacity: 1; } #ed-468017112 > .inner { align-content: center; align-items: center; flex-direction: row-reverse; } @media screen and (max-width: 575px) {  #ed-468017112 > .inner { flex-direction: row; }} #ed-468017130 { flex: 1 0 0px; } #ed-468017139 { flex-basis: 30%; } #ed-468017139 img { width: 100%; } #ed-468017127 { opacity: 1; } #ed-468017127 > .inner { align-content: center; align-items: center; flex-direction: row; } @media screen and (max-width: 575px) {  #ed-468017127 > .inner { flex-direction: column; }} #ed-468017638 { flex: 1 0 0px; } #ed-468017647 { flex-basis: 30%; } #ed-468017647 img { width: 100%; } #ed-468017635 { opacity: 1; } #ed-468017635 > .inner { align-content: center; align-items: center; flex-direction: row-reverse; } @media screen and (max-width: 575px) {  #ed-468017635 > .inner { flex-direction: column; }} #ed-468114023 { flex: 1 0 0px; } #ed-468114032 { flex-basis: 60%; } #ed-468114032 img { width: 100%; } #ed-468114020 { opacity: 1; } #ed-468114020 > .inner { align-content: center; align-items: center; } @media screen and (max-width: 575px) {  #ed-468114020 > .inner { flex-direction: column; }} #ed-468114038 { flex: 1 1 0px; } #ed-468114047 { margin: -20px -55px 0px 0px; flex-grow: 0; flex-basis: 100px; opacity: 1; } #ed-468114035 > .inner { place-content: center; align-items: flex-start; flex-direction: row-reverse; } @media screen and (max-width: 575px) {  #ed-468114035 > .inner { flex-direction: row-reverse; justify-content: flex-start; max-width: none; }} @media screen and (max-width: 575px) {  #ed-468114035 { margin: 0px 0px 0px -20px; }} @media screen and (max-width: 975px) {  #ed-450729211 > .background-image-holder:not(.ed-lazyload) { background-image: url("https://preview.sitehub.io./images/976/2146878/rawpixel-com-600778-unsplash.jpg") !important; }} @media screen and (max-width: 575px) {  #ed-450729211 > .background-image-holder:not(.ed-lazyload) { background-image: url("https://preview.sitehub.io./images/576/2146878/rawpixel-com-600778-unsplash.jpg") !important; }} .custom-demo-form-container {        padding: 20px;        border:1px solid #fff;        border-radius: 10px;        width: 100%;        max-width: 500px;        margin: auto;    }        .custom-demo-form-container h2 {            text-align: center;        }        .custom-demo-form-container input,        .custom-demo-form-container textarea,        .custom-demo-form-container select,        .custom-demo-btn {            width: 100%;            padding: 10px;            margin: 10px 0;            border: 1px solid #ccc;            border-radius: 5px;            font-size: 14px;        }    .custom-demo-btn {        color: #1e91d3;        background-color: #fff;             cursor: pointer;        border: none;    }        .custom-demo-btn:hover {            color: #1e91d3;            background-color: #fff;        }        .custom-loader {    width: 30px;    height: 30px;    border: 4px solid #ccc;    border-top: 4px solid #28a745;    border-radius: 50%;    animation: spin 1s linear infinite;    margin: 10px auto;} @keyframes spin {    0% { transform: rotate(0deg); }    100% { transform: rotate(360deg); }}.custom-demo-btn:disabled {    background-color: #ccc;    cursor: not-allowed;} #ed-467996825 { opacity: 1; } @media screen and (max-width: 975px) {  #ed-468000449 > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/976/12223743/EHR-Data-Migration.webp") !important; }} @media screen and (max-width: 975px) {  #null > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/976/12223743/EHR-Data-Migration.webp") !important; }} @media screen and (max-width: 575px) {  #null > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/576/12223743/EHR-Data-Migration.webp") !important; }} @media screen and (max-width: 575px) {  #ed-468000449 > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/576/12223743/EHR-Data-Migration.webp") !important; }} #ed-467996837 { height: 350px; } @media screen and (max-width: 975px) {  #ed-467996858 > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/976/12224346/66ac32722f1cbd2dfa208096_638a9b45de35900ac24661a6_badge-hipaa.png") !important; }} @media screen and (max-width: 975px) {  #null > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/976/12224177/66ac32722f1cbd2dfa208096_638a9b45de35900ac24661a6_badge-hipaa.png") !important; }} @media screen and (max-width: 575px) {  #null > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/576/12224177/66ac32722f1cbd2dfa208096_638a9b45de35900ac24661a6_badge-hipaa.png") !important; }} @media screen and (max-width: 575px) {  #ed-467996858 > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/576/12224346/66ac32722f1cbd2dfa208096_638a9b45de35900ac24661a6_badge-hipaa.png") !important; }} #ed-467996855 { height: 350px; } @media screen and (max-width: 975px) {  #ed-467996876 > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/976/12223697/a-hair-mineral-analysis-report-displayed-on-a-clipboard-photographed-from-above-with-a-pen-nearby.jpeg") !important; }} @media screen and (max-width: 575px) {  #ed-467996876 > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/576/12223697/a-hair-mineral-analysis-report-displayed-on-a-clipboard-photographed-from-above-with-a-pen-nearby.jpeg") !important; }} #ed-467996873 { height: 350px; } @media screen and (max-width: 575px) {  #ed-467996894 > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/576/12223720/what-is-network-security.png") !important; }} #ed-467996891 { height: 350px; } @media screen and (max-width: 975px) {  #ed-467996912 > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/976/12223749/670400ba15b6db95be6248df_SummaryReportMethod.png") !important; }} @media screen and (max-width: 575px) {  #ed-467996912 > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/576/12223749/670400ba15b6db95be6248df_SummaryReportMethod.png") !important; }} #ed-467996909 { height: 350px; } @media screen and (max-width: 975px) {  #ed-450729094 > .background-image-holder:not(.ed-lazyload) { background-image: url("./images/976/2145819/luis-melendez-530478-unsplash.jpg") !important; }} #ed-450729079 { flex-basis: 100%; } .wv-page-8994334-en{    margin-bottom:0;}</style></head><body class="page-8994334 pagelayout-1 index slogan culture-en"><div class="ed-element ed-container flex-nowrap flex-align-items-center flex-align-content-center flex-justify-content-center cta scroll" id="ed-450729034"><a class="inner " href="/#appointment"><figure class="ed-element ed-icon" style="flex-basis: auto;" id="ed-450729037"><svg xmlns="http://www.w3.org/2000/svg" viewBox="70 -849 859 1000" data-icon="ico-ui-calendar" preserveAspectRatio="xMidYMid" style="width: 20px;"><path d="M929.8 -676c-0.1 -49.9 -28.1 -75 -77.6 -73.7 -16.8 0.4 -20.5 7 -20.1 21.9 0.7 25.2 1.1 50.5 -0.2 75.7 -2 40.8 -26.2 66.2 -66.6 69.4 -21.4 1.7 -43.1 1.6 -64.4 0.1 -43.4 -3 -67.7 -29.3 -68.7 -72.9 -0.5 -24.3 -0.8 -48.6 0.1 -72.9 0.6 -15.6 -4.7 -21.2 -20.7 -21.1 -74.8 0.7 -149.6 0.7 -224.3 -0 -17 -0.2 -20.3 7.1 -19.8 21.8 0.8 25.2 0.7 50.5 0.1 75.7 -0.9 38.1 -22.9 64 -60.7 68.3 -23.1 2.7 -46.7 2.5 -70 1.1 -42.5 -2.5 -66.2 -27.7 -67.7 -70.5 -0.8 -25.2 -0.9 -50.5 0 -75.7 0.6 -15.9 -5.6 -20.5 -21.2 -20.8C97.1 -750.7 70.1 -725.2 70.1 -673.2c-0.1 248.7 -0.1 497.3 0 746 0 53.6 23.1 77.1 76.6 77.2 235.6 0.2 471.1 0.2 706.7 -0 53.9 -0 76.4 -23 76.4 -77.1 0.2 -124.3 0 -248.7 0 -373 0.1 -125.4 0.3 -250.7 0 -375.9zM168 -499.2c-0.1 -13 5.5 -18.2 18.5 -18.2 55 0.3 110 0.3 164.9 0.1 11.8 -0 16.4 4.9 16.3 16.8 -0.4 44.7 -0.5 89.5 0.1 134.2 0.2 14.8 -7.8 16.5 -19.4 16.4 -27 -0.3 -54 -0.1 -81.1 -0.1 -27 -0 -54.1 -0.4 -81.1 0.2 -13.1 0.3 -18.4 -4.7 -18.3 -17.9 0.5 -43.9 0.4 -87.7 0.1 -131.5zm199.9 531c0.2 14.3 -4.5 20 -19.1 19.8 -53.1 -0.5 -106.2 -0.5 -159.3 -0 -15.5 0.2 -21.8 -5.2 -21.6 -21 0.6 -42.9 0.5 -85.7 0.1 -128.6 -0.1 -13.1 5.1 -18.3 18.2 -18 27 0.6 54 0.2 81.1 0.2 27 -0 54.1 0.5 81.1 -0.2 14.2 -0.4 19.8 4.4 19.6 19.2 -0.8 42.9 -0.7 85.8 -0.1 128.6zm-22.6 -180.5c-26.1 -1.1 -52.3 -0.3 -78.5 -0.3 -25.2 -0 -50.5 -0.8 -75.7 0.3 -16.4 0.7 -23.7 -3.8 -23.3 -21.7 0.9 -42 0.8 -84.1 0.1 -126.2 -0.3 -16.2 6.3 -20.7 21.6 -20.5 52.3 0.7 104.7 1 157 -0.1 18.2 -0.4 21.8 7 21.5 23.1 -0.8 41.1 -1.1 82.3 0.1 123.4 0.4 17.8 -6.2 22.7 -22.8 22zm74.2 -368.6c53.3 0.3 106.6 0.4 159.9 -0.1 14.4 -0.1 19.9 5.2 19.7 19.7 -0.6 43 -0.7 86 0 129 0.2 15.3 -6.6 19.1 -20.3 18.8 -27.1 -0.6 -54.2 -0.2 -81.3 -0.2 -26.2 -0 -52.4 -0.4 -78.5 0.2 -13.2 0.3 -18.1 -4.7 -18 -18 0.5 -43.9 0.5 -87.9 0 -131.8 -0.2 -13.8 5.9 -17.7 18.5 -17.6zM400.9 -297.4c-0.2 -14.2 4.3 -19.8 19.2 -19.6 53.2 0.7 106.4 0.6 159.7 -0 14.8 -0.2 19.5 5.5 19.3 19.7 -0.5 42.9 -0.5 85.9 0 128.9 0.2 14.3 -4.7 20 -19.4 19.6 -27.1 -0.8 -54.1 -0.2 -81.2 -0.2 -25.2 -0 -50.4 -0.5 -75.6 0.2 -14.6 0.5 -22.4 -2.6 -22 -19.7 0.9 -42.9 0.6 -85.9 0 -128.9zM599.3 29.2c0.4 17.2 -5.9 22.8 -22.8 22.6 -51.4 -0.8 -102.8 -0.6 -154.3 -0.1 -15.3 0.2 -21.8 -4.3 -21.4 -20.7 0.9 -42.1 0.9 -84.1 0 -126.2 -0.3 -16 5.4 -21.4 21 -20.8 26.1 0.9 52.3 0.3 78.5 0.3 25.2 -0 50.5 0.7 75.7 -0.3 16.4 -0.6 23.6 4 23.2 21.8 -1 41.1 -0.9 82.3 0.1 123.4zm32.6 -526.7c-0.2 -14.3 4.8 -20.1 19.4 -19.9 53.2 0.5 106.3 0.5 159.5 -0 15 -0.1 22.1 4.5 21.8 20.8 -0.7 42.9 -0.5 85.8 -0.1 128.7 0.1 13.2 -5 18.3 -18.2 18 -28 -0.5 -56 -0.2 -83.9 -0.2 -25.2 -0 -50.4 -0.7 -75.5 0.3 -16.3 0.6 -23.5 -4 -23 -21.8 0.9 -41.9 0.6 -83.9 0 -125.9zM832.4 33.6c0.1 13.5 -6.3 17.9 -18.8 17.9 -55 -0.2 -110.1 -0.2 -165.1 -0 -11.8 -0 -16.6 -5.1 -16.5 -16.9 0.3 -44.8 0.4 -89.5 0 -134.3 -0.1 -14.9 8.6 -16.2 19.9 -16.1 27 0.2 54.1 0.1 81.1 0.1 27 -0 54.1 0.4 81.1 -0.1 13.1 -0.3 18.4 4.7 18.2 18 -0.3 43.7 -0.3 87.6 0.1 131.4zm-23.1 -182.4c-26.1 -1 -52.2 -0.3 -78.3 -0.3 -27 -0 -54.1 -0.5 -81.1 0.1 -13.2 0.3 -18.2 -4.8 -18 -18 0.4 -43.8 0.6 -87.6 -0.1 -131.4 -0.2 -15.3 6.6 -18.8 20.3 -18.7 53.1 0.5 106.2 0.6 159.3 -0.1 15.8 -0.2 21.4 5.2 21.1 20.9 -0.7 41.9 -0.9 83.9 0.1 125.8 0.5 18.2 -7.2 22.3 -23.3 21.7zM272.1 -616.7C306 -619 332.3 -646 334 -681.2c0.8 -17.7 0.1 -35.5 0.1 -53.2 0 -16.8 0.6 -33.6 -0.1 -50.4 -1.6 -35.6 -27.3 -62.4 -61.3 -65 -33.7 -2.5 -64.2 20.7 -68.8 56.2 -5.2 39.8 -5 80.3 -0.1 120.1 4.3 35.5 34.7 59 68.3 56.8zm458 0.1c36.4 1.4 65.8 -27 68.4 -67.1 1 -15.8 0.2 -31.7 0.2 -47.6h-0.1c0 -17.7 1.1 -35.6 -0.2 -53.2 -2.9 -38.4 -31.8 -65.9 -67.2 -65.4 -35.5 0.5 -64 28.7 -65.4 67.1 -1.2 32.6 -1.1 65.4 0 98C667 -646 694.2 -618 730.1 -616.6z" style="fill: rgb(255, 255, 255);"></path></svg></figure></a></div><div class="ed-element ed-container menu-wrapper wv-overflow_visible preset-menu-v2-default full-width" style="background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(132, 177, 234) 100%) 0% 0% / auto;" id="ed-889611451"><div class="inner"><div class="ed-element ed-container full-width" style="background-color: rgb(255, 255, 255); background-size: auto;" id="ed-889611454"><div class="inner"><div class="ed-element ed-html" id="ed-889611457"><div style="display:flex;justify-content:space-between;align-items:center;padding:20px 10px;flex-wrap:wrap;gap:10px;">
+    
+    <!-- Logo -->
+    <img src="https://app.medocs.ai/MedicalBusiness/Content/medocslogo.png?v=3.0" style="max-width:250px;width:100%;">
+    
+    <!-- Buttons -->
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;">
+        
+        <a class="myButtons" style="background-color: rgb(78, 115, 223);border-color:#fff;padding:8px 16px;" href="https://app.medocs.ai/dashboard">Login</a> 
+        
+        <a class="myButtons" href="https://app.medocs.ai/sign-up" style="background-color: rgb(28, 200, 138);border-color:#fff;padding:8px 16px;">
+           Try for free</a>
+        
+        <a target="_blank" href="https://app.medocs.ai/ask-medocs-ai" class="ask-ai-btn" style="display:flex;align-items:center;gap:5px;padding:8px 16px;border:1px solid #ccc;">
+            <span class="stars">
+                <svg width="20" height="20" viewBox="0 0 24 24">
+                    <path d="M12 2l2.9 6.8 7.1.6-5.3 4.6 1.6 7-6.3-3.8-6.3 3.8 1.6-7-5.3-4.6 7.1-.6z"></path>
+                </svg>
+            </span>  
+            Ask Medocs AI
+        </a>
+    </div>
+</div>
+
+    
+    
+</div></div></div><div class="ed-element ed-container full-width wv-boxed" style="background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(132, 177, 234) 100%) 0% 0% / auto;" id="ed-889611460"><div class="inner"><nav class="ed-element ed-menu wv-custom" id="ed-889611463"><ul class="menu-level-0"><li class="wv-page-8994334-en first active"><a href="/" class="wv-page-8994334-en first active">Home</a></li><li><a href="/#ed-467986544" class="wv-link-elm">Key Benefits</a></li><li><a href="/#ed-468017109" class="wv-link-elm">Features</a></li><li><a href="/#ed-454689796" class="wv-link-elm">Products</a></li><li><a href="/#ed-467996825" class="wv-link-elm">FAQ</a></li><li class="wv-page-9379027-en"><a href="/who-we-are" class="wv-page-9379027-en">Who We Are</a></li><li><a href="/#ed-450729157" class="wv-link-elm">Contact Us</a></li><li><a href="/#ed-450729157" class="wv-link-elm" title="Pricing">Pricing</a></li><li class="wv-page-11387543-en end"><a class="button button-variant-secondary wv-page-11387543-en last" href="/become-partner">Become a Partner</a></li></ul></nav></div></div><div class="ed-element ed-container mobile-cont wv-overflow_visible full-width" style="background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(132, 177, 234) 100%) 0% 0% / auto;" id="ed-889611466"><div class="inner"><div class="ed-element ed-html menu-trigger color-black" id="ed-889611469"><div style="color:#000;" class="menu-trigger-box"><div style="color:#000;" class="menu-trigger-inner"></div></div></div></div></div></div></div><div class="ed-element ed-container content-container full-width" style="background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(132, 177, 234) 100%) 0% 0% / auto;" id="ed-475758073"><div class="inner"><div class="ed-element ed-container flex-align-items-stretch flex-justify-content-space-between wv-boxed wv-spacer preset-unequal-columns-ashop" id="ed-475758079"><div class="inner"><div class="ed-element ed-container wv-boxed wv-spacer preset-columns-two-v2-default" id="ed-475813643"><div class="inner"><div class="ed-element ed-container columns-box wv-overflow_visible" id="ed-475813646"><div class="inner"><div class="ed-element ed-container wv-boxed wv-spacer wv-overflow_visible preset-slider-content-v3-wide-dots" id="ed-475897535"><div class="inner"><div class="ed-element ed-content-slider wv-overflow_visible" id="ed-475897538"><div class="slider-container" data-parameters="{&quot;items&quot;:[],&quot;adaptiveHeight&quot;:true,&quot;slidesToShow&quot;:1,&quot;slidesToScroll&quot;:1,&quot;rows&quot;:1,&quot;slidesPerRow&quot;:1,&quot;height&quot;:&quot;500px&quot;,&quot;animation&quot;:&quot;fade&quot;,&quot;animationSpeed&quot;:&quot;500ms&quot;,&quot;direction&quot;:&quot;horizontal&quot;,&quot;autoplay&quot;:true,&quot;autoplaySpeed&quot;:&quot;2s&quot;,&quot;pauseOnHover&quot;:true,&quot;loop&quot;:true,&quot;nav&quot;:false,&quot;dots&quot;:false,&quot;enlarge&quot;:false,&quot;retinaImages&quot;:false,&quot;lazyLoad&quot;:&quot;progressive&quot;,&quot;variableWidth&quot;:false,&quot;centerMode&quot;:false,&quot;centerPadding&quot;:&quot;50px&quot;,&quot;asNavFor&quot;:&quot;&quot;,&quot;responsive&quot;:[{&quot;breakpoint&quot;:976,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesToScroll&quot;:1}},{&quot;breakpoint&quot;:767,&quot;settings&quot;:{&quot;slidesToShow&quot;:1,&quot;slidesToScroll&quot;:1}}]}" aria-roledescription="carousel"><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme banner-headings" id="ed-475897541"><h2><span class="color-default"><span style="color: rgb(30, 145, 211);">Revolutionizing Healthcare Documentation with AI-Powered Precision</span><br></span></h2></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme banner-headings" id="ed-547457684"><h2><span class="color-default"><span style="color: rgb(30, 145, 211);"><strong>Seamless Integration</strong><br>Easy to incorporate generated notes and summaries directly into your EMR.</span><br></span></h2></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme" id="ed-475961719"><h3><strong><span style="color: rgb(30, 145, 211);">Multi Language</span></strong><span style="color: rgb(30, 145, 211);"><br>Supports over 40 languages across 130 countries. Record in your preferred language and generate reports in English.</span></h3></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme" id="ed-476055461"><h3><strong><span style="color: rgb(30, 145, 211);">Customizable Templates</span></strong><span style="color: rgb(30, 145, 211);"><br>Choose from a wide variety of customizable templates that suit your specific medical specialty.</span></h3></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme" id="ed-475897544"><h3><a href="/#ed-468836264" class="wv-link-elm"><strong><span style="color: rgb(30, 145, 211);">Download the App Today</span></strong><span style="color: rgb(30, 145, 211);"><br>Apps available on Play Store and App Store. </span><span style="color: rgb(67, 69, 194);">Get the Apps</span><span style="color: rgb(67, 159, 194);">&nbsp;</span><span style="color: rgb(30, 145, 211);">for the best experience!</span></a></h3></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme" id="ed-475907105"><h3><strong><span style="color: rgb(30, 145, 211);">Improved Patient Care</span></strong><span style="color: rgb(30, 145, 211);"><br>Spend more time with your patients. With less administrative hassle, you can focus on providing better care.<br></span></h3></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme" id="ed-475911374"><h3><strong><span style="color: rgb(30, 145, 211);">AI-Driven Accuracy</span></strong><span style="color: rgb(30, 145, 211);"><br>Transcribes conversations with advanced speech recognition, converting them into precise, structured clinical notes.</span></h3></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme" id="ed-1116101587"><h3><strong><span style="color: rgb(30, 145, 211);">AI Scribe</span></strong><span style="color: rgb(30, 145, 211);"><br>Instantly create multilingual clinical notes no typing, no burnout.</span></h3></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme" id="ed-1116101590"><h3><strong><span style="color: rgb(30, 145, 211);">AI Interpreter</span></strong><span style="color: rgb(30, 145, 211);"><br>Real-time translation that removes the need for human interpreters.</span></h3></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme" id="ed-1116101593"><h3><strong><span style="color: rgb(30, 145, 211);">AI Medical Assist</span></strong><span style="color: rgb(30, 145, 211);"><br>Real-time clinical support and automation at your fingertips.<br style="mso-special-character:line-break;"></span></h3></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme" id="ed-1116101596"><h3><strong><span style="color: rgb(30, 145, 211);">AI Medical Coder</span></strong><span style="color: rgb(30, 145, 211);"><br>Auto-code visits with accuracy and compliance for faster payments.<br style="mso-special-character:line-break;"></span></h3></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme" id="ed-1116101599"><h3><strong><span style="color: rgb(30, 145, 211);">AI Receptionist</span></strong><span style="color: rgb(30, 145, 211);"><br>Smart patient calls, scheduling, and communication made effortless.<br style="mso-special-character:line-break;"></span></h3></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme" id="ed-1116101602"><h3><strong><span style="color: rgb(30, 145, 211);">AI Medical Billing</span></strong><span style="color: rgb(30, 145, 211);"><br>Smart billing that ensures accuracy, compliance, and revenue growth. In partnership with <strong>MedRevSystem.</strong><br style="mso-special-character:line-break;"></span></h3></div></div><div class="ed-slider-item"><div class="ed-element ed-headline custom-theme" id="ed-1116101605"><h3><strong><span style="color: rgb(30, 145, 211);">Performance Dashboard</span></strong><span style="color: rgb(30, 145, 211);"><br>Track efficiency improvements and revenue growth in real time.<br style="mso-special-character:line-break;"></span></h3></div></div></div></div></div></div><div class="ed-element ed-container preset-info-bar-v3-default hide-sm" id="ed-476049070"><div class="inner"><div class="ed-element ed-container info-bar-content" id="ed-476049073"><div class="inner"><div class="ed-element ed-button custom-theme" id="ed-484760905"><a href="/#ed-450729166" class="wv-link-elm button center color-background button-large" style="border-color: rgb(18, 166, 222); background-color: rgb(78, 115, 223);">Schedule a demo</a></div></div></div><div class="ed-element ed-container info-bar-content" id="ed-476049079"><div class="inner"><div class="ed-element ed-button custom-theme wv-overflow_visible hide-lg" id="ed-484760867"><a href="https://app.medocs.ai/sign-up" class="button center color-background button-large" style="background-color: rgb(28, 200, 138); border-color: rgb(28, 200, 138);" target="_blank">Try for free</a></div></div></div></div></div></div></div><div class="ed-element ed-button custom-theme hide-md hide-lg" id="ed-484762340"><a href="/#ed-450729166" class="wv-link-elm button center color-background button-large" style="background-color: rgb(28, 200, 138); border-color: rgb(28, 200, 138);">Schedule a demo</a></div><div class="ed-element ed-container columns-box wv-overflow_visible" id="ed-475813652"><div class="inner"><figure class="ed-element ed-image" id="ed-475813655"><img src="./images/1024/12490367/Capture-front.png" alt="" style="object-fit: cover;" srcset="./images/576/12490367/Capture-front.png 576w, ./images/976/12490367/Capture-front.png 976w, ./images/1024/12490367/Capture-front.png 1024w, ./images/2048/12490367/Capture-front.png 2x"></figure></div></div></div></div></div></div></div></div><div class="ed-element ed-container" id="ed-484669223"><div class="inner"><div class="ed-element ed-html" id="ed-898733580"><section class="metrics-bar">
+  <div class="metric">
+    <img src="https://app.medocs.ai/content/hipaa_compliant.png" alt="HIPAA Compliant" style="max-height:50px;">
+  </div>
+
+  <!-- Scribes: start at 0+, animate when data arrives -->
+  <div class="metric">
+    <h2 id="scribes-count" data-count="179900" data-suffix="+">179,900+</h2>
+    <p>Scribes</p>
+  </div>
+
+  <!-- These can animate too (remove data-animated from HTML) -->
+  <div class="metric">
+    <h2 data-count="40" data-suffix="+" data-animated="true">40+</h2>
+    <p>Languages Supported</p>
+  </div>
+
+  <div class="metric">
+    <h2 data-count="99" data-suffix="%" data-animated="true">99%</h2>
+    <p>% Clinician Satisfaction</p>
+  </div>
+</section>
+
+</div></div></div><div class="ed-element ed-html" id="ed-884586943"><div style=" background: linear-gradient(-45deg, #e6f0ff, #f6fbff, #dfdff2, #e9eef5);
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;">
+<div style="padding: 60px 20px; text-align: center; max-width: 800px; margin: 0 auto;">
+
+    <p style="font-size: 26px;margin-bottom: 10px;">
+    <span style="color:#000;">Start your Medical Questions with </span>
+    <strong style="color: #1e91d3;">Medocs AI</strong>
+  </p>
+
+  <p style="font-size: 18px; color: #555; margin-bottom: 30px;">
+    Our most capable model for your medical queries
+  </p>
+
+  <!-- Text field with send button -->
+  <div style="display: flex; justify-content: center; gap: 10px; max-width: 600px; margin: 0 auto 25px;">
+    <input id="medocs-question" type="text" placeholder="Ask your medical question..." style="flex: 1; padding: 15px 20px; font-size: 18px; border: 2px solid #ddd; border-radius: 12px; outline: none;">
+    
+    <button onclick="sendMedocsQuestion()" style="background:#4e73df; color: white; border: none; padding: 15px 25px; font-size: 18px; border-radius: 12px; cursor: pointer;">
+      Send
+    </button>
+  </div>
+
+ 
+</div>
+
+</div>  
+
+
+  
+
+</div><div class="ed-element ed-container wv-spacer wv-overflow_visible preset-text-v2-default wv-boxed" id="ed-468214964"><div class="inner" data-parallax-amount="10"><div class="ed-element ed-headline custom-theme" id="ed-468214970"><h1><span class="color-default">What is Medocs?</span></h1></div><div class="ed-element ed-spacer" id="ed-468214973"><div class="space"></div></div><div class="ed-element ed-text custom-theme text" id="ed-468214976"><p><span style="color: rgb(3, 3, 3);">Medocs.ai is an all-in-one AI healthcare platform that automates clinical documentation, communication, and billing. It combines AI Scribe for instant multilingual clinical notes, AI Interpreter for real-time translation, AI Medical Assist for on-demand clinical support, AI Medical Coder for accurate auto-coding, AI Receptionist for smart scheduling and patient calls, and AI Medical Billing in partnership with MedRevSystem for precise, compliant revenue management.
+Together, these solutions reduce burnout, automate workflows and streamline every step of patient care.</span></p></div></div></div><div class="ed-element ed-container full-width" style="background-color: rgb(250, 247, 247); background-size: auto;" id="ed-900734382"><div class="inner"><div class="ed-element ed-headline custom-theme" id="ed-900746467"><h2><span style="color: rgb(8, 9, 9);"><strong>Loved by Clinicians</strong></span></h2></div><div class="ed-element ed-headline custom-theme" id="ed-900753767"><h5><span style="color: rgb(8, 9, 9);">Saving time while improving note quality.</span></h5></div><div class="ed-element ed-html" id="ed-900718750">
+
+
+
+<!-- ✅ Full Width Infinite Auto-Scrolling Slider -->
+<div class="custom-testimonial-slider" id="custom-medocs-testimonials">
+  <div class="custom-slider-viewport" style="background-color:#faf7f7;padding:10px 0">
+    <div class="custom-slider-track">
+      
+      
+      
+      <!-- Card 1 -->
+<div class="custom-testimonial-card" style="background: linear-gradient(135deg,#fff3e6,#fffaf7);">
+  <div class="custom-card-accent" style="background: linear-gradient(90deg,#ff9966,#ff5e62);"></div>
+  <div class="custom-stars" style="display:flex;justify-content:center;">
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+  </div>
+  <div class="custom-testimonial-body">
+    “Medocs has simplified my documentation. I finish notes in half the time without losing accuracy.”
+  </div>
+  <div class="custom-specialty">Internal Medicine</div>
+</div>
+
+<!-- Card 2 -->
+<div class="custom-testimonial-card" style="background: linear-gradient(135deg,#e6f7ff,#f7fbff);">
+  <div class="custom-card-accent" style="background: linear-gradient(90deg,#00c6ff,#0072ff);"></div>
+  <div class="custom-stars">   <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg> </div>
+  <div class="custom-testimonial-body">
+    “The multilingual support means I can connect with patients from different backgrounds seamlessly.”
+  </div>
+  <div class="custom-specialty">Family Medicine</div>
+</div>
+
+<!-- Card 3 -->
+<div class="custom-testimonial-card" style="background: linear-gradient(135deg,#f0e6ff,#faf7ff);">
+  <div class="custom-card-accent" style="background: linear-gradient(90deg,#9d50bb,#6e48aa);"></div>
+  <div class="custom-stars">  <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg> </div>
+  <div class="custom-testimonial-body">
+    “Clear, structured summaries reduce my stress during busy clinic hours. A true lifesaver.”
+  </div>
+  <div class="custom-specialty">Pediatrics</div>
+</div>
+
+<!-- Card 4 -->
+<div class="custom-testimonial-card" style="background: linear-gradient(135deg,#e6ffe6,#f7fff7);">
+  <div class="custom-card-accent" style="background: linear-gradient(90deg,#11998e,#38ef7d);"></div>
+  <div class="custom-stars">   <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg> </div>
+  <div class="custom-testimonial-body">
+    “The AI captures the essence of patient visits so I can focus on care, not paperwork.”
+  </div>
+  <div class="custom-specialty">Cardiology</div>
+</div>
+
+<!-- Card 5 -->
+<div class="custom-testimonial-card" style="background: linear-gradient(135deg,#fff0f5,#fff7fb);">
+  <div class="custom-card-accent" style="background: linear-gradient(90deg,#ff758c,#ff7eb3);"></div>
+  <div class="custom-stars">   <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg> </div>
+  <div class="custom-testimonial-body">
+    “I can finally keep up with my notes and still spend quality time with patients.”
+  </div>
+  <div class="custom-specialty">Dermatology</div>
+</div>
+
+<!-- Card 6 -->
+<div class="custom-testimonial-card" style="background: linear-gradient(135deg,#fef9e7,#fffdf3);">
+  <div class="custom-card-accent" style="background: linear-gradient(90deg,#f7971e,#ffd200);"></div>
+  <div class="custom-stars">   <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg> </div>
+  <div class="custom-testimonial-body">
+    “Accurate summaries, even in complex cases. It feels like having a smart assistant.”
+  </div>
+  <div class="custom-specialty">Oncology</div>
+</div>
+
+<!-- Card 7 -->
+<div class="custom-testimonial-card" style="background: linear-gradient(135deg,#eafaf1,#f9fefb);">
+  <div class="custom-card-accent" style="background: linear-gradient(90deg,#56ab2f,#a8e063);"></div>
+  <div class="custom-stars">   <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg></div>
+  <div class="custom-testimonial-body">
+    “With Medocs, I am confident my records are complete and ready for audits anytime.”
+  </div>
+  <div class="custom-specialty">Psychiatry</div>
+</div>
+
+<!-- Card 8 -->
+<div class="custom-testimonial-card" style="background: linear-gradient(135deg,#f0f8ff,#f7fbff);">
+  <div class="custom-card-accent" style="background: linear-gradient(90deg,#36d1dc,#5b86e5);"></div>
+  <div class="custom-stars">   <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg> </div>
+  <div class="custom-testimonial-body">
+    “No more late-night dictations. I leave work on time with my charts complete.”
+  </div>
+  <div class="custom-specialty">Orthopedics</div>
+</div>
+
+<!-- Card 9 -->
+<div class="custom-testimonial-card" style="background: linear-gradient(135deg,#fffde7,#fffff7);">
+  <div class="custom-card-accent" style="background: linear-gradient(90deg,#fceabb,#f8b500);"></div>
+  <div class="custom-stars">   <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg></div>
+  <div class="custom-testimonial-body">
+    “The structured format makes handovers smooth and safe for patients.”
+  </div>
+  <div class="custom-specialty">Emergency Medicine</div>
+</div>
+
+<!-- Card 10 -->
+<div class="custom-testimonial-card" style="background: linear-gradient(135deg,#f3e5f5,#faf5fb);">
+  <div class="custom-card-accent" style="background: linear-gradient(90deg,#8e2de2,#4a00e0);"></div>
+  <div class="custom-stars">   <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg>
+    <svg viewBox="0 0 20 20"><path d="M10 1.6l2.4 4.9 5.4.8-3.9 3.8.9 5.4L10 14.9 4.2 16.9l.9-5.4L1.2 7.7l5.4-.8L10 1.6z"></path></svg> </div>
+  <div class="custom-testimonial-body">
+    “It’s intuitive, fast, and feels built for doctors, not tech people. Highly recommend.”
+  </div>
+  <div class="custom-specialty">Neurology</div>
+</div>
+
+      
+      
+    
+    </div>
+  </div>
+
+  <div class="custom-dots"></div>
+</div>
+</div></div></div><div class="ed-element ed-html" id="ed-1116319645"><div style="max-width:1200px;margin:0 auto;padding:40px 20px;font-family:Arial, sans-serif;">
+  <!-- Section Title -->
+  <div style="text-align:center;margin-bottom:40px;">
+    <h2 style="font-size:28px;font-weight:700;margin-bottom:10px;color:#222;">Our Partner Services</h2>
+    <p style="font-size:16px;color:#666;max-width:700px;margin:0 auto;">
+      Seamlessly integrated AI solutions to enhance efficiency and accuracy in healthcare operations.
+    </p>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:20px;justify-content:center;">
+    <!-- MEDOCS.AI Card -->
+    <div style="flex:1 1 45%;min-width:300px;background:#fff;border:1px solid #eee;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);padding:30px;box-sizing:border-box;">
+      <div style="text-align:center;margin-bottom:15px;">
+        <img src="https://api.medocs.ai/content/medrevlogo.png" alt="medrevlogo logo" style="max-height:60px;width:auto;">
+      </div>
+      <h5 style="font-size:20px;font-weight:700;margin-bottom:10px;color:#222;text-align:center;">MEDREVSYSTEM</h5>
+      <p style="font-size:15px;color:#666;text-align:center;margin-bottom:20px;">
+     AI-Driven Precision in Medical Billing &amp; Credentialing
+      </p>
+      <ul style="list-style:none;padding:0;margin:0 0 20px 0;">
+        <li style="margin-bottom:8px;color:#333;"><span style="color:#0d6efd;">✔</span> Claims and Submissions</li>
+        <li style="margin-bottom:8px;color:#333;"><span style="color:#0d6efd;">✔</span> Provider Credentialing</li>
+        <li style="margin-bottom:8px;color:#333;"><span style="color:#0d6efd;">✔</span> Revenue Cycle Management</li>
+      </ul>
+      <div style="text-align:center;">
+        <a href="https://www.medrevsystem.com" target="_blank" style="display:inline-block;border:1px solid #0d6efd;color:#0d6efd;padding:8px 18px;border-radius:6px;text-decoration:none;font-size:14px;">
+          Explore MEDREVSYSTEM
+        </a>
+      </div>
+    </div>
+
+    <!-- DXPath.AI Card -->
+    <div style="flex:1 1 45%;min-width:300px;background:#fff;border:1px solid #eee;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);padding:30px;box-sizing:border-box;">
+      <div style="text-align:center;margin-bottom:15px;">
+        <img src="https://dxpath.ai/logo.png" alt="dxpath.ai logo" style="max-height:60px;width:auto;">
+      </div>
+      <h5 style="font-size:20px;font-weight:700;margin-bottom:10px;color:#222;text-align:center;">DXPATH.AI</h5>
+      <p style="font-size:15px;color:#666;text-align:center;margin-bottom:20px;">
+        Data workflow &amp; interoperability engine — connecting EHRs, billing platforms, and analytics dashboards.
+      </p>
+      <ul style="list-style:none;padding:0;margin:0 0 20px 0;">
+        <li style="margin-bottom:8px;color:#333;"><span style="color:#0d6efd;">✔</span> Secure API integrations</li>
+        <li style="margin-bottom:8px;color:#333;"><span style="color:#0d6efd;">✔</span> Real-time RCM dashboards</li>
+        <li style="margin-bottom:8px;color:#333;"><span style="color:#0d6efd;">✔</span> Seamless payer connectivity</li>
+      </ul>
+      <div style="text-align:center;">
+        <a href="https://dxpath.ai" target="_blank" style="display:inline-block;border:1px solid #0d6efd;color:#0d6efd;padding:8px 18px;border-radius:6px;text-decoration:none;font-size:14px;">
+          Explore dxpath.ai
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+</div><div class="ed-element ed-container full-width" style="background-color: rgb(255, 255, 255); background-size: auto;" id="ed-468381094"><div class="inner"><div class="ed-element ed-html" id="ed-468836264">    <div class="container" style="background-color: #f6ecc4;background-image: linear-gradient(315deg, #fff 0%, #3788c9 74%);">
+            <div class="myDivBoxFlex">
+                <div>
+                    <h1 style="color:#fff; margin-left:10px">Download the App</h1>
+        <a href="#ed-468836264" class="wv-link-elm"></a>         
+        
+  <div style="margin-top:5px;margin-bottom:10px;text-align:center;"><a href="https://play.google.com/store/apps/details?id=com.ionic.medocsnew"><img class="storeIcons" src="https://app.medocs.ai/Content/playstore.png"></a></div>
+                    <div style="margin-top:5px;margin-bottom:10px;text-align:center;"><a href="https://apps.apple.com/us/app/medocs-ai-medical-scribe/id6737786379"><img class="storeIcons" src="https://app.medocs.ai/Content/appstore.png"></a></div>
+
+                </div>
+                <div class="myDivBoxFlex imgMyDivBoxFlex" style="justify-content:space-between;">
+                     <div>
+                         <img class="ssImgHeight" style=";margin-top:10px;margin-bottom:10px;" src="https://app.medocs.ai/Content/ss2-left.png">
+                    </div>
+                    <div>
+                         <img class="ssImgHeight" style="margin-top:10px;margin-bottom:10px;" src="https://app.medocs.ai/Content/ss1-portrait.png">
+                    </div>
+                    
+                </div>
+                  
+            </div>
+
+        </div>
+        
+      </div></div></div><div class="ed-element ed-headline custom-theme animation-initial" style="opacity: 1;" id="ed-467986544" data-animation="{&quot;type&quot;:&quot;move-left-to-right&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><h1><span class="color-default">Key Benefits</span></h1></div><div class="ed-element ed-container wv-boxed wv-spacer animation-initial" style="opacity: 1;" id="ed-450728974" data-animation="{&quot;type&quot;:&quot;move-left-to-right&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><div class="inner" id="about-us"><div class="ed-element ed-container wv-boxed wv-spacer preset-boxes-default" id="ed-450728977"><div class="inner"><div class="ed-element ed-container boxes-box flex-justify-content-center flex-align-items-center flex-align-content-center" id="ed-450728980"><div class="inner"><figure class="ed-element ed-icon boxes-icon center" id="ed-450728983"><svg xmlns="http://www.w3.org/2000/svg" viewBox="64 -849 786 999" data-icon="ico-doctor" preserveAspectRatio="xMidYMid"><path d="M850.1 105.5c-4 -38.3 -5 -76.9 -8.8 -115.3C835.6 -67.3 827.4 -124.5 810.4 -180c-9.2 -29.7 -23.2 -55.5 -51.1 -71.9 -26.7 -15.7 -55.8 -25 -85 -34.1 -10.2 -3.2 -8.4 4 -7.8 9.2 2.7 25.1 0.4 49.9 -4.8 74.4 -1.7 7.9 1 11.5 7.8 15.4 28.8 16.1 45.2 40.7 47 74 1.8 34.3 -5.2 68 -7.3 102 -1.4 23.1 -3.9 46.3 -13.6 67.8 -11.7 26 -31.9 36.3 -59.5 31 -10.5 -2 -17.4 -6.8 -15.7 -18.4 1.7 -11.4 9.6 -15.4 20.1 -13.3 13.2 2.6 20.9 -3.6 26.3 -14.4 3.7 -7.5 5.7 -15.7 6.5 -24 3.9 -38.3 8.1 -76.6 11.2 -115 2.8 -34.7 -15.8 -61 -46.6 -68 -31.8 -7.2 -59.2 7.2 -72.3 39.6C555.1 -99.8 546.5 -73.1 536.5 -46.9 530.8 -32.1 525.9 -17.2 522.9 -1.7c-3.9 20.1 0.1 27.5 18.7 35.9 8.9 4 13.2 10.3 10.1 19.8 -3.1 9.6 -10.1 12.3 -19.7 10.5 -27.4 -5.2 -43.3 -24.7 -42.8 -52.8 0.2 -11.5 1.9 -22.6 5.1 -33.6 11.8 -40.8 27.3 -80.3 43.1 -119.7 14.2 -35.4 42.5 -54.9 81 -57.6 7.5 -0.6 10.7 -2.7 12.1 -10 4.7 -24.3 5.4 -48.6 3.2 -73.2 -1 -11.6 -5.5 -17.9 -17.6 -19.8 -9.8 -1.5 -19.6 -4.8 -28.8 -8.6 -9.2 -3.7 -13.2 -2.6 -16.4 7.8C559.6 -265.2 543.8 -229.1 525.5 -194.1c-8.8 16.9 -19 33.1 -30.3 52.7 -4.5 -24.8 -7.9 -45.9 -12.3 -66.9 -2 -9.4 -1.8 -17.9 2.3 -26.8 2.3 -5.1 8.4 -11.1 2.3 -16.6 -9.7 -8.8 -20.3 -16.5 -30.6 -24.6 -0.3 -0.3 -1.7 0.4 -2.3 0.9 -10 8.6 -21.4 16 -29.2 26.2 -4.7 6.1 4.4 14.1 6.4 21.5 0.4 1.7 1.3 3.5 1.1 5.1 -4.2 25.8 -8.6 51.5 -13.3 79.7 -3.3 -3.9 -4.8 -5.4 -5.8 -7.1 -26.4 -42.6 -47.9 -87.4 -64.2 -134.8 -3.3 -9.7 -3 -24.7 -11.3 -27.8 -7.8 -2.9 -19.5 4.8 -29.5 7.6 -5.2 1.5 -9.8 2.9 -11.8 9 -3.8 11.8 -9.2 23 -12 34.8C266.6 -184.4 271.2 -108.4 294.9 -33.3c3.6 11.4 7.9 17.6 20.9 20.1 25.1 5 38.6 32.5 30 56.3 -9 25.1 -36.1 36.9 -59.7 26.1 -23.8 -10.8 -34 -40.1 -20.2 -61.9 5 -7.9 4.4 -14 1.7 -21.8C242.2 -87.4 235.4 -162 247.1 -238.4c2.7 -17.6 8.6 -34.4 12.6 -53 -34.9 10.2 -68.4 18.7 -98.6 36.3C138.9 -242.2 121.7 -225.3 112 -200.7 100.4 -171.2 93.4 -140.6 87.5 -109.6 73.9 -37.6 69.7 35.5 64.2 108.4c-1.5 19.9 7.4 32.2 23.2 41.5h738.9c18.8 -8.9 26 -23.1 23.8 -44.4zm-558.8 -615c6.8 1.8 10 5.1 12.6 11.3 15.3 36.6 34.2 71 62.3 99.6 22.2 22.7 47.9 39.7 80.5 43 41 4.2 73 -14.1 100.7 -41.8 28.2 -28.3 47.8 -62.3 63.1 -99.1 2.1 -5 2.8 -11.3 10.4 -12 27.3 -2.6 48.6 -45.8 44.1 -72.1 -1.3 -7.5 -4.1 -14.4 -12.3 -14.9 -10.2 -0.7 -8.3 -6.1 -6.8 -12.4 5.4 -22.6 7.7 -45.7 8.8 -65.5 0.7 -20.1 -1.2 -36.8 -5.2 -52.8 -6.1 -24.2 -18.6 -45 -41.3 -56.6 -13.4 -6.9 -23.7 -14.5 -28.2 -29.4 -1.7 -5.8 -7.4 -9.6 -12.1 -13.5 -17.4 -14.4 -38 -20.7 -59.4 -22.8 -64.1 -6.3 -123.9 7.4 -176.8 44.7C295.2 -778.2 270.1 -744.4 265 -698.4c-3.4 30.3 -1.7 60.3 4 90.2 1.2 6.4 3.8 13.1 -7.5 12.9 -5.1 -0.1 -8.4 4.2 -10.1 9.2 -9.4 26.8 12.3 69.3 39.9 76.6z"></path></svg></figure><div class="ed-element ed-headline custom-theme" id="ed-450728986"><h2>Seamless Integration</h2></div><div class="ed-element ed-text custom-theme" id="ed-450728989"><p>&nbsp; Medocs works effortlessly with your existing Electronic Health Record (EHR) system, making it easy to incorporate generated notes and summaries directly into your EMR.</p></div><div class="ed-element ed-spacer" id="ed-450728992"><div class="space"></div></div></div></div><div class="ed-element ed-container boxes-box flex-justify-content-center flex-align-items-center flex-align-content-center" id="ed-450728998"><div class="inner"><figure class="ed-element ed-icon boxes-icon center" id="ed-450729001"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -416 448 448" data-icon="fa-solid-plus-square" preserveAspectRatio="xMidYMid"><path d="M400 -416H48C21.5 -416 0 -394.5 0 -368V-16C0 10.5 21.5 32 48 32H400C426.5 32 448 10.5 448 -16V-368C448 -394.5 426.5 -416 400 -416zM368 -164C368 -157.4 362.6 -152 356 -152H264V-60C264 -53.4 258.6 -48 252 -48H196C189.4 -48 184 -53.4 184 -60V-152H92C85.4 -152 80 -157.4 80 -164V-220C80 -226.6 85.4 -232 92 -232H184V-324C184 -330.6 189.4 -336 196 -336H252C258.6 -336 264 -330.6 264 -324V-232H356C362.6 -232 368 -226.6 368 -220V-164z"></path></svg></figure><div class="ed-element ed-headline custom-theme" id="ed-450729004"><h2>Enhanced Productivity</h2></div><div class="ed-element ed-text custom-theme" id="ed-450729007"><p>By automating the documentation process, Medocs reduces the time spent on administrative tasks, allowing you to allocate more time to patient care.</p></div><div class="ed-element ed-spacer" id="ed-450729010"><div style="height: 15px;" class="space"></div></div></div></div><div class="ed-element ed-container boxes-box flex-justify-content-center flex-align-items-center flex-align-content-center" id="ed-450729016"><div class="inner"><figure class="ed-element ed-icon boxes-icon center" id="ed-450729019"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -448 384 512" data-icon="fa-solid-clipboard-list" preserveAspectRatio="xMidYMid"><path d="M336 -384H256C256 -419.3 227.3 -448 192 -448S128 -419.3 128 -384H48C21.5 -384 0 -362.5 0 -336V16C0 42.5 21.5 64 48 64H336C362.5 64 384 42.5 384 16V-336C384 -362.5 362.5 -384 336 -384zM96 -24C82.7 -24 72 -34.7 72 -48S82.7 -72 96 -72S120 -61.3 120 -48S109.3 -24 96 -24zM96 -120C82.7 -120 72 -130.7 72 -144S82.7 -168 96 -168S120 -157.3 120 -144S109.3 -120 96 -120zM96 -216C82.7 -216 72 -226.7 72 -240S82.7 -264 96 -264S120 -253.3 120 -240S109.3 -216 96 -216zM192 -408C205.3 -408 216 -397.3 216 -384S205.3 -360 192 -360S168 -370.7 168 -384S178.7 -408 192 -408zM320 -40C320 -35.6 316.4 -32 312 -32H168C163.6 -32 160 -35.6 160 -40V-56C160 -60.4 163.6 -64 168 -64H312C316.4 -64 320 -60.4 320 -56V-40zM320 -136C320 -131.6 316.4 -128 312 -128H168C163.6 -128 160 -131.6 160 -136V-152C160 -156.4 163.6 -160 168 -160H312C316.4 -160 320 -156.4 320 -152V-136zM320 -232C320 -227.6 316.4 -224 312 -224H168C163.6 -224 160 -227.6 160 -232V-248C160 -252.4 163.6 -256 168 -256H312C316.4 -256 320 -252.4 320 -248V-232z"></path></svg></figure><div class="ed-element ed-headline custom-theme" id="ed-450729022"><h2>AI-Driven Accuracy</h2></div><div class="ed-element ed-text custom-theme" id="ed-450729025"><p>Medocs leverages artificial intelligence and ambient listening technology to capture patient-provider interactions with precision, ensuring no critical information is missed.</p></div><div class="ed-element ed-spacer" id="ed-450729028"><div style="height: 15px;" class="space"></div></div></div></div><div class="ed-element ed-container boxes-box flex-justify-content-center flex-align-items-center flex-align-content-center" id="ed-454680814"><div class="inner"><figure class="ed-element ed-icon boxes-icon" id="ed-454680817"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-icon="fa-duotone-clipboard-check" preserveAspectRatio="xMidYMid" style="overflow: hidden;"><defs></defs><path class="fa-secondary" d="M113.2 66.3c.1-.8 .3-1.6 .4-2.3H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H270.4c.2 .8 .3 1.6 .4 2.3C290.1 72.6 304 90.7 304 112v24c0 13.3-10.7 24-24 24H192 104c-13.3 0-24-10.7-24-24V112c0-21.3 13.9-39.4 33.2-45.7zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"></path><path class="fa-primary" d="M113.2 66.3C93.9 72.6 80 90.7 80 112v24c0 13.3 10.7 24 24 24h88 88c13.3 0 24-10.7 24-24V112c0-21.3-13.9-39.4-33.2-45.7C264.4 28.7 231.5 0 192 0s-72.4 28.7-78.8 66.3zM168 80a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM305 273c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L305 273z"></path></svg></figure><div class="ed-element ed-headline custom-theme" id="ed-454680820"><h2><span style="color: rgb(0, 0, 0);">Reduce Burnout &amp; Fatigue</span></h2></div><div class="ed-element ed-text custom-theme" id="ed-454680823"><p>&nbsp; By minimizing manual documentation, Medocs helps reduce physician burnout and emotional fatigue, contributing to a healthier work-life balance</p></div><div class="ed-element ed-spacer" id="ed-454680826"><div style="height: 15px;" class="space"></div></div></div></div><div class="ed-element ed-container boxes-box flex-justify-content-center flex-align-items-center flex-align-content-center" id="ed-454683575"><div class="inner"><figure class="ed-element ed-icon boxes-icon" id="ed-454683578"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-icon="fa-duotone-user-doctor" preserveAspectRatio="xMidYMid" style="overflow: hidden;"><defs></defs><path class="fa-secondary" d="M352 128A128 128 0 1 1 96 128a128 128 0 1 1 256 0z"></path><path class="fa-primary" d="M280 304c2.7 0 5.3 .1 8 .2V362c-27.6 7.1-48 32.2-48 62v40c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16s-7.2-16-16-16V424c0-17.7 14.3-32 32-32s32 14.3 32 32v24c-8.8 0-16 7.2-16 16s7.2 16 16 16h16c8.8 0 16-7.2 16-16V424c0-29.8-20.4-54.9-48-62V308.8C393.5 326.7 448 393 448 472v8c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32v-8c0-79 54.5-145.3 128-163.2v61.5c-23.1 6.9-40 28.3-40 53.7c0 30.9 25.1 56 56 56s56-25.1 56-56c0-25.4-16.9-46.8-40-53.7V304.2c2.7-.1 5.3-.2 8-.2H280zM144 400a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"></path></svg></figure><div class="ed-element ed-headline custom-theme" id="ed-454683581"><h2>Improved Patient Care</h2></div><div class="ed-element ed-text custom-theme" id="ed-454683584"><p>&nbsp; With more time for direct patient interaction, healthcare professionals can focus on providing better care, leading to improved outcomes.</p></div><div class="ed-element ed-spacer" id="ed-454683587"><div style="height: 15px;" class="space"></div></div></div></div><div class="ed-element ed-container boxes-box flex-justify-content-center flex-align-items-center flex-align-content-center" id="ed-547473499"><div class="inner"><figure class="ed-element ed-icon boxes-icon" id="ed-547473502"><svg xmlns="http://www.w3.org/2000/svg" viewBox="62 -787 875 875" data-icon="ico-world" preserveAspectRatio="xMidYMid" style="overflow: hidden;"><path d="M500 87.5c241.3 -0 437.5 -196.3 437.5 -437.5 0 -183 -113 -340 -272.8 -405.2 -12.9 -5.3 -26.2 -9.9 -39.7 -14 -39.6 -11.8 -81.5 -18.3 -125 -18.3C258.8 -787.5 62.5 -591.2 62.5 -350S258.8 87.5 500 87.5zm198.7 -780l3.5 -0.7 1.1 -0.1C776.9 -649.5 835.4 -582.7 868.6 -502.9c-3.6 -2.9 -7.8 -4.6 -12.7 -4.9 -1.8 -0.1 -3.6 -0.4 -5.4 -0.7 -5.2 -0.9 -9 -3.7 -10.8 -8.7 -0.8 -2.3 -1.2 -4.7 -1.9 -7 -0.2 -0.8 -0.7 -1.5 -1.1 -2.4 -0.6 0.4 -1.1 0.5 -1.4 0.8 -0.8 0.9 -1.6 1.8 -2.3 2.8 -0.9 1.2 -1.7 2.5 -2.7 3.7 -3.2 3.8 -5.7 3.5 -8.1 -0.7 -0.5 -0.9 -0.9 -1.9 -1.3 -2.9l-1.5 -4.3c-0.7 -2 -1.4 -4 -2.3 -5.9 -1.7 -3.7 -3.4 -3.9 -5.9 -0.8l-1.4 1.8c-0.8 0.9 -1.6 1.8 -2.6 2.6 -3.3 2.6 -6.6 2.6 -10 0.1l-1.7 -1.5c-1.5 -1.4 -2.3 -3.1 -2.2 -5.2 0.1 -2.7 0 -5.5 -0.2 -8.2 -0.2 -1.6 -0.7 -3.2 -1.4 -4.7 -0.5 -1.2 -2 -1.6 -3.1 -0.8s-2.1 1.7 -3.3 2.7c-1.4 -0.6 -2.8 -1.1 -4.1 -1.7 -5.9 -2.7 -11.8 -5.5 -17.8 -8.1 -2.1 -0.9 -3.9 -1.9 -5.7 -4.2 -3.2 10.7 -3.5 21.2 -5 31.7 -1.1 0.4 -2.3 0.8 -3.4 1.1 -5 1.3 -10 2.4 -14.9 3.8 -8.1 2.4 -15.3 0.7 -21.8 -4.4 -4.7 -3.7 -8.4 -8.3 -11.4 -13.5 -3.7 -6.6 -7.4 -13.2 -11.1 -19.9 -0.4 -0.8 -0.8 -1.6 -1.2 -2.5 1.7 -1.8 3.9 -2.6 5.8 -3.7 8.9 -5.1 18.2 -8.1 28.6 -7.1 1.3 0.1 2.4 -0.1 3.4 -0.9 0.7 -0.5 1.5 -1 2.3 -1.5 3.8 -2.4 8.1 -4.4 11.4 -7.4 3.4 -3.1 6 -7.2 8.8 -11 1.1 -1.5 2.6 -2.9 3.3 -4.9 -1.3 -3.1 -2.5 -6.2 -4 -9.2 -1.2 -2.4 -1.4 -4.9 -1 -7.5 0.5 -3.1 1 -6.3 1.4 -9.5 0.1 -1.2 0.7 -2.4 -0.5 -3.6 -4.9 -0.7 -10 -1.6 -15.1 -2 -2.4 -0.2 -3.9 -1.2 -5 -3.2 -1.5 -2.8 -3.4 -5.4 -4.8 -8.2 -1.1 -2 -2.6 -2.8 -4.7 -3.1 -2.9 -0.3 -5.7 -0.8 -8.6 -1 -2.3 -0.1 -4 -1.1 -5.5 -2.8 -2.3 -2.5 -3.7 -5.6 -4.7 -8.7 -1.5 -4.5 -2 -9.2 -2.3 -13.9 -0.2 -6.2 0.1 -12.2 1 -18.5zm-19.1 44.7c-0.9 -3 -0.8 -4.2 1.1 -5.6 2.4 -1.8 5.5 -2.2 7.6 -0.8 1.2 0.9 2.3 2 3.2 3.1 2.4 3.2 5.1 5.8 8.9 7.5 4.2 1.9 7.4 5.2 10.3 8.8 5.4 6.7 9 14.3 11.2 22.6 0.2 0.6 0.1 1.2 0.2 2.1 -3.2 3.2 -6.7 5.6 -10.4 7.6 -1.3 0.7 -2.8 1.3 -4.2 1.7 -8.7 2.2 -13.9 -2.6 -15.4 -9.3 -1.2 -5.3 -2.1 -10.7 -3.1 -16.3 -0.9 0.2 -1.8 0.3 -2.5 0.7 -3.1 1.5 -6.2 3 -9.5 4.5 -2.6 -3.4 -4.4 -7 -6.2 -10.8 3.4 -3 7.1 -5.4 10.4 -8.2 0.4 -2.8 -0.9 -5.2 -1.6 -7.6zM676.2 -482c2.6 -0.7 4.6 -1.9 6.3 -4 4.4 -5.4 9 -10.6 13.4 -16.1 1.5 -1.9 3.2 -3 5.5 -3.7 6.9 -2 13.6 -4.1 20.4 -6.2 6 -1.8 12.1 -2.8 18.3 -3.1 11.3 -0.4 22.4 0.9 33 5 1.8 0.7 3.5 0.7 5.3 0.7 6.4 -0.1 12.8 -0.2 19.1 0.9 6.1 1 11.7 2.6 16.6 6.7 8.7 7.1 17.7 13.7 26.6 20.6 4.9 3.8 4.9 3.8 11.1 3.7 8.9 -0.2 17.8 -0.2 26.6 1.5 13.2 39.6 20.5 82 20.5 126C898.9 -214.9 831.3 -95.3 728.3 -23c0.2 -1.2 0.5 -2.4 0.8 -3.5 0.8 -2.4 1.6 -4.9 2.6 -7.3 3.1 -7.1 6.4 -14.1 9.6 -21.1L751.9 -78c2.2 -4.7 2.5 -9.6 1.4 -14.6 -1.3 -5.9 -2.4 -11.9 -3.6 -17.8 -1.2 -5.9 -1.3 -11.8 0.8 -17.5 3.8 -10.8 9 -20.8 17.4 -29 2.6 -2.5 5 -5.3 7.4 -8.1 3.1 -3.6 5.4 -7.7 7.1 -12.1 2.1 -5.7 2.9 -11.4 1.7 -17.4 -0.9 -4.7 -2.6 -9 -4.1 -13.5 -1.3 -3.7 -2.7 -7.4 -3.8 -11.2 -1.8 -6.1 -2 -12.3 -0.4 -18.4 1.1 -4 2.5 -7.8 3.8 -11.7l4.5 -11.9c1.8 -5.2 2.9 -10.6 2.4 -16.1 -0.4 -3.8 -1 -7.5 -1.9 -11.2 -0.9 -3.9 -2.6 -4.6 -6.3 -3.2 -1.4 0.5 -2.8 1.2 -4.1 1.8 -4.3 1.9 -7.1 1.1 -9.2 -2.1 -1.6 -2.3 -4 -3.7 -6.7 -4.4 -2.3 -0.6 -4.7 -1.4 -7.1 -1.5 -8 -0.6 -16.1 -0.3 -24.1 0.2 -5.9 0.4 -11.8 0.5 -17.7 0.6 -1.8 -0 -3.6 -0.4 -5.4 -0.7 -4.8 -0.9 -9.3 -2.6 -13.7 -4.7 -8 -3.8 -15.2 -8.8 -22.1 -14.3 -11.2 -8.8 -21.3 -19 -31.5 -28.9 -1.4 -1.3 -2.2 -2.9 -2.7 -4.7 -0.6 -2.2 -1.1 -4.4 -1.2 -6.7 -0.9 -10.4 0.4 -20.6 2.3 -30.8 2 -10.9 4.8 -21.6 7.9 -32.2 1.8 -6 2.7 -12.1 2.7 -18.4 0 -2.6 -0.2 -5.2 -1.6 -7.5 -1.2 -2 -1.2 -4.1 -0.2 -6.1 1.5 -3.3 2.9 -6.7 4.8 -9.8 6.5 -10.3 15.8 -17 27.5 -20.1zM596 -692c-3 2.6 -4.2 5.8 -5.1 9.3 -0.3 1.2 -0.8 2.3 -1.3 3.9 -6.2 -0.7 -11.9 -1.8 -17.6 -3.3 -2.7 -0.7 -5 -2 -7.3 -3.6 -1 -0.7 -1.9 -1.5 -2.7 -2.4 -2.6 -3.2 -1.8 -7.1 1.9 -8.6 7.5 -2.9 15 -5.6 22.5 -8.4 1.1 -0.4 2 -0.4 3 0.1 2.5 1.2 4.8 2.6 6.6 4.7 2.7 2.8 2.9 5.8 0 8.3zm-92.8 -36.6c2.7 -6.7 5.2 -13.5 7.9 -20.3 28.1 0.8 55.4 4.4 81.8 10.8C589.3 -732.3 585.7 -726.5 582 -721c-5.5 1 -10.5 2 -15.6 2.8 -2.1 0.3 -3.6 1.1 -4.9 2.7l-16.9 19.7C539.7 -690 535 -684.1 530.2 -678.2c-0.7 0.8 -1.4 1.5 -2.1 2.2 -3.7 -1.4 -6.6 -3.5 -9.3 -6 -4.6 -4.3 -7.8 -9.6 -10.3 -15.4 -3.3 -7.7 -5.1 -15.8 -6 -24.2 -0.5 -2.4 -0.2 -4.7 0.7 -7zM187.4 -482c0.2 -5.8 1.8 -11.2 1.9 -17 -1.5 -0.6 -2.9 -1.2 -4.3 -1.8 -6.9 -3 -13.4 -6.5 -19.2 -11.2 -3.6 -2.9 -6.8 -6.1 -9.2 -10 -3.1 -5 -4.7 -10.5 -3.8 -16.5 0.5 -3.5 1 -7.1 1.4 -10.6 68.7 -118.8 196.7 -199.2 343.4 -200.1l3.6 7.8c0.4 0.8 0.5 1.7 0.7 2.6 -4.7 3.6 -9.4 7 -13.8 10.7 -4.4 3.7 -8.3 7.9 -13 11.5 -2.2 -4.2 -5.6 -7 -9.2 -9.6 -5.9 -4.3 -3.9 -3.6 -11.2 -3.3 -5 0.2 -9.9 0.5 -14.7 2.6 -2.5 1.1 -5.3 1.1 -8.1 0.9 -2.1 -0.1 -3.8 -0.9 -5.1 -2.6 -0.4 -0.5 -0.7 -1 -1 -1.5 -1.2 -1.5 -2.7 -1.9 -4.5 -1.3 -1.4 0.5 -2.9 1.1 -4.1 1.9 -2.1 1.4 -4.2 3 -6.1 4.7 -2.4 2.2 -4.9 4.1 -7.6 5.8l-12.2 7.9c-1.5 1 -2.5 2.1 -2.7 3.9 -0.4 2.8 -1.2 5.7 -1.5 8.5 -0.4 3.8 -0.5 7.6 0.8 11.3 1.7 5 5.9 7.1 10.8 5.3 5.9 -2.1 11.4 -5 16.3 -9 3.2 -2.6 5.9 -5.6 7.4 -9.6 0.3 -0.7 0.6 -1.4 1 -2 0.9 -1.4 2 -1.7 3.5 -1.1 1.2 0.5 2.4 1.2 3.7 1.8 3.1 1.5 6.2 1.4 9.1 -0.3 1.6 -0.9 3.1 -1.9 4.5 -3.1 1.3 -1 2.5 -2.3 3.6 -3.5 1.9 -2 4.2 -3.5 6.7 -4.6 4.8 -1.9 8.3 -1 11 3.3 2.1 3.3 4.8 5.8 8 7.9 1.4 0.9 2.7 1.9 3.9 3.1 1.9 1.8 2.5 4.1 1.9 6.7 -0.7 2.9 -2.1 5.3 -3.6 7.8 -1.3 2.1 -2.6 4.1 -3.8 6.2 -0.6 1.1 -0.9 2.3 -1.1 3.4 -0.2 1.2 0.9 2.5 2.2 2.3 1.6 -0.3 3.2 -0.8 4.8 -1.3 0.9 -0.3 1.9 -0.5 3.3 -0.9 -0.5 9.5 -2 18.2 -6.5 26.2 -0.8 1.4 -1.8 2.8 -3 4 -3.4 3.3 -7.4 4.6 -12.1 3.5 -3.3 -0.8 -6.3 -2 -8.9 -4.4 -5 -4.6 -9.7 -4.1 -14.3 0.9 -1.4 1.5 -2.7 3.3 -3.6 5.2 -1 2 -2.5 2.9 -4.5 3.4 -8.9 2.4 -17.9 3.4 -27 2.2 -1.5 -0.2 -3 -0.1 -4.5 0.3 -5.8 1.7 -11.6 3.3 -17.5 5 -2.3 0.7 -4.5 1.6 -6.6 2.9 -3.9 2.4 -8 4.4 -12.4 5.7 -4.4 1.4 -8.9 2.1 -13.1 -0.9 -13.9 11.6 -29.3 20.1 -46.5 25.6 -1 6.5 -2 12.7 -3 19L294 -553.5c-0.3 1.9 -1.1 2.7 -2.9 3 -2.1 0.3 -4 -0 -5.4 -1.7 -1.4 -1.6 -2.6 -3.4 -3.6 -5.2 -2.4 -4.8 -3.9 -9.9 -4.5 -15.2 -0.8 -7.4 -4.7 -12.4 -11.1 -15.6 -8.4 -4.2 -17.3 -5.6 -26.5 -4 -15.1 2.6 -28 9.7 -38.4 21 -8.8 9.5 -8.7 9.5 -11.2 22.7 -0.9 4.6 -1 9.4 0.5 14 1.5 4.7 4.6 7.7 9.5 8.7 2.6 0.5 5.1 0.8 7.7 0.2l8.4 -1.8c0.9 -0.2 1.9 -0.3 2.6 -0 2.1 0.8 4 2.1 5.4 4 1.8 2.3 2.3 4.9 1 7.7 -0.9 2.1 -2.3 4 -4 5.4 -2.2 1.9 -4.5 3.6 -6.8 5.3 -1 0.7 -2.1 1.3 -2.9 2.1 -3.8 3.5 -3.7 7.6 0.1 11 0.9 0.8 1.9 1.4 3 2.1 0.9 0.5 1.8 1 2.8 1.6 -0.3 2.7 -0.4 5.3 -0.7 7.9 -0.8 6.6 -0.9 13.3 -0.5 20 0.3 6.4 3.1 11.8 8.3 15.5 3.4 2.5 7.1 4.7 10.8 6.7 2.1 1.2 4.5 1.9 6.8 2.5 6.9 1.8 13 0.2 17.9 -4.8 2.1 -2.1 3.8 -4.7 5.4 -7.3 3 -4.7 7.3 -6.7 12.8 -5.6 2.9 0.6 5.5 2 7.5 4 2.5 2.5 5.6 4.1 8.7 5.6 4.2 2 8.4 4.2 12.7 6.2 1.5 0.7 3.1 1.2 4.7 1.6 12 3 22.2 8.8 29.8 18.7 1.6 2.1 3.4 3.2 5.7 4.1 11.3 3.9 21.6 9.6 30.8 17.2 11.6 9.5 20.4 21.2 24.9 35.7 1.1 3.4 2.6 6.3 5.1 8.8 2.5 2.5 4.5 5.4 6.3 8.3 2.4 4 4.6 8.2 6.9 12.3 0.6 1 1.2 2.1 1.7 2.9 2.2 0.5 4.1 0.8 6 1.2 12.8 2.9 25 7.5 35.9 14.9 5.7 3.8 10.8 8.3 15.2 13.6 1.2 1.5 1.9 3 1.9 4.9 0.3 17.3 -6 31.3 -20.5 41.3 -1.8 1.3 -3 2.8 -3.7 4.9 -3.7 10.1 -7.5 20.2 -11.4 30.2 -0.7 1.8 -1.6 3.6 -2.7 5.2l-15.4 21.5c-1.6 2.3 -3.6 4.1 -6 5.4 -1.9 1 -3.7 2 -5.7 2.9 -7 3.3 -14.4 5.7 -21.9 7.3 -2 0.4 -3.6 1.2 -4.9 2.9 -5 6.7 -10.2 13.2 -15.3 19.8 -0.5 0.7 -1.2 1.5 -1.6 2.2 -4.9 9.1 -10.9 17.5 -16.5 26.1 -1.3 1.9 -2.9 3.5 -4.8 4.7 -8.2 5.5 -16.4 10.9 -24.6 16.5 -2.4 1.6 -4.6 3.4 -6.7 5.4 -4.1 3.8 -8.1 7.8 -12 11.8 -1.1 1.1 -2 2.3 -2.7 3.6L294.6 -56.8c-0.8 1.7 -1 3.4 -0.6 5.3 2.6 13.7 5.2 27.4 7.7 41.1 0.3 1.6 0.6 3.2 0.6 4.8 -1.5 0.1 -2.3 0.1 -3.1 -0 -7 -4.1 -13.9 -8.3 -20.6 -12.8 -9.9 -9.2 -17.7 -20.2 -24.5 -31.8 -0.7 -1.1 -1 -2.5 -1.2 -3.9 -1.6 -10.8 -3.1 -21.6 -4.6 -32.4 -0.2 -1.4 -0.7 -2.6 -1.4 -3.8 -1.8 -2.7 -2.6 -5.8 -3.2 -8.9 -1.4 -7.4 -0.6 -14.8 0.5 -22.2l3.9 -26.1c0.2 -1.2 0.1 -2.4 -0.7 -3.4 -2.1 -2.9 -2.8 -6.3 -3 -9.9 -0.4 -6.7 0.8 -13.3 2.5 -19.7 0.6 -2.3 1.1 -4.7 1.5 -7.1l3.3 -23.4c0.4 -3.3 0.8 -6.6 1.1 -9.7 -0.7 -0.7 -1.1 -1.1 -1.6 -1.4 -4.3 -3.7 -6.9 -8.4 -8 -13.9 -0.8 -3.9 -0.8 -7.9 0 -11.7 0.5 -3 1.2 -5.9 1.9 -8.8l-4.3 -2.9c-6.6 -4.7 -12.7 -9.8 -17.9 -16.1 -5.3 -6.4 -10.5 -12.9 -15.6 -19.5 -2 -2.6 -3.8 -5.5 -5.3 -8.4 -2.5 -4.8 -3.6 -10 -2.4 -15.4 0.3 -1.2 0.1 -2.4 -0.4 -3.5 -3.1 -8.7 -3.5 -17.8 -2.8 -26.9 0.5 -6.3 2.2 -12.2 5.7 -17.5 2.2 -3.3 4.3 -6.6 6.6 -9.9 4 -5.7 8.1 -11.4 12.2 -17 4 -5.5 6.3 -11.7 7.5 -18.4 0.5 -3 0.8 -6 0.6 -9 -0.4 -4.7 -2.1 -8.8 -6.1 -11.7 -4.5 -3.2 -8.7 -6.5 -13.2 -9.6 -2.3 -1.6 -3.4 -3.6 -4 -6.2 -1.5 -6.2 -3.2 -12.4 -4.6 -18.6 -0.5 -2.2 -1.4 -3.9 -3.1 -5.3 -2.7 -2.2 -5.3 -4.6 -7.9 -6.9l-2.7 -2.7zm116.2 -13.1c0.8 -0.5 1.6 -0.9 2.4 -1.3l9.1 -4.2 7 -3.2c0.7 -0.3 1.4 -0.5 2.3 -0.9 2.4 1.5 4.9 2.9 7.2 4.6 2.4 1.7 5.3 2.2 8.3 3.5 -0.7 3.7 -1.1 7.1 -3.3 10.1 -1.3 -0.5 -2.3 -0.8 -3.2 -1.2 -5.1 -2.5 -10.6 -3.4 -16.3 -3.4l-5.9 0.2c-2.3 -0 -4.6 -0 -6.8 -0.2 -1.2 -0.1 -2.7 0.2 -2.9 -1.4 -0.4 -1.5 1 -2 2.1 -2.6zM293 -516.2c-9 -1.2 -17.9 -2.8 -26.9 -4.3 -2.7 -0.4 -5.4 -0.9 -7.4 -3 2 -6.5 6.3 -9.9 12.7 -10.6 4.5 -0.4 8.5 0.5 11.8 3.5 5.2 4.8 11.3 6.7 18.2 6.8 3.6 -0 7.2 0.9 10.7 1.6 1.2 0.3 2.5 1.1 3.4 2 0.7 0.7 0.9 1.6 0.6 2.5 -0.2 0.7 -0.8 1.4 -1.6 1.6 -2.4 0.6 -4.8 1.1 -7.2 1 -1.4 -0 -2.8 -0.1 -4.3 -0.2 -3.2 -0.1 -6.6 -0.4 -10 -0.9z"></path></svg></figure><div class="ed-element ed-headline custom-theme" id="ed-547473505"><h2>Multi-Language Support</h2></div><div class="ed-element ed-text custom-theme" id="ed-547473508"><p>Medocs supports over 40 languages across 130 countries, allowing you to record conversations in your preferred language and generate detailed reports in English.</p></div><div class="ed-element ed-spacer" id="ed-547473511"><div style="height: 15px;" class="space"></div></div></div></div></div></div></div></div><div class="ed-element ed-headline custom-theme animation-initial" style="transform-origin: 50% 50% 0px;" id="ed-454689796" data-animation="{&quot;type&quot;:&quot;shrink&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><h1><span class="color-default">Products</span></h1></div><div class="ed-element ed-html" id="ed-1116243358">
+
+<!-- Products Section (inline-CSS cards) -->
+<div style="max-width:1200px;margin:40px auto;padding:0 18px;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;">
+    <!-- Card: AI Scribe -->
+    <div role="article" aria-label="AI Scribe" style="background:linear-gradient(180deg,#ffffff 0%, #fbfdff 100%);border-radius:14px;padding:18px;box-shadow:0 8px 20px rgba(12,20,44,0.06);transition:transform .22s ease, box-shadow .22s ease;border:1px solid rgba(15,23,42,0.04);">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <img src="https://encrypted-tbn0.gstatic.com./images?q=tbn:ANd9GcRCHmNxDGSbx_H7rt8W2FDobr-zZJSD4Sf3Xg&amp;s" alt="AI Scribe icon" style="width:48px;height:48px;flex:0 0 48px;border-radius:10px;background:linear-gradient(135deg,#eef8ff,#eaf7f1);padding:8px;">
+        <div>
+          <div style="font-weight:700;color:#0b1220;font-size:22px;">AI Scribe</div>
+          <div style="font-size:15px;color:#000;margin-top:3px;">Instantly create multilingual clinical notes — no typing, no burnout.</div>
+        </div>
+      </div>
+      <div style="margin-top:12px;display:flex;gap:8px;align-items:center;">
+        <span style="display:inline-block;padding:6px 10px;border-radius:999px;background:#eef2ff;color:#4338ca;font-weight:600;font-size:12px;">Notes</span>
+        <span style="font-size:12px;color:#64748b;">HIPAA-aware • Multilingual</span>
+      </div>
+    </div>
+
+    <!-- Card: AI Interpreter -->
+    <div role="article" aria-label="AI Interpreter" style="background:linear-gradient(180deg,#ffffff,#fffaf6);border-radius:14px;padding:18px;box-shadow:0 8px 20px rgba(12,20,44,0.06);transition:transform .22s ease, box-shadow .22s ease;border:1px solid rgba(15,23,42,0.04);">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <img src="https://media.istockphoto.com/id/1423938049/vector/machine-translation-software-black-glyph-icon.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=Sl6j8ecWVEf_F1k-YIL1xf4UuEGvJcqXHiJTrmeJQT0=" alt="AI Interpreter icon" style="width:48px;height:48px;flex:0 0 48px;border-radius:10px;background:linear-gradient(135deg,#fff7ed,#f6f8ff);padding:8px;">
+        <div>
+          <div style="font-weight:700;color:#0b1220;font-size:22px;">AI Interpreter</div>
+          <div style="font-size:15px;color:#000;margin-top:3px;">Real-time translation that removes the need for human interpreters.</div>
+        </div>
+      </div>
+      <div style="margin-top:12px;display:flex;gap:8px;align-items:center;">
+        <span style="display:inline-block;padding:6px 10px;border-radius:999px;background:#feF7ef;color:#c2410c;font-weight:600;font-size:12px;">Realtime</span>
+        <span style="font-size:12px;color:#64748b;">Low latency • Many languages</span>
+      </div>
+    </div>
+
+    <!-- Card: AI Medical Assist -->
+    <div role="article" aria-label="AI Medical Assist" style="background:linear-gradient(180deg,#ffffff,#f7fffb);border-radius:14px;padding:18px;box-shadow:0 8px 20px rgba(12,20,44,0.06);transition:transform .22s ease, box-shadow .22s ease;border:1px solid rgba(15,23,42,0.04);">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <img src="https://static.vecteezy.com/system/resources/previews/035/402/541/non_2x/ai-generated-clinical-lab-teal-filled-gradient-logo-digital-health-laboratory-equipment-cross-symbol-design-element-ai-art-for-corporate-branding-medical-assistant-vector.jpg" alt="AI Medical Assist icon" style="width:48px;height:48px;flex:0 0 48px;border-radius:10px;background:linear-gradient(135deg,#f0fdf4,#eef2ff);padding:8px;">
+        <div>
+          <div style="font-weight:700;color:#0b1220;font-size:22px;">AI Medical Assist</div>
+          <div style="font-size:15px;color:#000;margin-top:3px;">Real-time clinical support and automation at your fingertips.</div>
+        </div>
+      </div>
+      <div style="margin-top:12px;display:flex;gap:8px;align-items:center;">
+        <span style="display:inline-block;padding:6px 10px;border-radius:999px;background:#ecfeff;color:#065f46;font-weight:600;font-size:12px;">Assist</span>
+        <span style="font-size:12px;color:#64748b;">Decision support • Workflow automations</span>
+      </div>
+    </div>
+
+    <!-- Card: AI Medical Coder -->
+    <div role="article" aria-label="AI Medical Coder" style="background:linear-gradient(180deg,#ffffff,#fffaf6);border-radius:14px;padding:18px;box-shadow:0 8px 20px rgba(12,20,44,0.06);transition:transform .22s ease, box-shadow .22s ease;border:1px solid rgba(15,23,42,0.04);">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <img src="https://img.freepik.com/premium-vector/medical-report-icon_1076610-77838.jpg" alt="AI Medical Coder icon" style="width:48px;height:48px;flex:0 0 48px;border-radius:10px;background:linear-gradient(135deg,#fff8f2,#f3f7ff);padding:8px;">
+        <div>
+          <div style="font-weight:700;color:#0b1220;font-size:22px;">AI Medical Coder</div>
+          <div style="font-size:15px;color:#000;margin-top:3px;">Auto-code visits with accuracy and compliance for faster payments.</div>
+        </div>
+      </div>
+      <div style="margin-top:12px;display:flex;gap:8px;align-items:center;">
+        <span style="display:inline-block;padding:6px 10px;border-radius:999px;background:#fff1f2;color:#be123c;font-weight:600;font-size:12px;">Auto-Code</span>
+        <span style="font-size:12px;color:#64748b;">CPT/ICD • Audit-ready</span>
+      </div>
+    </div>
+
+    <!-- Card: AI Receptionist -->
+    <div role="article" aria-label="AI Receptionist" style="background:linear-gradient(180deg,#ffffff,#f9fbff);border-radius:14px;padding:18px;box-shadow:0 8px 20px rgba(12,20,44,0.06);transition:transform .22s ease, box-shadow .22s ease;border:1px solid rgba(15,23,42,0.04);">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <img src="https://encrypted-tbn0.gstatic.com./images?q=tbn:ANd9GcRc1nLnWiMIYzhkw7f5MukdpftSsWIwste9_w&amp;s" alt="AI Receptionist icon" style="width:48px;height:48px;flex:0 0 48px;border-radius:10px;background:linear-gradient(135deg,#f1f5ff,#eefcf7);padding:8px;">
+        <div>
+          <div style="font-weight:700;color:#0b1220;font-size:22px;">AI Receptionist</div>
+          <div style="font-size:15px;color:#000;margin-top:3px;">Smart patient calls, scheduling, and communication made effortless.</div>
+        </div>
+      </div>
+      <div style="margin-top:12px;display:flex;gap:8px;align-items:center;">
+        <span style="display:inline-block;padding:6px 10px;border-radius:999px;background:#eef2ff;color:#3730a3;font-weight:600;font-size:12px;">Calls &amp; Scheduling</span>
+        <span style="font-size:12px;color:#64748b;">Reminders • Virtual front desk</span>
+      </div>
+    </div>
+
+    <!-- Card: AI Medical Billing -->
+    <div role="article" aria-label="AI Medical Billing" style="background:linear-gradient(180deg,#ffffff,#fffefb);border-radius:14px;padding:18px;box-shadow:0 8px 20px rgba(12,20,44,0.06);transition:transform .22s ease, box-shadow .22s ease;border:1px solid rgba(15,23,42,0.04);">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <img src="https://img.freepik.com/premium-vector/invoice-icon-bill-paid-symbol-payment-bill-invoice-tax-form-outline-icon-paper-document-with_662353-175.jpg?w=360" alt="AI Medical Billing icon" style="width:48px;height:48px;flex:0 0 48px;border-radius:10px;background:linear-gradient(135deg,#fffdf0,#f0f7ff);padding:8px;">
+        <div>
+          <div style="font-weight:700;color:#0b1220;font-size:22px;">AI Medical Billing</div>
+          <div style="font-size:15px;color:#000;margin-top:3px;">Smart billing that ensures accuracy, compliance, and revenue growth. In partnership with MedRevSystem.</div>
+        </div>
+      </div>
+      <div style="margin-top:12px;display:flex;gap:8px;align-items:center;">
+        <span style="display:inline-block;padding:6px 10px;border-radius:999px;background:#fff7ed;color:#b45309;font-weight:600;font-size:12px;">Revenue</span>
+        <span style="font-size:12px;color:#64748b;">Compliance • Faster payments</span>
+      </div>
+    </div>
+
+    <!-- Card: Performance Dashboard -->
+    <div role="article" aria-label="Performance Dashboard" style="background:linear-gradient(180deg,#ffffff,#f6f8ff);border-radius:14px;padding:18px;box-shadow:0 10px 28px rgba(12,20,44,0.07);transition:transform .22s cubic-bezier(.2,.9,.3,1), box-shadow .22s cubic-bezier(.2,.9,.3,1);border:1px solid rgba(15,23,42,0.05);">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <img src="https://cdn-icons-png.freepik.com/512/7731/7731130.png" alt="Performance Dashboard icon" style="width:48px;height:48px;flex:0 0 48px;border-radius:10px;background:linear-gradient(135deg,#eef2ff,#ecfdf5);padding:8px;">
+        <div>
+          <div style="font-weight:700;color:#0b1220;font-size:22px;">Performance Dashboard</div>
+          <div style="font-size:15px;color:#000;margin-top:3px;">Track efficiency improvements and revenue growth in real time.</div>
+        </div>
+      </div>
+      <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;">
+        <span style="display:inline-block;padding:6px 10px;border-radius:999px;background:#eef2ff;color:#0f172a;font-weight:600;font-size:12px;">Analytics</span>
+        <span style="font-size:12px;color:#64748b;">KPIs • Live metrics</span>
+      </div>
+    </div>
+  </div>
+</div></div><div class="ed-element ed-container full-width preset-separator-v3-zigzag" id="ed-454689742"><div class="inner"><div class="ed-element ed-html separator-container" id="ed-454689745"><svg class="double-triangle" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="path1" d="M0 0 L50 100 L100 0 Z"></path>
+<path class="path2" d="M50 100 L100 40 L100 0 Z"></path>
+<path class="path3" d="M0 40 L50 100 L0 0 Z"></path>
+</svg> 
+
+<svg class="circle" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path class="path1" d="M0 100 C40 0 60 0 100 100 Z"></path>
+</svg>
+
+<svg class="polygon1" width="100%" height="100%" viewBox="0 0 1280 140" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="path1" d="M0 70.35l320-49.24 640 98.49 320-49.25V140H0V70.35z"></path>
+</svg></div></div></div><div class="ed-element ed-headline custom-theme animation-initial" style="transform-origin: 50% 50% 0px; opacity: 1;" id="ed-1116143785" data-animation="{&quot;type&quot;:&quot;shrink&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><h1><span class="color-default">Why Choose Medocs?</span></h1></div><div class="ed-element ed-container wv-boxed wv-spacer wv-overflow_hidden preset-boxes-v3-border animation-initial" style="opacity: 1; transform-origin: 50% 50% 0px;" id="ed-454689748" data-animation="{&quot;type&quot;:&quot;shrink&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><div class="inner"><div class="ed-element ed-container boxes-box wv-overflow_visible" id="ed-454689751"><div class="inner"><figure class="ed-element ed-icon boxes-icon center" id="ed-454689754"><svg xmlns="http://www.w3.org/2000/svg" viewBox="20 -448 535 512" data-icon="fa-light-star" preserveAspectRatio="xMidYMid"><path d="M528.1 -276.5L382 -297.8L316.7 -430.2C305 -453.8 271.1 -454.1 259.3 -430.2L194 -297.8L47.9 -276.5C21.7 -272.7 11.2 -240.4 30.2 -221.9L135.9 -118.9L110.9 26.6C106.4 52.9 134.1 72.6 157.3 60.3L288 -8.4L418.7 60.3C441.9 72.5 469.6 52.9 465.1 26.6L440.1 -118.9L545.8 -221.9C564.8 -240.4 554.3 -272.7 528.1 -276.5zM405.8 -130.1L433.6 31.9L288 -44.5L142.5 32L170.3 -130L52.5 -244.9L215.2 -268.5L288 -416L360.8 -268.5L523.5 -244.9L405.8 -130.1z"></path></svg></figure><div class="ed-element ed-container boxes-box-inner" id="ed-454689757"><div class="inner"><div class="ed-element ed-headline custom-theme" id="ed-454689760"><h3>Innovative Technology</h3></div><div class="ed-element ed-text custom-theme" id="ed-454689763"><p><span style="color: rgb(0, 0, 0);">Harnessing the latest advancements in AI, machine learning, and ambient listening technology, Medocs provides healthcare professionals with the most advanced documentation tool available.</span></p></div></div></div></div></div><div class="ed-element ed-container boxes-box wv-overflow_visible" id="ed-454689766"><div class="inner"><figure class="ed-element ed-icon boxes-icon center" id="ed-454689769"><svg xmlns="http://www.w3.org/2000/svg" viewBox="20 -448 535 512" data-icon="fa-light-star" preserveAspectRatio="xMidYMid"><path d="M528.1 -276.5L382 -297.8L316.7 -430.2C305 -453.8 271.1 -454.1 259.3 -430.2L194 -297.8L47.9 -276.5C21.7 -272.7 11.2 -240.4 30.2 -221.9L135.9 -118.9L110.9 26.6C106.4 52.9 134.1 72.6 157.3 60.3L288 -8.4L418.7 60.3C441.9 72.5 469.6 52.9 465.1 26.6L440.1 -118.9L545.8 -221.9C564.8 -240.4 554.3 -272.7 528.1 -276.5zM405.8 -130.1L433.6 31.9L288 -44.5L142.5 32L170.3 -130L52.5 -244.9L215.2 -268.5L288 -416L360.8 -268.5L523.5 -244.9L405.8 -130.1z"></path></svg></figure><div class="ed-element ed-container boxes-box-inner" id="ed-454689772"><div class="inner"><div class="ed-element ed-headline custom-theme" id="ed-454689775"><h3>Designed for Healthcare</h3></div><div class="ed-element ed-text custom-theme" id="ed-454689778"><p><span style="color: rgb(0, 0, 0);">Unlike generic AI tools, Medocs is purpose-built for the healthcare industry. It is designed to understand the nuances of medical language, terminology, and patient-provider interactions.</span></p></div></div></div></div></div><div class="ed-element ed-container boxes-box wv-overflow_visible" id="ed-454689781"><div class="inner"><figure class="ed-element ed-icon boxes-icon center" id="ed-454689784"><svg xmlns="http://www.w3.org/2000/svg" viewBox="20 -448 535 512" data-icon="fa-light-star" preserveAspectRatio="xMidYMid"><path d="M528.1 -276.5L382 -297.8L316.7 -430.2C305 -453.8 271.1 -454.1 259.3 -430.2L194 -297.8L47.9 -276.5C21.7 -272.7 11.2 -240.4 30.2 -221.9L135.9 -118.9L110.9 26.6C106.4 52.9 134.1 72.6 157.3 60.3L288 -8.4L418.7 60.3C441.9 72.5 469.6 52.9 465.1 26.6L440.1 -118.9L545.8 -221.9C564.8 -240.4 554.3 -272.7 528.1 -276.5zM405.8 -130.1L433.6 31.9L288 -44.5L142.5 32L170.3 -130L52.5 -244.9L215.2 -268.5L288 -416L360.8 -268.5L523.5 -244.9L405.8 -130.1z"></path></svg></figure><div class="ed-element ed-container boxes-box-inner" id="ed-454689787"><div class="inner"><div class="ed-element ed-headline custom-theme" id="ed-454689790"><h3>Commitment to Support</h3></div><div class="ed-element ed-text custom-theme" id="ed-454689793"><p><span style="color: rgb(0, 0, 0);">Our team provides ongoing support and training to ensure that Medocs integrates seamlessly into your practice, maximizing its impact on your productivity and patient care.</span></p></div></div></div></div></div></div></div><div class="ed-element ed-headline custom-theme animation-initial" style="opacity: 1;" id="ed-468017109" data-animation="{&quot;type&quot;:&quot;move-left-to-right&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><h1><span class="color-default">Advanced Features for Effortless Healthcare Documentation</span></h1></div><div class="ed-element ed-container wv-boxed wv-spacer preset-text-image-overlap-default animation-initial" style="opacity: 1;" id="ed-468007448" data-animation="{&quot;type&quot;:&quot;move-right-to-left&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><div class="inner"><div class="ed-element ed-container wv-overflow_visible offset-box text-image-overlap-box" id="ed-468007451"><div class="inner"><div class="ed-element ed-headline custom-theme" id="ed-468007454"><h2><span style="color: rgb(0, 0, 0);">Ambient Listening Technology</span></h2></div><div class="ed-element ed-text custom-theme" id="ed-468007457"><p><span style="color: rgb(0, 0, 0);">Medocs uses ambient listening technology to intelligently capture real-time conversations between healthcare providers and patients, ensuring accurate documentation without manual input.</span></p></div></div></div><figure class="ed-element ed-image wv-overflow_hidden offset-box text-image-overlap-image" id="ed-468007460"><img src="data:image/svg+xml,%3Csvg%20width='1024'%20viewBox='0%200%201024%20658.8426395939086'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='1024'%20height='658.8426395939086'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E" alt="" class="ed-lazyload" style="object-fit: cover;" data-src="./images/1024/12226855/Capture-front.png"></figure></div></div><div class="ed-element ed-container wv-boxed wv-spacer preset-text-image-overlap-default animation-initial" style="opacity: 1;" id="ed-547457687" data-animation="{&quot;type&quot;:&quot;move-right-to-left&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><div class="inner"><div class="ed-element ed-container wv-overflow_visible offset-box text-image-overlap-box" id="ed-547457690"><div class="inner"><div class="ed-element ed-headline custom-theme" id="ed-547457693"><h2><span style="color: rgb(0, 0, 0);">Multi-Language Support</span></h2></div><div class="ed-element ed-text custom-theme" id="ed-547457696"><p><span style="color: rgb(6, 6, 6);">Medocs supports over 40 languages across 130 countries, enabling seamless recording of doctor-patient conversations in the language they are most comfortable with. These recordings are then transcribed and converted into detailed reports in English, ensuring accurate and consistent documentation for global use.</span></p></div></div></div><figure class="ed-element ed-image wv-overflow_hidden offset-box text-image-overlap-image" id="ed-547457699"><img src="data:image/svg+xml,%3Csvg%20width='970'%20viewBox='0%200%20970%20679'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='970'%20height='679'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E" alt="" class="ed-lazyload" style="object-fit: cover;" data-src="./images/970/13481978/1.jpg"></figure></div></div><div class="ed-element ed-container wv-boxed wv-spacer preset-text-image-overlap-default animation-initial" style="opacity: 1;" id="ed-468017112" data-animation="{&quot;type&quot;:&quot;move-left-to-right&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><div class="inner"><div class="ed-element ed-container offset-box text-image-overlap-box wv-overflow_visible" id="ed-468017115"><div class="inner"><div class="ed-element ed-headline custom-theme" id="ed-468017118"><h2><span style="color: rgb(0, 0, 0);">AI-Driven Transcription</span></h2></div><div class="ed-element ed-text custom-theme" id="ed-468017121"><p><span style="color: rgb(0, 0, 0);">Medocs automatically transcribes conversations with advanced speech recognition, converting them into precise, structured clinical notes that can be easily integrated into your EHR.</span></p></div></div></div><figure class="ed-element ed-image wv-overflow_hidden offset-box text-image-overlap-image" id="ed-468017124"><img src="data:image/svg+xml,%3Csvg%20width='1024'%20viewBox='0%200%201024%20682.8'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='1024'%20height='682.8'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E" alt="" class="ed-lazyload" style="object-fit: cover;" data-src="./images/1024/12223676/vecteezy_ai-generated-ai-circuit-board-technology-background_37348385-scaled.jpg"></figure></div></div><div class="ed-element ed-container wv-boxed wv-spacer preset-text-image-overlap-default animation-initial" style="opacity: 1;" id="ed-468017127" data-animation="{&quot;type&quot;:&quot;move-right-to-left&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><div class="inner"><div class="ed-element ed-container wv-overflow_visible offset-box text-image-overlap-box" id="ed-468017130"><div class="inner"><div class="ed-element ed-headline custom-theme" id="ed-468017133"><h2><span style="color: rgb(0, 0, 0);">EHR Integration</span></h2></div><div class="ed-element ed-text custom-theme" id="ed-468017136"><p><span style="color: rgb(0, 0, 0);">Medocs seamlessly integrates with your existing Electronic Health Record (EHR) system, enabling quick and easy transfer of notes and summaries into your patient records.</span></p></div></div></div><figure class="ed-element ed-image wv-overflow_hidden offset-box text-image-overlap-image" id="ed-468017139"><img src="data:image/svg+xml,%3Csvg%20width='1024'%20viewBox='0%200%201024%202017.6913319238902'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='1024'%20height='2017.6913319238902'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E" alt="" class="ed-lazyload" style="object-fit: cover;" data-src="./images/1024/12259195/share-portrait.png"></figure></div></div><div class="ed-element ed-container wv-boxed wv-spacer preset-text-image-overlap-default animation-initial" style="opacity: 1;" id="ed-468017635" data-animation="{&quot;type&quot;:&quot;move-left-to-right&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><div class="inner"><div class="ed-element ed-container wv-overflow_visible offset-box text-image-overlap-box" id="ed-468017638"><div class="inner"><div class="ed-element ed-headline custom-theme" id="ed-468017641"><h2><span style="color: rgb(0, 0, 0);">Customizable Templates</span></h2></div><div class="ed-element ed-text custom-theme" id="ed-468017644"><p><span style="color: rgb(0, 0, 0);">Choose from a wide variety of customizable templates that suit your specific medical specialty, ensuring the generated notes meet your exact documentation needs.</span></p></div></div></div><figure class="ed-element ed-image wv-overflow_hidden offset-box text-image-overlap-image" id="ed-468017647"><img src="data:image/svg+xml,%3Csvg%20width='1024'%20viewBox='0%200%201024%202017.6913319238902'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='1024'%20height='2017.6913319238902'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E" alt="" class="ed-lazyload" style="object-fit: cover;" data-src="./images/1024/12259205/reports-portrait.png"></figure></div></div><div class="ed-element ed-container wv-boxed wv-spacer preset-text-image-overlap-default animation-initial" style="opacity: 1;" id="ed-468114020" data-animation="{&quot;type&quot;:&quot;move-right-to-left&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><div class="inner"><div class="ed-element ed-container wv-overflow_visible offset-box text-image-overlap-box" id="ed-468114023"><div class="inner"><div class="ed-element ed-headline custom-theme" id="ed-468114026"><h2><span style="color: rgb(0, 0, 0);">Real-Time Summaries</span></h2></div><div class="ed-element ed-text custom-theme" id="ed-468114029"><p><span style="color: rgb(0, 0, 0);">Medocs provides real-time, AI-generated summaries, allowing healthcare providers to review and refine patient interactions instantly without waiting for manual transcription.</span></p></div></div></div><figure class="ed-element ed-image wv-overflow_hidden offset-box text-image-overlap-image" id="ed-468114032"><img src="data:image/svg+xml,%3Csvg%20width='1024'%20viewBox='0%200%201024%201024'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='1024'%20height='1024'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E" alt="" class="ed-lazyload" style="object-fit: cover;" data-src="./images/1024/12226769/Capture-front.png"></figure></div></div><div class="ed-element ed-container preset-text-image-overlap-default wv-boxed wv-spacer" id="ed-468114035"><div class="inner"><div class="ed-element ed-container wv-overflow_visible offset-box text-image-overlap-box wv-boxed" id="ed-468114038"><div class="inner"><div class="ed-element ed-headline custom-theme" id="ed-468114041"><h2><span style="color: rgb(0, 0, 0);">Privacy and Security</span></h2></div><div class="ed-element ed-text custom-theme" id="ed-468114044"><p><span style="color: rgb(0, 0, 0);">Medocs adheres to the highest standards of HIPAA compliance and data security, ensuring that all patient data is handled with the utmost care and confidentiality.</span></p></div></div></div><figure class="ed-element ed-image offset-box text-image-overlap-image wv-overflow_visible z-index-high" id="ed-468114047"><img src="data:image/svg+xml,%3Csvg%20width='500'%20viewBox='0%200%20500%20500'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='500'%20height='500'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E" alt="" class="ed-lazyload" style="object-fit: cover;" data-src="./images/500/12488450/HIPAA-Compliant-1024x1024-removebg-preview-Copy.png"></figure></div></div><div class="ed-element ed-container wv-boxed wv-spacer" id="ed-450729157"><div class="background"><figure class="ed-element ed-image wv-bg" id="ed-450729211"><div class="background-image-holder ed-lazyload" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width='800'%20viewBox='0%200%20800%201199.760047990402'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='800'%20height='1199.760047990402'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E&quot;);" data-background="url(&quot;./images/1680/2146878/rawpixel-com-600778-unsplash.jpg&quot;)"></div></figure></div><div class="overlay" style="background-color: rgb(18, 166, 222); opacity: 0.8;"></div><div class="inner" data-parallax-amount="50" id="appointment"><div class="ed-element ed-html" id="ed-578707820"><div id="ed-450729166" class="custom-demo-form-container">
+    <h3 style="color:#fff">Experience medocs' powerful features in actions</h3>
+    <h2 style="color:#fff"><b>Schedule a Demo</b></h2>
+    <form id="customDemoForm">
+        <input type="text" id="customName" placeholder="Your Name" required="">
+        <input type="email" id="customEmail" placeholder="Your Email" required="">
+        <input type="text" id="customPhone" placeholder="Phone Number" required="">
+        <textarea id="customMessage" placeholder="Your Message"></textarea>
+        <input type="date" id="customDate" required="">
+        <div id="customSlotLoader" style="display: none; text-align: center;">
+            <span>Loading slots...</span>
+        </div>
+
+        <select id="customTimeSlot" required=""><option>No slots available</option></select>
+        <button type="submit" class="custom-demo-btn">Book Demo</button>
+        <div id="customLoader" class="custom-loader" style="display: none;"></div>
+    </form>
+    <p style="text-align:center;" id="customResponse"></p>
+</div>
+
+
+</div></div></div><div class="ed-element ed-container wv-boxed wv-spacer full-width bg-user-1" id="ed-450729115"><div class="inner" id="team"><div class="ed-element ed-container wv-boxed wv-spacer preset-image-accordion-default" id="ed-450729118"><div class="inner"><div class="ed-element ed-container wv-boxed wv-spacer full-width bg-user-1" id="ed-467996822"><div class="inner" id="services"><div class="ed-element ed-headline custom-theme animation-initial" style="opacity: 1;" id="ed-467996825" data-animation="{&quot;type&quot;:&quot;move-left-to-right&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:true,&quot;duration&quot;:&quot;.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;scroll&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;&quot;,&quot;hide&quot;:&quot;&quot;}}}"><h1>Frequently Asked Questions</h1></div><div class="ed-element ed-container accordion wv-boxed wv-spacer preset-accordion-columns" id="ed-467996828"><div class="inner"><div class="ed-element ed-headline custom-theme accordion-trigger" id="ed-467996831"><h3><a class="wv-link-elm active" href="#!next" aria-controls="ed-467996834" role="button" aria-label="Trigger 1" aria-expanded="true">How does Medocs work with my current EHR system?</a></h3></div><div class="ed-element ed-container accordion-content" id="ed-467996834" data-animation="{&quot;type&quot;:&quot;slide&quot;,&quot;initial&quot;:&quot;show&quot;,&quot;keepHeight&quot;:false,&quot;duration&quot;:&quot;0.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;accordion&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;hide&quot;,&quot;hide&quot;:&quot;hide&quot;}}}"><div class="inner"><div class="ed-element ed-container full-width" style="margin-bottom: 25px;" id="ed-467996837"><div class="background"><figure class="ed-element ed-image wv-bg" id="ed-468000449"><div class="background-image-holder ed-lazyload" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width='1200'%20viewBox='0%200%201200%20628'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='1200'%20height='628'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E&quot;);" data-background="url(&quot;./images/1200/12223743/EHR-Data-Migration.webp&quot;)"></div></figure></div><div class="inner">&nbsp;</div></div><div class="ed-element ed-headline custom-theme" id="ed-467996843"><h2>How does Medocs work with my current EHR system?</h2></div><div class="ed-element ed-text custom-theme" id="ed-467996846"><p style="text-align: justify;">Medocs integrates effortlessly with most existing EHR platforms, allowing for seamless note generation and transfer of patient data.</p></div></div></div><div class="ed-element ed-headline custom-theme accordion-trigger" id="ed-467996849"><h3><a class="wv-link-elm active" href="#!next" aria-controls="ed-467996852" role="button" aria-label="Trigger 2" aria-expanded="false">Is Medocs HIPAA-compliant?</a></h3></div><div class="ed-element ed-container accordion-content" id="ed-467996852" data-animation="{&quot;type&quot;:&quot;slide&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:false,&quot;duration&quot;:&quot;0.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;accordion&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;hide&quot;,&quot;hide&quot;:&quot;hide&quot;}}}"><div class="inner"><div class="ed-element ed-container" style="margin-bottom: 25px;" id="ed-467996855"><div class="background"><figure class="ed-element ed-image wv-bg" id="ed-467996858"><div class="background-image-holder ed-lazyload" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width='1214'%20viewBox='0%200%201214%20495.99999999999994'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='1214'%20height='495.99999999999994'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E&quot;);" data-background="url(&quot;./images/1214/12224346/66ac32722f1cbd2dfa208096_638a9b45de35900ac24661a6_badge-hipaa.png&quot;)"></div></figure></div><div class="inner">&nbsp;</div></div><div class="ed-element ed-headline custom-theme" id="ed-467996861"><h2>Is Medocs HIPAA-compliant?</h2></div><div class="ed-element ed-text custom-theme" id="ed-467996864"><p>Yes, Medocs is fully HIPAA-compliant, ensuring that all patient information is kept confidential and secure at all times.</p></div></div></div><div class="ed-element ed-headline custom-theme accordion-trigger" id="ed-467996867"><h3><a class="wv-link-elm active" href="#!next" aria-controls="ed-467996870" role="button" aria-label="Trigger 3" aria-expanded="false">Can I customize the notes Medocs generates?</a></h3></div><div class="ed-element ed-container accordion-content" id="ed-467996870" data-animation="{&quot;type&quot;:&quot;slide&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:false,&quot;duration&quot;:&quot;0.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;accordion&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;hide&quot;,&quot;hide&quot;:&quot;hide&quot;}}}"><div class="inner"><div class="ed-element ed-container full-width" style="margin-bottom: 25px;" id="ed-467996873"><div class="background"><figure class="ed-element ed-image wv-bg" id="ed-467996876"><div class="background-image-holder ed-lazyload" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width='1920'%20viewBox='0%200%201920%202880'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='1920'%20height='2880'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E&quot;);" data-background="url(&quot;./images/1920/12223697/a-hair-mineral-analysis-report-displayed-on-a-clipboard-photographed-from-above-with-a-pen-nearby.jpeg&quot;)"></div></figure></div><div class="inner">&nbsp;</div></div><div class="ed-element ed-headline custom-theme" id="ed-467996879"><h2>Can I customize the notes Medocs generates?</h2></div><div class="ed-element ed-text custom-theme" id="ed-467996882"><p>Absolutely! Medocs allows you to tailor templates and documentation styles to fit the specific needs of your practice or specialty.</p></div></div></div><div class="ed-element ed-headline custom-theme accordion-trigger" id="ed-467996885"><h3><a class="wv-link-elm active" href="#!next" aria-controls="ed-467996888" role="button" aria-label="Trigger 4" aria-expanded="false">How does Medocs handle multiple users in a practice?</a></h3></div><div class="ed-element ed-container accordion-content" id="ed-467996888" data-animation="{&quot;type&quot;:&quot;slide&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:false,&quot;duration&quot;:&quot;0.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;accordion&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;hide&quot;,&quot;hide&quot;:&quot;hide&quot;}}}"><div class="inner"><div class="ed-element ed-container full-width" style="margin-bottom: 25px;" id="ed-467996891"><div class="background"><figure class="ed-element ed-image wv-bg" id="ed-467996894"><div class="background-image-holder ed-lazyload" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width='946'%20viewBox='0%200%20946%20537'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='946'%20height='537'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E&quot;);" data-background="url(&quot;./images/946/12223720/what-is-network-security.png&quot;)"></div></figure></div><div class="inner">&nbsp;</div></div><div class="ed-element ed-headline custom-theme" id="ed-467996897"><h2>How does Medocs handle multiple users in a practice?</h2></div><div class="ed-element ed-text custom-theme" id="ed-467996900"><p>Medocs supports multiple users within a practice, offering role-based access and management tools to ensure the smooth collaboration of your healthcare team.</p></div></div></div><div class="ed-element ed-headline custom-theme accordion-trigger" id="ed-467996903"><h3><a class="wv-link-elm active" href="#!next" aria-controls="ed-467996906" role="button" aria-label="Trigger 5" aria-expanded="false">Can I try Medocs before committing to a plan?</a></h3></div><div class="ed-element ed-container accordion-content" id="ed-467996906" data-animation="{&quot;type&quot;:&quot;slide&quot;,&quot;initial&quot;:&quot;hide&quot;,&quot;keepHeight&quot;:false,&quot;duration&quot;:&quot;0.5s&quot;,&quot;delay&quot;:&quot;0s&quot;,&quot;overlay&quot;:{&quot;width&quot;:&quot;auto&quot;},&quot;trigger&quot;:&quot;&quot;,&quot;group&quot;:{&quot;name&quot;:&quot;accordion&quot;,&quot;behavior&quot;:{&quot;show&quot;:&quot;hide&quot;,&quot;hide&quot;:&quot;hide&quot;}}}"><div class="inner"><div class="ed-element ed-container full-width" style="margin-bottom: 25px;" id="ed-467996909"><div class="background"><figure class="ed-element ed-image wv-bg" id="ed-467996912"><div class="background-image-holder ed-lazyload" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width='1200'%20viewBox='0%200%201200%20630'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='1200'%20height='630'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E&quot;);" data-background="url(&quot;./images/1200/12223749/670400ba15b6db95be6248df_SummaryReportMethod.png&quot;)"></div></figure></div><div class="inner">&nbsp;</div></div><div class="ed-element ed-headline custom-theme" id="ed-467996915"><h2>Can I try Medocs before committing to a plan?</h2></div><div class="ed-element ed-text custom-theme" id="ed-467996918"><p>Yes, we offer free trials and demos for you to explore Medocs' capabilities before you decide to subscribe.</p></div></div></div></div></div></div></div></div></div></div></div><div class="ed-element ed-container full-width wv-boxed wv-spacer parallax preset-callout-default" id="ed-450729091"><div class="background"><figure class="ed-element ed-image wv-bg" id="ed-450729094"><div class="background-image-holder ed-lazyload" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width='800'%20viewBox='0%200%20800%20547.919876733436'%20xmlns='http://www.w3.org/2000/svg'%3E%3Crect%20width='800'%20height='547.919876733436'%20style='fill:%20%23F7F7F7'%20/%3E%3C/svg%3E&quot;);" data-background="url(&quot;./images/1680/2145819/luis-melendez-530478-unsplash.jpg&quot;)"></div></figure></div><div class="overlay" style="background-color: rgb(18, 166, 222); opacity: 0.8;"></div><div class="inner" data-parallax-amount="50" id="contact"><div class="ed-element ed-container box" id="ed-450729097"><div class="inner"><figure class="ed-element ed-icon center" id="ed-450729100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="62 -731 875 761" data-icon="ico-speech-comments" preserveAspectRatio="xMidYMid" style="width: 50px; height: 43px;"><path d="M774.5 -214c63.1 -74.8 86.7 -161 63.3 -256.8 -20.9 -85.8 -74.4 -149 -148.1 -195C601 -721.1 503.9 -740.1 400.5 -727.1 300.6 -714.5 213.8 -674.6 146.4 -598.6 79.6 -523.4 54 -435.6 77.9 -336.8 87.5 -297.4 101.3 -259 103.7 -218 106.8 -167.2 99.8 -118.5 74.9 -73.3 71.1 -66.4 66.8 -59.8 62.5 -52.8c1.7 0.6 2.5 1.1 3.2 1 65.8 -8.7 128 -27.9 184 -64.4 5.3 -3.5 9.5 -5.5 16.4 -2.2C352.8 -77.8 443.6 -65.9 537.8 -82.7c93.8 -16.8 174.8 -57.8 236.7 -131.3zM933 18.2c-5.5 -6.9 -11.2 -13.9 -15.2 -21.6 -25.4 -49.3 -22.7 -100.3 -5.9 -150.9 17.8 -53.7 15.6 -105.8 -8.1 -156.8 -6.6 -14.1 -15.6 -27.1 -24.9 -43.2 -1.8 6.8 -2.7 9.7 -3.3 12.7 -8.3 42.8 -24.8 82.3 -49.5 118C755.5 -121.2 655.4 -66.4 534.8 -46c-21.4 3.6 -43.2 4.8 -65.3 7.2 0.8 1.2 1.3 2.3 2.1 2.8 5.5 3.6 10.8 7.3 16.6 10.4C580.7 24 675.4 27.8 772.3 -11.5c3.9 -1.6 10.1 -2 13.4 -0 31.3 18.8 65 31.2 100.6 38.2 13.8 2.7 28 4.4 42 4.1 11 -0.2 11.6 -4 4.7 -12.6z" style="fill: rgb(255, 255, 255);"></path></svg></figure><div class="ed-element ed-headline custom-theme" id="ed-450729103"><h2 class="center ">Do you have any Questions?</h2></div><div class="ed-element ed-headline custom-theme" id="ed-450729106"><h3 class="center ">WE ARE HAPPY TO HELP - MAKE AN APPOINTMENT!</h3></div><div class="ed-element ed-spacer" id="ed-450729109"><div style="height: 20px;" class="space"></div></div><div class="ed-element ed-button scroll center custom-theme" id="ed-450729112"><a class="button button-default button-color-default" href="#appointment">Write us here</a></div></div></div></div></div><div class="ed-element ed-container preset-footer-hel-default" id="ed-450729043"><div class="inner"><div class="ed-element ed-container flex-align-items-stretch wv-boxed footer-hel-content wv-spacer" id="ed-450729046"><div class="inner"><div class="ed-element ed-container footer-hel-box" id="ed-450729049"><div class="inner"><div class="ed-element ed-headline custom-theme" id="ed-450729052"><h2 class="left"><span class="fr-marker" data-id="0" data-type="false" style="display: inline-block; line-height: 0;">​</span><span class="fr-marker" data-id="0" data-type="true" style="display: inline-block; line-height: 0;">​</span>Contact us</h2></div><div class="ed-element ed-headline custom-theme" id="ed-450729055"><h3 class="left">We are happy to help</h3></div><div class="ed-element ed-text custom-theme" id="ed-450729058"><p style="text-align: left;"><i class="svg-text-icon ico-home fr-deletable" style="box-sizing: inherit; outline-style: none; outline-width: initial; outline-color: var(--color-highlight); user-select: all; pointer-events: auto; display: inline-block; line-height: 1; vertical-align: baseline; color: rgb(0, 0, 0); text-align: center; font-size: 16px; width: 25.6px; margin-left: -25.6px; position: relative; cursor: text; font-family: &quot;Noto Sans JP&quot;; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 300; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(240, 242, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;" contenteditable="false"><span style="font-size: 24px;"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="62 -724 874 748"><path d="M925.7 -427.2l-96.2 -67.7c1 -2.7 1.3 -6 1.2 -9.2 -0.1 -23.4 0 -46.9 0 -70.3s0.1 -46.9 0 -70.3c-0.1 -13 -3.9 -17.1 -16.8 -17.1 -30.7 -0.1 -61.5 -0.1 -92.2 -0C709 -661.7 705.1 -657.6 705 -644.5l-0.1 62 -190.3 -134c-14.1 -9.9 -15.2 -10 -29 -0.3L242.3 -545.5C186 -505.9 129.5 -466.2 73.1 -426.4c-11.4 8 -13.4 13.9 -7 23.2 18.4 26.8 36.9 53.5 55.7 79.9 2.6 3.6 7.2 5.7 11.3 8.9 5.2 -3 9.5 -5.2 13.4 -7.9l20.4 -14.4c-0.8 2.7 -1.2 5.7 -1.2 9 0.2 110.1 0.1 220.3 0.2 330.4 0 17.4 3.9 21.4 21 21.4h207.9c17.7 -0 20.7 -3.2 20.7 -21.2v-294.2h168.9V4.3c0 16.1 3.6 19.8 19.2 19.8h208.9c15.5 -0 19.5 -4.1 19.5 -19.6 0 -111.8 -0.1 -223.6 0.1 -335.3 0 -2.5 -0.3 -4.7 -0.7 -6.8l22.2 15.7c13 9.2 18.1 8.2 27.1 -4.7l50.1 -72c10 -14.2 9.1 -18.6 -5.1 -28.6z"></path></svg> </span></i><a href="/" title="">Medocs.ai</a></p><p style="text-align: left;"><span class="fa fa-mobile fr-deletable" style="font-size: 16px; outline-color: var(--color-highlight); color: rgb(0, 0, 0); text-align: center; width: 25.6px; margin-left: -25.6px; position: relative;" contenteditable="false"></span><span class="fa fa-envelope fr-deletable" style="font-size: 16px; outline-color: var(--color-highlight); color: rgb(0, 0, 0); text-align: center; width: 25.6px; margin-left: -25.6px; position: relative;" contenteditable="false"></span><a data-bind="customer.email" href="mailto:contact@medocs.ai">contact@medocs.ai</a></p><p style="text-align: left;"><i class="svg-text-icon ico-ui-lock fr-deletable" contenteditable="false"><span style="font-size: 24px;"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="59 -850 880 1000"><path d="M782 -507.1C771.3 -698.8 649.3 -850 499.9 -850 350.5 -850 228.5 -698.8 217.8 -507.1 127 -482.8 59.5 -399.7 59.5 -301.4V-63.2c0 117.3 96 213.2 213.3 213.2h454.3c117.3 -0 213.3 -95.9 213.3 -213.2v-238.2c-0.1 -98.3 -67.6 -181.4 -158.4 -205.7zM551.6 -140.9V-72.6C551.6 -13.9 528.3 34 499.9 34c-28.4 -0 -51.7 -47.9 -51.7 -106.6v-68.3c-41.6 -19.5 -70.5 -61.4 -70.5 -110.4 0 -67.6 54.7 -122.2 122.2 -122.2S622.1 -318.8 622.1 -251.3c0.1 49 -28.9 90.9 -70.5 110.4zM337 -514.6c7.5 -115.3 77.5 -205.7 162.9 -205.7S655.3 -629.9 662.8 -514.6H337z"></path></svg> </span></i><a href="/privacy" title="" target="_blank">Privacy Policy</a></p><p style="text-align: left;"><i class="svg-text-icon ico-papers fr-deletable" contenteditable="false"><span style="font-size: 24px;"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="142 -787 716 875"><path d="M810.1 -688.4h-25.5V-59.8c0 41.7 -34 75.8 -75.8 75.8H243.4v23.3c0 26.7 21.7 48.3 48.3 48.3H810c26.7 -0 48.3 -21.6 48.3 -48.3v-679.5c0 -26.6 -21.5 -48.3 -48.2 -48.2zM708.7 -11.6c26.7 -0 48.3 -21.6 48.3 -48.3v-679.3c0 -26.7 -21.7 -48.3 -48.3 -48.3H363.4v16c0.2 1.7 0.3 3.4 0.3 5.1V-634c0 37.5 -30.5 68.1 -68.1 68.1H163.2c-1.4 -0 -2.8 -0.1 -4.2 -0.2h-16.8V-59.9c0 26.7 21.7 48.3 48.3 48.3h518.2zM290.4 -461.9h338c12.6 -0 22.8 10.2 22.8 22.8S641 -416.3 628.4 -416.3h-338c-12.6 -0 -22.8 -10.2 -22.8 -22.8s10.2 -22.8 22.8 -22.8zm0 123.8h338c12.6 -0 22.8 10.2 22.8 22.8 0 12.6 -10.2 22.8 -22.8 22.8h-338c-12.6 -0 -22.8 -10.2 -22.8 -22.8s10.2 -22.8 22.8 -22.8zM267.5 -198.7c0 -12.6 10.2 -22.8 22.8 -22.8h169c12.6 -0 22.8 10.2 22.8 22.8s-10.3 22.8 -22.9 22.8h-169c-12.4 -0 -22.7 -10.2 -22.7 -22.8zM163.2 -593.3h132.7c22.1 -0.2 40 -18.1 40.2 -40.2v-132.9c0 -12.2 -10.1 -20.4 -20.5 -20.4 -5 -0 -10.1 1.8 -14.3 6L148.7 -628.1c-12.8 12.8 -3.7 34.8 14.5 34.8z"></path></svg> </span></i><a href="/terms-of-use" title="" target="_blank">Terms of Use</a></p></div></div></div><div class="ed-element ed-form-container footer-hel-box" id="ed-450729061"><form method="POST" action=""><div class="ed-element ed-form-input" id="ed-450729064"><input placeholder="Company" type="text" name="form_450729061[ed-f-450729064]" value="" id="form_450729061_ed-f-450729064"></div><div class="ed-element ed-form-input" id="ed-450729067"><input placeholder="Name" required="required" type="text" name="form_450729061[ed-f-450729067]" value="" id="form_450729061_ed-f-450729067"></div><div class="ed-element ed-form-input" id="ed-450729070"><input placeholder="Phone" required="required" type="text" name="form_450729061[ed-f-450729070]" value="" id="form_450729061_ed-f-450729070"></div><div class="ed-element ed-form-email" id="ed-450729073"><input placeholder="E-Mail" required="required" type="email" name="form_450729061[ed-f-450729073]" value="" id="form_450729061_ed-f-450729073"></div><div class="ed-element ed-form-textarea" id="ed-450729076"><textarea rows="4" cols="30" placeholder="Message" name="form_450729061[ed-f-450729076]" id="form_450729061_ed-f-450729076"></textarea></div><div class="ed-element ed-form-checkbox v-center privacy" id="ed-450729079"><ul class="checkbox_list"><li><input name="form_450729061[ed-f-450729079][]" type="checkbox" value="0" id="form_450729061_ed-f-450729079_0" required="required">&nbsp;<label for="form_450729061_ed-f-450729079_0"><p><a href="/privacy" title="">I have read and understand the privacy policy.</a></p></label></li></ul></div><div class="ed-element ed-form-captcha" id="ed-450729082"><div class="image"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAAAoCAYAAAAsTRLGAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAALElEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAwK8BV6gAAdX6zPcAAAAASUVORK5CYII=" alt=""></div><div class="input"><input placeholder="Captcha" required="required" type="text" name="form_450729061[ed-f-450729082][text]" value="" id="form_450729061_ed-f-450729082_text"><input type="hidden" name="form_450729061[ed-f-450729082][hash]" id="form_450729061_ed-f-450729082_hash" value="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"></div><div class="regenerate"><a href="#" class="regenerate">Nicht lesbar? Neu generieren</a></div></div><div class="ed-element ed-form-button custom-theme" id="ed-450729085"><button type="submit" value="Submit" name="form_7946778[ed-f-7946799]" id="form_7946778_ed-f-7946799">Submit</button></div><input type="checkbox" name="news" checked="checked" value="1" style="display: none;"><input type="checkbox" name="tos" value="1" style="display: none;"></form></div></div></div></div></div>
+
+
+<style>
+.custom-slider-viewport {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.custom-slider-track {
+  display: flex;
+  gap: 20px;
+  animation: scrollSlider 80s linear infinite;
+  width: max-content;
+}
+
+.custom-testimonial-card {
+  flex: 0 0 auto;
+  width: 300px;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.custom-testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+@keyframes scrollSlider {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+</style>
+
+
+<style>
+/* Animated Request Demo button for product cards */
+.product-demo-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(90deg, #4e73df, #6a00ff, #ff0080);
+  background-size: 200% 200%;
+  animation: productGradient 6s ease infinite;
+  box-shadow: 0 10px 22px rgba(78, 115, 223, 0.25);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.product-demo-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(78, 115, 223, 0.35);
+}
+
+.product-demo-btn .arrow {
+  display: inline-block;
+  transition: transform .2s ease;
+}
+
+.product-demo-btn:hover .arrow {
+  transform: translateX(4px);
+}
+
+@keyframes productGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Button container under cards */
+.product-demo-cta {
+  margin-top: 14px;
+  text-align: center;
+}
+</style>
+
+
+<script>
+
+function animateNumber(element, target, suffix = "") {
+  return new Promise(resolve => {
+    target = Number(target) || 0;
+    let count = 0;
+    const frames = 80;
+    const increment = target > frames ? target / frames : 1;
+
+    function update() {
+      count += increment;
+      if (count < target) {
+        element.textContent = Math.floor(count).toLocaleString() + suffix;
+        requestAnimationFrame(update);
+      } else {
+        element.textContent = Math.round(target).toLocaleString() + suffix;
+        resolve();
+      }
+    }
+    update();
+  });
+}
+
+function animateCounters() {
+  document.querySelectorAll('.metric h2[data-count]').forEach(async el => {
+    if (el.getAttribute('data-animated') === 'true') return;
+    const raw = el.getAttribute('data-count');
+    const target = Number(raw) || 0;
+    const suffix = el.getAttribute('data-suffix') || "";
+    if (target <= 0) return;
+
+    await animateNumber(el, target, suffix);
+    el.setAttribute('data-animated', 'true');
+  });
+}
+
+async function loadScribesCount() {
+  const url = 'https://app.medocs.ai/home/GetCountOfScribes';
+  try {
+    const response = await fetch(url, { cache: 'no-store' });
+    if (!response.ok) throw new Error('Network response not ok: ' + response.status);
+
+    let data;
+    const ct = response.headers.get('content-type') || '';
+    if (ct.includes('application/json')) {
+      data = await response.json();
+    } else {
+      const txt = await response.text();
+      try { data = JSON.parse(txt); } catch { data = Number(txt); }
+    }
+
+    const count = Number(data) || 0;
+    const el = document.getElementById('scribes-count');
+    if (el) {
+      el.setAttribute('data-count', String(count));
+      // allow it to animate (even if it had animated before)
+      el.removeAttribute('data-animated');
+      // don't force text back to 0+, just try to animate if visible
+      handleVisibility();
+    }
+  } catch (err) {
+    console.error('Failed to load scribes count:', err);
+  }
+}
+
+function handleVisibility() {
+  const section = document.querySelector('.metrics-bar');
+  if (!section) return;
+  const rect = section.getBoundingClientRect();
+  if (rect.top < window.innerHeight && rect.bottom >= 0) {
+    animateCounters();
+  }
+}
+
+
+
+// wire up
+document.addEventListener('DOMContentLoaded', () => {
+ 
+ const track = document.querySelector(".custom-slider-track");
+  if (!track) return;
+
+  // Duplicate the cards only once for smooth infinite loop
+  const items = [...track.children];
+  items.forEach(item => {
+    const clone = item.cloneNode(true);
+    track.appendChild(clone);
+  });
+
+
+
+
+
+    
+  loadScribesCount();
+  handleVisibility();
+});
+window.addEventListener('scroll', handleVisibility, { passive: true });
+window.addEventListener('resize', handleVisibility);
+
+
+
+
+
+   document.addEventListener("DOMContentLoaded", function () {
+      const dateInput = document.getElementById("customDate");
+      const timeSlotSelect = document.getElementById("customTimeSlot");
+
+      dateInput.addEventListener("change", function () {
+          const date = this.value;
+          const timeSlotDropdown = document.getElementById("customTimeSlot");
+          const loader = document.getElementById("customSlotLoader");
+
+          // Show loader & disable dropdown while fetching
+          loader.style.display = "block";
+          timeSlotDropdown.disabled = true;
+          timeSlotDropdown.innerHTML = "<option>Loading...</option>";
+
+          fetch(`https://app.medocs.ai/available-slots/${date}`)
+              .then(response => response.json())
+              .then(slots => {
+                  timeSlotDropdown.innerHTML = "";
+
+                  if (slots.length === 0) {
+                      timeSlotDropdown.innerHTML = "<option>No slots available</option>";
+                  } else {
+                      slots.forEach(slot => {
+                          const option = document.createElement("option");
+                          option.value = slot.split(" -")[0];
+                          option.textContent = slot +" (CST)";
+                          timeSlotDropdown.appendChild(option);
+                      });
+                  }
+              })
+              .catch(error => {
+                  console.error("Error fetching slots:", error);
+                  timeSlotDropdown.innerHTML = "<option>Error loading slots</option>";
+              })
+              .finally(() => {
+                  // Hide loader & enable dropdown after fetching
+                  loader.style.display = "none";
+                  timeSlotDropdown.disabled = false;
+              });
+      });
+
+      document.getElementById("customDemoForm").addEventListener("submit", function (event) {
+          event.preventDefault();
+
+
+
+
+          const submitButton = document.querySelector(".custom-demo-btn");
+          const loader = document.getElementById("customLoader");
+
+          // Show loader and disable button
+          submitButton.disabled = true;
+          loader.style.display = "block";
+
+          const booking = new URLSearchParams({
+              name: document.getElementById("customName").value,
+              email: document.getElementById("customEmail").value,
+              phoneNumber: document.getElementById("customPhone").value,
+              message: document.getElementById("customMessage").value,
+              bookingDate: document.getElementById("customDate").value,
+              timeSlot: document.getElementById("customTimeSlot").value
+          });
+
+          fetch("https://app.medocs.ai/book", {
+              method: "POST",
+              headers: { "Content-Type": "application/x-www-form-urlencoded" },
+              body: booking.toString()
+          })
+              .then(response => response.json())
+              .then(data => {
+                  loader.style.display = "none";
+                  document.getElementById("customResponse").textContent = data.message;
+                  if (data.message == "Demo booked successfully!") { }
+                  else{
+                      submitButton.disabled = false;
+                  }
+              })
+              .catch(error => { console.error("Error booking demo:", error); submitButton.disabled = false; });
+
+
+
+      });
+
+  });
+
+</script>
+
+<script>
+
+ function sendMedocsQuestion() {
+    var q = document.getElementById("medocs-question").value.trim();
+    if(q) {
+      window.location.href = "https://app.medocs.ai/ask-medocs-ai?question=" + encodeURIComponent(q);
+    }
+  }
+
+
+
+
+ 
+</script><script src="./webcard/static/app.bundle.1761590906.js"></script><script src="./js/custom.250213180432.js"></script></body>
+</html>

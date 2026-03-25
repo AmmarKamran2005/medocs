@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "medocs.ai",
+  "Id": "5da2d40c-d089-4cc8-8f74-8b513e3db3ee"
+}

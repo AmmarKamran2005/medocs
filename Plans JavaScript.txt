@@ -1,0 +1,115 @@
+ const plans = {
+    individual: {
+      monthly: [
+        {
+          title: "Starter",
+          price: "$39.99/mo",
+          yearly: "$431.89/yr",
+          link: "https://app.medocs.ai/sign-up",
+          features: ["Up to 75 notes", "2 custom templates", "AI Scribe with multi-language support"]
+        },
+        {
+          title: "Professional",
+          price: "$49.99/mo",
+          yearly: "$539.89/yr",
+          link: "https://app.medocs.ai/sign-up",
+          features: ["Up to 300 notes", "5 custom templates", "AI Scribe with multi-language support"]
+        },
+        {
+          title: "Premium",
+          price: "$69.99/mo",
+          yearly: "$755.89/yr",
+          link: "https://app.medocs.ai/sign-up",
+          features: ["Unlimited notes", "15 custom templates", "Priority support"]
+        }
+      ],
+      yearly: []
+    },
+    team: {
+      monthly: [
+        {
+          title: "Team",
+          price: "$399.00/mo",
+          yearly: "$4,309.20/yr",
+          link: "https://medocs.ai/#ed-450729157",
+          features: ["Up to 4,000 notes/month", "15 custom templates", "Priority support"]
+        },
+        {
+          title: "Team Plus",
+          price: "$499.00/mo",
+          yearly: "$5,389.20/yr",
+          link: "https://medocs.ai/#ed-450729157",
+          features: ["Unlimited notes/month", "50 custom templates", "Priority support"]
+        }
+      ],
+      yearly: []
+    },
+    custom: {
+      monthly: [
+        {
+          title: "Enterprise Elite",
+          price: "Custom Pricing",
+          yearly: "",
+          link: "https://medocs.ai/#ed-450729157",
+          features: ["Unlimited scribe-notes", "EHR integration", "Admin dashboard", "Dedicated support", "Custom onboarding & SLA"]
+        }
+      ]
+    }
+  };
+
+  ['individual', 'team'].forEach(type => {
+    plans[type].yearly = plans[type].monthly.map(p => ({
+      ...p,
+      price: p.yearly || p.price
+    }));
+  });
+
+  const planButtons = document.querySelectorAll('.pricing-toggle-tab');
+  const billingButtons = document.querySelectorAll('.pricing-billing-tab');
+  const billingSwitch = document.getElementById('pricing-billing-switch');
+  const plansContainer = document.getElementById('pricing-plans-container');
+
+  let selectedType = 'individual';
+  let selectedBilling = 'monthly';
+
+  function renderPlans() {
+    const currentPlans = plans[selectedType]?.[selectedBilling];
+    if (!currentPlans) return;
+    plansContainer.innerHTML = '';
+    currentPlans.forEach(plan => {
+      const card = document.createElement('div');
+      card.className = 'pricing-plan-card';
+      card.innerHTML = `
+        <h3>${plan.title}</h3>
+       
+        <p class="pricing-price">${plan.price}</p>
+        <ul>${plan.features.map(f => `<li>${f}</li>`).join('')}</ul>
+        <a href="${plan.link}" class="pricing-cta ${selectedType}">Choose Plan</a>
+      `;
+      plansContainer.appendChild(card);
+    });
+  }
+
+  planButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      planButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      selectedType = btn.getAttribute('data-type');
+      billingSwitch.style.display = selectedType === 'custom' ? 'none' : 'flex';
+      selectedBilling = 'monthly';
+      billingButtons.forEach(b => b.classList.remove('active'));
+      billingButtons[0].classList.add('active');
+      renderPlans();
+    });
+  });
+
+  billingButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      billingButtons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      selectedBilling = btn.getAttribute('data-billing');
+      renderPlans();
+    });
+  });
+
+  renderPlans();

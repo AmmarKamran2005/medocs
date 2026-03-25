@@ -1,0 +1,1224 @@
+/* ========================================================
+   MEDOCS MODERN REDESIGN — custom-modern.css
+   Loaded AFTER custom.251023234853.css to override styles
+   ======================================================== */
+
+/* ----------------------------------------
+   1. DESIGN TOKENS (CSS Custom Properties)
+   ---------------------------------------- */
+:root {
+  /* Primary Palette */
+  --md-navy:        #0B1B3D;
+  --md-navy-light:  #1A2F5A;
+  --md-teal:        #0077B6;
+  --md-teal-light:  #00A8CC;
+  --md-teal-dark:   #005F8A;
+
+  /* Accent (CTA) */
+  --md-accent:      #00C9A7;
+  --md-accent-hover:#00B396;
+
+  /* Neutrals */
+  --md-white:       #FFFFFF;
+  --md-off-white:   #F7F9FC;
+  --md-gray-50:     #F1F5F9;
+  --md-gray-100:    #E2E8F0;
+  --md-gray-300:    #CBD5E1;
+  --md-gray-500:    #64748B;
+  --md-gray-700:    #334155;
+  --md-gray-900:    #0F172A;
+
+  /* Semantic */
+  --md-success:     #10B981;
+  --md-warning:     #F59E0B;
+  --md-error:       #EF4444;
+
+  /* Shadows */
+  --md-shadow-sm:   0 1px 3px rgba(11,27,61,0.06);
+  --md-shadow-md:   0 4px 12px rgba(11,27,61,0.08);
+  --md-shadow-lg:   0 8px 24px rgba(11,27,61,0.12);
+  --md-shadow-xl:   0 16px 48px rgba(11,27,61,0.16);
+
+  /* Border Radius */
+  --md-radius-sm:   6px;
+  --md-radius-md:   10px;
+  --md-radius-lg:   16px;
+  --md-radius-xl:   24px;
+  --md-radius-full: 999px;
+
+  /* Transitions */
+  --md-transition:  0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ----------------------------------------
+   2. TYPOGRAPHY
+   ---------------------------------------- */
+body,
+.ed-element,
+.ed-text p,
+.ed-headline h1,
+.ed-headline h2,
+.ed-headline h3,
+.ed-headline h4,
+.ed-headline h5,
+.ed-headline h6,
+input, textarea, select, button {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--md-gray-700);
+  background: var(--md-white);
+}
+
+h1, .ed-headline h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--md-navy);
+}
+h2, .ed-headline h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--md-navy);
+}
+h3, .ed-headline h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--md-gray-700);
+}
+h4, .ed-headline h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--md-gray-700);
+}
+h5, .ed-headline h5 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--md-gray-500);
+}
+.ed-text p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--md-gray-700);
+}
+
+/* Heading color overrides (remove inline color:rgb(0,0,0) via specificity) */
+.ed-headline h1 .color-default,
+.ed-headline h2 span[style*="color: rgb(0, 0, 0)"],
+.ed-headline h3 span[style*="color: rgb(0, 0, 0)"],
+.ed-text p span[style*="color: rgb(0, 0, 0)"],
+.ed-text p span[style*="color: rgb(3, 3, 3)"],
+.ed-text p span[style*="color: rgb(6, 6, 6)"] {
+  color: inherit !important;
+}
+
+@media (max-width: 768px) {
+  h1, .ed-headline h1 { font-size: 2rem; }
+  h2, .ed-headline h2 { font-size: 1.5rem; }
+  h3, .ed-headline h3 { font-size: 1.25rem; }
+}
+
+/* ----------------------------------------
+   3. GLOBAL BUTTON SYSTEM
+   ---------------------------------------- */
+.md-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  border-radius: var(--md-radius-full);
+  font-family: 'Inter', sans-serif !important;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all var(--md-transition);
+  border: 2px solid transparent;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+.md-btn:hover { text-decoration: none; }
+
+.md-btn-primary {
+  background: var(--md-teal);
+  color: var(--md-white);
+  border-color: var(--md-teal);
+}
+.md-btn-primary:hover {
+  background: var(--md-teal-dark);
+  border-color: var(--md-teal-dark);
+  color: var(--md-white);
+  transform: translateY(-1px);
+  box-shadow: var(--md-shadow-md);
+}
+
+.md-btn-secondary {
+  background: var(--md-accent);
+  color: var(--md-white);
+  border-color: var(--md-accent);
+}
+.md-btn-secondary:hover {
+  background: var(--md-accent-hover);
+  border-color: var(--md-accent-hover);
+  color: var(--md-white);
+}
+
+.md-btn-ghost {
+  background: transparent;
+  color: var(--md-gray-700);
+  border-color: var(--md-gray-300);
+}
+.md-btn-ghost:hover {
+  border-color: var(--md-teal);
+  color: var(--md-teal);
+}
+
+.md-btn-outline-white {
+  background: transparent;
+  color: var(--md-white);
+  border-color: rgba(255,255,255,0.5);
+}
+.md-btn-outline-white:hover {
+  background: var(--md-white);
+  color: var(--md-navy);
+}
+
+/* Hide old button styles */
+.myButtons { display: none !important; }
+.ask-ai-btn { display: none !important; }
+
+/* ----------------------------------------
+   4. NAVIGATION
+   ---------------------------------------- */
+/* Hide calendar CTA bar */
+#ed-450729034 { display: none !important; }
+
+/* Nav wrapper — solid white, no gradient */
+#ed-889611451 {
+  background: var(--md-white) !important;
+  border-bottom: 1px solid var(--md-gray-100) !important;
+}
+#ed-889611451.sticky {
+  box-shadow: var(--md-shadow-md) !important;
+}
+#ed-889611454 {
+  background: var(--md-white) !important;
+}
+#ed-889611460 {
+  background: var(--md-white) !important;
+}
+#ed-889611466 {
+  background: var(--md-white) !important;
+}
+
+/* Nav menu links */
+.ed-menu ul.menu-level-0 > li > a {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+  color: var(--md-gray-700) !important;
+  transition: color var(--md-transition) !important;
+}
+.ed-menu ul.menu-level-0 > li > a:hover,
+.ed-menu ul.menu-level-0 > li > a.active {
+  color: var(--md-teal) !important;
+}
+
+/* "Become a Partner" nav button */
+.ed-menu ul.menu-level-0 > li > a.button {
+  background: transparent !important;
+  border: 1.5px solid var(--md-teal) !important;
+  color: var(--md-teal) !important;
+  border-radius: var(--md-radius-full) !important;
+  padding: 6px 18px !important;
+  font-weight: 600 !important;
+}
+.ed-menu ul.menu-level-0 > li > a.button:hover {
+  background: var(--md-teal) !important;
+  color: var(--md-white) !important;
+}
+
+/* Mobile menu trigger */
+.menu-trigger-inner,
+.menu-trigger-inner::before,
+.menu-trigger-inner::after {
+  background-color: var(--md-navy) !important;
+}
+
+/* ----------------------------------------
+   5. HERO SECTION
+   ---------------------------------------- */
+#ed-475758073 {
+  background: var(--md-off-white) !important;
+  padding: 20px 0 40px !important;
+}
+
+.md-hero-badge {
+  display: inline-block;
+  background: rgba(0,119,182,0.08);
+  color: var(--md-teal);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: var(--md-radius-full);
+  margin-bottom: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.md-hero-content {
+  padding: 20px 0;
+}
+.md-hero-content h1 {
+  margin-bottom: 16px;
+}
+.md-hero-content p {
+  font-size: 1.15rem;
+  color: var(--md-gray-500);
+  line-height: 1.7;
+}
+
+/* Hero product image */
+#ed-475813655 img {
+  border-radius: var(--md-radius-lg) !important;
+  box-shadow: var(--md-shadow-xl) !important;
+}
+
+/* ----------------------------------------
+   6. METRICS BAR
+   ---------------------------------------- */
+.metrics-bar {
+  background: var(--md-navy) !important;
+  border: none !important;
+  padding: 36px 20px !important;
+}
+.metric h2 {
+  color: var(--md-white) !important;
+  font-size: 2.2rem !important;
+  font-weight: 700 !important;
+}
+.metric p {
+  color: rgba(255,255,255,0.65) !important;
+  font-size: 0.8rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+  font-weight: 500 !important;
+  margin-top: 4px !important;
+}
+.metric:not(:last-child)::after {
+  background: rgba(255,255,255,0.15) !important;
+}
+.metric img {
+  filter: brightness(0) invert(1);
+}
+
+/* ----------------------------------------
+   7. ASK MEDOCS AI SECTION
+   ---------------------------------------- */
+#ed-884586943 > div {
+  background: linear-gradient(-45deg, var(--md-off-white), #edf4ff, var(--md-off-white), #e8f0ff) !important;
+  background-size: 400% 400% !important;
+}
+#ed-884586943 p[style*="font-size: 26px"] strong,
+#ed-884586943 strong[style*="color: #1e91d3"] {
+  color: var(--md-teal) !important;
+}
+#ed-884586943 input[type="text"] {
+  border: 2px solid var(--md-gray-100) !important;
+  border-radius: var(--md-radius-md) !important;
+  font-family: 'Inter', sans-serif !important;
+  transition: border-color var(--md-transition);
+}
+#ed-884586943 input[type="text"]:focus {
+  border-color: var(--md-teal) !important;
+  outline: none;
+}
+#ed-884586943 button {
+  background: var(--md-teal) !important;
+  border-radius: var(--md-radius-md) !important;
+  font-family: 'Inter', sans-serif !important;
+  transition: background var(--md-transition);
+}
+#ed-884586943 button:hover {
+  background: var(--md-teal-dark) !important;
+}
+
+/* ----------------------------------------
+   8. "WHAT IS MEDOCS" SECTION
+   ---------------------------------------- */
+#ed-468214964 {
+  padding: 60px 20px 40px !important;
+}
+#ed-468214970 h1 {
+  color: var(--md-navy) !important;
+}
+
+/* ----------------------------------------
+   9. EHR PLATFORM SECTION (NEW)
+   ---------------------------------------- */
+.md-section {
+  padding: 80px 20px;
+}
+.md-ehr-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+@media (max-width: 1024px) {
+  .md-ehr-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 575px) {
+  .md-ehr-grid { grid-template-columns: 1fr; }
+}
+.md-ehr-card {
+  background: var(--md-white);
+  border-radius: var(--md-radius-lg);
+  padding: 28px 24px;
+  box-shadow: var(--md-shadow-sm);
+  border: 1px solid var(--md-gray-100);
+  transition: transform var(--md-transition), box-shadow var(--md-transition);
+}
+.md-ehr-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--md-shadow-lg);
+}
+.md-ehr-card__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--md-radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.md-ehr-card h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--md-navy) !important;
+  margin-bottom: 8px;
+}
+.md-ehr-card p {
+  font-size: 0.9rem;
+  color: var(--md-gray-500);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ----------------------------------------
+   10. BILLING & RCM SECTION (NEW)
+   ---------------------------------------- */
+.md-check-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.md-check-list li {
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  color: var(--md-gray-700);
+  line-height: 1.6;
+}
+.md-check-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 20px;
+  height: 20px;
+  background: var(--md-teal);
+  border-radius: 50%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 11px;
+}
+
+/* ----------------------------------------
+   11. TESTIMONIALS
+   ---------------------------------------- */
+#ed-900734382 {
+  background: var(--md-off-white) !important;
+  padding: 60px 0 80px !important;
+}
+#ed-900746467 h2 strong {
+  color: var(--md-navy) !important;
+}
+#ed-900753767 h5 {
+  color: var(--md-gray-500) !important;
+}
+
+.custom-testimonial-card {
+  background: var(--md-white) !important;
+  border: 1px solid var(--md-gray-100) !important;
+  border-radius: var(--md-radius-lg) !important;
+  box-shadow: var(--md-shadow-sm) !important;
+}
+.custom-card-accent {
+  background: linear-gradient(90deg, var(--md-teal), var(--md-accent)) !important;
+  height: 4px !important;
+  border-radius: var(--md-radius-lg) var(--md-radius-lg) 0 0 !important;
+}
+.custom-testimonial-body {
+  font-size: 0.95rem !important;
+  color: var(--md-gray-700) !important;
+  font-style: italic;
+  line-height: 1.6 !important;
+}
+.custom-specialty {
+  font-size: 0.8rem !important;
+  color: var(--md-teal) !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.custom-stars svg {
+  fill: var(--md-warning) !important;
+}
+.custom-slider-viewport {
+  background-color: var(--md-off-white) !important;
+}
+
+/* ----------------------------------------
+   12. PARTNER SERVICES
+   ---------------------------------------- */
+.md-partner-card {
+  background: var(--md-white);
+  border: 1px solid var(--md-gray-100);
+  border-radius: var(--md-radius-lg);
+  box-shadow: var(--md-shadow-sm);
+  padding: 32px;
+  box-sizing: border-box;
+  transition: box-shadow var(--md-transition), transform var(--md-transition);
+}
+.md-partner-card:hover {
+  box-shadow: var(--md-shadow-lg);
+  transform: translateY(-2px);
+}
+
+/* ----------------------------------------
+   13. DOWNLOAD APP SECTION
+   ---------------------------------------- */
+#ed-468381094 .container,
+#ed-468836264 > .container {
+  background: linear-gradient(135deg, var(--md-navy) 0%, var(--md-teal-dark) 100%) !important;
+  border-radius: var(--md-radius-xl);
+  margin: 0 20px;
+}
+.myDivBoxFlex h1 {
+  color: var(--md-white) !important;
+}
+
+/* ----------------------------------------
+   14. KEY BENEFITS BOXES
+   ---------------------------------------- */
+#ed-467986544 h1 {
+  color: var(--md-navy) !important;
+}
+#ed-450728974 {
+  background: var(--md-white) !important;
+}
+.preset-boxes-default .boxes-box {
+  background: var(--md-off-white) !important;
+  border-radius: var(--md-radius-lg) !important;
+  border: 1px solid var(--md-gray-100) !important;
+  transition: transform var(--md-transition), box-shadow var(--md-transition);
+}
+.preset-boxes-default .boxes-box:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--md-shadow-lg);
+  background: var(--md-white) !important;
+}
+.preset-boxes-default .boxes-icon svg {
+  width: 44px !important;
+  height: 44px !important;
+}
+.preset-boxes-default .boxes-icon svg path {
+  fill: var(--md-teal) !important;
+}
+.preset-boxes-default .ed-headline h2 {
+  font-size: 1.15rem !important;
+  color: var(--md-navy) !important;
+}
+.preset-boxes-default .ed-text p {
+  font-size: 0.9rem !important;
+  color: var(--md-gray-500) !important;
+}
+
+/* ----------------------------------------
+   15. PRODUCTS SECTION
+   ---------------------------------------- */
+#ed-454689796 h1 {
+  color: var(--md-navy) !important;
+}
+.md-product-card {
+  background: var(--md-white);
+  border-radius: var(--md-radius-lg);
+  padding: 24px;
+  box-shadow: var(--md-shadow-sm);
+  border: 1px solid var(--md-gray-100);
+  transition: transform var(--md-transition), box-shadow var(--md-transition);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.md-product-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--md-shadow-lg);
+}
+.md-product-card__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--md-radius-md);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.md-product-card__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--md-navy);
+  margin: 0 0 4px 0;
+}
+.md-product-card__desc {
+  font-size: 0.9rem;
+  color: var(--md-gray-500);
+  line-height: 1.5;
+  margin: 0;
+}
+.md-product-card__tags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.md-tag {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: var(--md-radius-full);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.md-tag--teal { background: rgba(0,119,182,0.08); color: var(--md-teal); }
+.md-tag--green { background: rgba(16,185,129,0.08); color: var(--md-success); }
+.md-tag--orange { background: rgba(245,158,11,0.08); color: var(--md-warning); }
+.md-tag--purple { background: rgba(99,102,241,0.08); color: #6366f1; }
+.md-tag--red { background: rgba(239,68,68,0.08); color: var(--md-error); }
+.md-tag-meta {
+  font-size: 0.72rem;
+  color: var(--md-gray-500);
+}
+
+/* ----------------------------------------
+   16. WHY CHOOSE MEDOCS / CUSTOMIZATION
+   ---------------------------------------- */
+#ed-1116143785 h1 {
+  color: var(--md-navy) !important;
+}
+.preset-boxes-v3-border .boxes-box {
+  background: var(--md-white) !important;
+  border: 1px solid var(--md-gray-100) !important;
+  border-radius: var(--md-radius-lg) !important;
+  transition: transform var(--md-transition), box-shadow var(--md-transition);
+}
+.preset-boxes-v3-border .boxes-box:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--md-shadow-lg);
+}
+.preset-boxes-v3-border .boxes-icon svg {
+  width: 48px !important;
+  height: 48px !important;
+}
+.preset-boxes-v3-border .boxes-icon svg path {
+  fill: var(--md-teal) !important;
+}
+
+/* ----------------------------------------
+   17. FEATURES — ALTERNATING BLOCKS
+   ---------------------------------------- */
+#ed-468017109 h1 {
+  color: var(--md-navy) !important;
+}
+.preset-text-image-overlap-default .text-image-overlap-box h2 span,
+.preset-text-image-overlap-default .text-image-overlap-box h2 span[style] {
+  color: var(--md-navy) !important;
+}
+.preset-text-image-overlap-default .text-image-overlap-box .ed-text p span,
+.preset-text-image-overlap-default .text-image-overlap-box .ed-text p span[style] {
+  color: var(--md-gray-700) !important;
+}
+.preset-text-image-overlap-default .text-image-overlap-image img {
+  border-radius: var(--md-radius-lg) !important;
+  box-shadow: var(--md-shadow-md) !important;
+}
+
+/* ----------------------------------------
+   18. DEMO REQUEST FORM
+   ---------------------------------------- */
+/* Form overlay — navy instead of teal */
+#ed-450729157 .overlay {
+  background-color: var(--md-navy) !important;
+  opacity: 0.92 !important;
+}
+.custom-demo-form-container {
+  border: 1px solid rgba(255,255,255,0.15) !important;
+  border-radius: var(--md-radius-lg) !important;
+  backdrop-filter: blur(8px);
+  background: rgba(255,255,255,0.05) !important;
+}
+.custom-demo-form-container h2,
+.custom-demo-form-container h3 {
+  font-family: 'Inter', sans-serif !important;
+}
+.custom-demo-form-container input,
+.custom-demo-form-container textarea,
+.custom-demo-form-container select {
+  border: 1px solid rgba(255,255,255,0.25) !important;
+  border-radius: var(--md-radius-sm) !important;
+  background: rgba(255,255,255,0.08) !important;
+  color: var(--md-white) !important;
+  font-family: 'Inter', sans-serif !important;
+}
+.custom-demo-form-container input::placeholder,
+.custom-demo-form-container textarea::placeholder {
+  color: rgba(255,255,255,0.5) !important;
+}
+.custom-demo-btn {
+  background: var(--md-accent) !important;
+  color: var(--md-white) !important;
+  border-radius: var(--md-radius-sm) !important;
+  font-weight: 600 !important;
+  font-family: 'Inter', sans-serif !important;
+  transition: background var(--md-transition) !important;
+  border: none !important;
+}
+.custom-demo-btn:hover {
+  background: var(--md-accent-hover) !important;
+  color: var(--md-white) !important;
+}
+
+/* Contact CTA section */
+#ed-450729091 .overlay {
+  background-color: var(--md-navy) !important;
+  opacity: 0.85 !important;
+}
+
+/* ----------------------------------------
+   19. FAQ SECTION
+   ---------------------------------------- */
+#ed-467996825 h1 {
+  color: var(--md-navy) !important;
+}
+.accordion-trigger h3 a {
+  color: var(--md-navy) !important;
+  font-weight: 600 !important;
+}
+.accordion-trigger h3 a:hover {
+  color: var(--md-teal) !important;
+}
+.accordion-content .ed-headline h2 {
+  color: var(--md-navy) !important;
+  font-size: 1.25rem !important;
+}
+
+/* ----------------------------------------
+   20. FOOTER
+   ---------------------------------------- */
+.preset-footer-hel-default {
+  background: var(--md-navy) !important;
+}
+.preset-footer-hel-default .ed-headline h2,
+.preset-footer-hel-default .ed-headline h3 {
+  color: var(--md-white) !important;
+}
+.preset-footer-hel-default .ed-text p,
+.preset-footer-hel-default .ed-text a {
+  color: rgba(255,255,255,0.7) !important;
+}
+.preset-footer-hel-default .ed-text a:hover {
+  color: var(--md-accent) !important;
+}
+.preset-footer-hel-default .ed-text p i,
+.preset-footer-hel-default .ed-text p .svg-text-icon svg path {
+  fill: rgba(255,255,255,0.5) !important;
+}
+.preset-footer-hel-default input,
+.preset-footer-hel-default textarea {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.12) !important;
+  color: var(--md-white) !important;
+  border-radius: var(--md-radius-sm) !important;
+}
+.preset-footer-hel-default input::placeholder,
+.preset-footer-hel-default textarea::placeholder {
+  color: rgba(255,255,255,0.4) !important;
+}
+.preset-footer-hel-default button[type="submit"] {
+  background: var(--md-teal) !important;
+  color: var(--md-white) !important;
+  border: none !important;
+  border-radius: var(--md-radius-sm) !important;
+  font-weight: 600 !important;
+  padding: 12px 24px !important;
+  cursor: pointer;
+  transition: background var(--md-transition) !important;
+}
+.preset-footer-hel-default button[type="submit"]:hover {
+  background: var(--md-teal-dark) !important;
+}
+
+/* ----------------------------------------
+   21. FLOATING MOBILE CTA
+   ---------------------------------------- */
+.md-floating-cta {
+  display: none;
+}
+@media (max-width: 768px) {
+  .md-floating-cta {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--md-white);
+    padding: 12px 20px;
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.08);
+    z-index: 9999;
+    justify-content: center;
+  }
+  .md-floating-cta a {
+    flex: 1;
+    max-width: 360px;
+    text-align: center;
+  }
+  body { padding-bottom: 70px; }
+}
+
+/* ----------------------------------------
+   22. RESPONSIVE ADJUSTMENTS
+   ---------------------------------------- */
+@media (max-width: 1024px) {
+  .md-ehr-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .md-section { padding: 50px 16px !important; }
+  .md-hero-content h1 { font-size: 1.75rem !important; }
+}
+
+@media (max-width: 575px) {
+  .md-ehr-grid { grid-template-columns: 1fr; }
+  .md-hero-content { text-align: center; }
+  .md-hero-content > div[style*="display:flex"] {
+    justify-content: center;
+  }
+  .metrics-bar {
+    flex-direction: column !important;
+    gap: 16px !important;
+  }
+  .metric:not(:last-child)::after { display: none; }
+}
+
+/* ----------------------------------------
+   23. SVG SEPARATOR CLEANUP
+   ---------------------------------------- */
+#ed-454689742 svg .path1,
+#ed-454689742 svg .path2,
+#ed-454689742 svg .path3 {
+  fill: var(--md-off-white) !important;
+}
+
+/* ----------------------------------------
+   24. UTILITY CLASSES
+   ---------------------------------------- */
+.md-section-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.md-section-header h2 {
+  color: var(--md-navy);
+  margin-bottom: 12px;
+}
+.md-section-header p {
+  font-size: 1.1rem;
+  color: var(--md-gray-500);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ========================================================
+   25. VISUAL FIXES — layout, overflow, blank spaces
+   ======================================================== */
+
+/* --- FIX 1: Horizontal overflow --- */
+html, body {
+  overflow-x: hidden !important;
+}
+
+/* --- FIX 2: Hero two-column layout — left-align text --- */
+.md-hero-content {
+  text-align: left !important;
+}
+/* Keep the slider/hero left column from centering text */
+#ed-475897538 {
+  text-align: left !important;
+}
+/* Ensure the hero outer wrapper removes old gradient */
+#ed-475758073,
+#ed-475758073 > .inner,
+#ed-475758079,
+#ed-475813643,
+#ed-475813646 {
+  background: var(--md-off-white) !important;
+}
+/* Fix the content slider container (hero) to not center everything */
+#ed-475897535 {
+  max-width: none !important;
+  flex-basis: auto !important;
+  margin-top: 40px !important;
+}
+#ed-475897535 > .inner {
+  padding: 0 !important;
+  justify-content: flex-start !important;
+}
+
+/* Hero columns — force side-by-side row layout
+   SiteHub structure: #ed-475813643 > [ .inner(left col), #ed-484762340(hidden), #ed-475813652(right col) ]
+   So we make #ed-475813643 itself the flex-row container */
+#ed-475813643 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+}
+/* .inner wraps the left column content */
+#ed-475813643 > .inner {
+  flex: 0 1 55% !important;
+  max-width: 55% !important;
+  min-width: 0 !important;
+}
+/* Hidden mobile CTA button between columns */
+#ed-484762340 {
+  display: none !important;
+}
+/* Right column — hero product image */
+#ed-475813652 {
+  flex: 0 1 45% !important;
+  max-width: 45% !important;
+  min-width: 0 !important;
+}
+#ed-475813652 img {
+  padding: 20px 10px !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+@media (max-width: 768px) {
+  #ed-475813643 {
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+  }
+  #ed-475813643 > .inner,
+  #ed-475813652 {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+  }
+}
+/* Ensure the slider dots and controls are hidden since we replaced with static hero */
+.ed-content-slider .slick-dots,
+.ed-content-slider .slick-arrow,
+#ed-475897538 .slick-dots,
+#ed-475897538 .slick-arrow {
+  display: none !important;
+}
+
+/* --- FIX 3: "AI-Powered Solutions" heading too faint --- */
+#ed-454689796 {
+  background: var(--md-white) !important;
+}
+#ed-454689796 h1,
+#ed-454689796 h1 span,
+#ed-454689796 h1 .color-default,
+#ed-454689796 .ed-headline h1,
+#ed-454689796 .ed-headline h1 span {
+  color: var(--md-navy) !important;
+  opacity: 1 !important;
+}
+
+/* --- FIX 4: Feature section blank spaces --- */
+/* SiteHub background-image-holders create large empty areas when images don't lazy-load */
+.background-image-holder.ed-lazyload {
+  min-height: 0 !important;
+  height: auto !important;
+}
+/* Reduce excessively tall feature image containers */
+#ed-467996837,
+#ed-467996855,
+#ed-467996873,
+#ed-467996891,
+#ed-467996909 {
+  height: auto !important;
+  min-height: 200px !important;
+}
+/* Features section — tighten spacing between blocks */
+#ed-468017109 {
+  margin-top: 20px !important;
+}
+#ed-468017109 .preset-text-image-overlap-default,
+#ed-468007448,
+#ed-547457687,
+#ed-468017112,
+#ed-468017127,
+#ed-468017635,
+#ed-468114020,
+#ed-468114035 {
+  margin-bottom: 0 !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+/* --- FIX 5: Remove old SiteHub gradient from hero container parents --- */
+#ed-889611451,
+#ed-475758073,
+.content-container[style*="linear-gradient"] {
+  background: var(--md-off-white) !important;
+}
+
+/* --- FIX 6: Products section container - remove SiteHub fade/opacity --- */
+#ed-454689796,
+#ed-1116143785 {
+  opacity: 1 !important;
+}
+
+/* --- FIX 7: Fix the "What is Medocs" section spacing --- */
+#ed-468214964 > .inner {
+  text-align: center;
+}
+#ed-468214964 .ed-text p {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ========================================================
+   26. NAVBAR DROPDOWN MENU SYSTEM
+   ======================================================== */
+
+/* Fix parent container overflow that clips dropdowns */
+#ed-889611460 {
+  overflow: visible !important;
+}
+
+/* Dropdown container */
+.ed-menu ul.menu-level-0 > li.md-has-dropdown {
+  position: relative !important;
+}
+
+/* Dropdown toggle link with arrow */
+.ed-menu ul.menu-level-0 > li.md-has-dropdown > a::after {
+  content: '' !important;
+  display: inline-block !important;
+  width: 0 !important;
+  height: 0 !important;
+  border-left: 4px solid transparent !important;
+  border-right: 4px solid transparent !important;
+  border-top: 4px solid currentColor !important;
+  margin-left: 5px !important;
+  vertical-align: middle !important;
+  transition: transform 0.2s ease !important;
+}
+.ed-menu ul.menu-level-0 > li.md-has-dropdown:hover > a::after {
+  transform: rotate(180deg) !important;
+}
+
+/* Dropdown panel */
+.md-dropdown {
+  display: none !important;
+  position: absolute !important;
+  top: 100% !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  min-width: 220px !important;
+  background: var(--md-white) !important;
+  border: 1px solid var(--md-gray-100) !important;
+  border-radius: var(--md-radius-md) !important;
+  box-shadow: var(--md-shadow-lg) !important;
+  padding: 8px 0 !important;
+  z-index: 9999 !important;
+  list-style: none !important;
+  margin: 0 !important;
+}
+
+/* Show dropdown on hover */
+.ed-menu ul.menu-level-0 > li.md-has-dropdown:hover > .md-dropdown {
+  display: block !important;
+}
+
+/* Dropdown items — override SiteHub's inline-block on li */
+.md-dropdown li {
+  display: block !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  float: none !important;
+}
+.md-dropdown li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 0.88rem !important;
+  font-weight: 500 !important;
+  color: var(--md-gray-700) !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  transition: all 0.15s ease !important;
+}
+.md-dropdown li a:hover {
+  background: var(--md-off-white) !important;
+  color: var(--md-teal) !important;
+}
+
+/* ========================================================
+   27. FOOTER FIXES
+   ======================================================== */
+
+/* Hide ALL broken footer contact forms (different IDs per page) */
+#ed-450729061,
+.preset-footer-hel-default .ed-form-container.footer-hel-box {
+  display: none !important;
+}
+
+/* Fix the Medocs.ai home icon — hide broken SVG (emoji already added in HTML) */
+.preset-footer-hel-default .svg-text-icon.ico-home {
+  display: none !important;
+}
+
+/* Footer link styling */
+.preset-footer-hel-default .ed-text a {
+  color: rgba(255,255,255,0.85) !important;
+  transition: color 0.2s ease !important;
+}
+.preset-footer-hel-default .ed-text a:hover {
+  color: var(--md-teal-light) !important;
+}
+
+/* Footer — make left side take full width since form is hidden */
+.preset-footer-hel-default .footer-hel-left {
+  flex: 1 !important;
+}
+
+/* Adjust footer layout when form is hidden */
+#ed-450729043 > .inner {
+  display: flex !important;
+  justify-content: center !important;
+}
+#ed-450729046 {
+  max-width: 600px !important;
+  text-align: center !important;
+}
+#ed-450729046 .ed-text {
+  text-align: center !important;
+}
+#ed-450729046 h2.left,
+#ed-450729046 h3.left {
+  text-align: center !important;
+}
+
+/* Copyright bar at very bottom */
+.preset-footer-hel-default .footer-hel-copy {
+  border-top: 1px solid rgba(255,255,255,0.1) !important;
+  padding-top: 20px !important;
+  margin-top: 20px !important;
+}
+
+/* ========================================================
+   28. SUB-PAGE STYLES (who-we-are, privacy, terms, partner)
+   ======================================================== */
+
+/* Apply modern font to sub-pages that load this CSS */
+.page-9379027,   /* who-we-are */
+.page-9168959,   /* privacy */
+.page-9236260,   /* terms-of-use */
+.page-11387543 { /* become-partner */
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Sub-page headings */
+.page-9379027 h1,
+.page-9168959 h1,
+.page-9236260 h1,
+.page-11387543 h1 {
+  font-family: 'Inter', sans-serif !important;
+  color: var(--md-navy) !important;
+}
+
+/* Sub-page text */
+.page-9379027 .ed-text p,
+.page-9168959 .ed-text p,
+.page-9236260 .ed-text p,
+.page-11387543 .ed-text p,
+.page-9379027 .ed-html p,
+.page-9168959 .ed-html p,
+.page-9236260 .ed-html p,
+.page-11387543 .ed-html p {
+  font-family: 'Inter', sans-serif !important;
+  line-height: 1.7 !important;
+  color: var(--md-gray-700) !important;
+}
+
+/* ========================================================
+   29. RESPONSIVE FIXES
+   ======================================================== */
+
+/* Tablet (1024px) */
+@media (max-width: 1024px) {
+  /* Navbar - slightly smaller text */
+  .ed-menu ul.menu-level-0 > li > a {
+    font-size: 0.82rem !important;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+  }
+}
+
+/* Mobile nav — dropdowns should be inline */
+@media (max-width: 975px) {
+  .md-dropdown {
+    position: static !important;
+    transform: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: rgba(0,0,0,0.03) !important;
+    border-radius: 0 !important;
+    min-width: auto !important;
+    padding: 0 !important;
+  }
+  .ed-menu ul.menu-level-0 > li.md-has-dropdown:hover > .md-dropdown,
+  .md-dropdown {
+    display: block !important;
+  }
+  .md-dropdown li a {
+    padding: 8px 20px 8px 32px !important;
+    font-size: 0.85rem !important;
+  }
+  /* Hide dropdown arrow on mobile */
+  .ed-menu ul.menu-level-0 > li.md-has-dropdown > a::after {
+    display: none !important;
+  }
+}
