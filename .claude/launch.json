@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "medocs-site",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["-e", "require('child_process').execSync('npx.cmd serve -l 3456 \"Medocs Website\"', {stdio:'inherit'})"],
+      "port": 3456,
+      "autoPort": false
+    }
+  ]
+}
