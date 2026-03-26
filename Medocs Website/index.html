@@ -29,10 +29,10 @@ ul{list-style:none;}
 img{max-width:100%;height:auto;}
 
 /* NAV */
-.nav{display:flex;align-items:center;justify-content:space-between;padding:0.875rem 2.5rem;border-bottom:1px solid var(--border);position:sticky;top:0;background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);z-index:100;}
-.nav-logo{display:flex;align-items:center;gap:0;}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:0.875rem 1.5rem;border-bottom:1px solid var(--border);position:sticky;top:0;background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);z-index:100;}
+.nav-logo{display:flex;align-items:center;gap:0;margin-right:0.5rem;}
 .nav-logo img{height:36px;}
-.nav-links{display:flex;align-items:center;gap:1.5rem;}
+.nav-links{display:flex;align-items:center;gap:1.25rem;}
 .nav-link{font-size:1rem;color:var(--accent-light);font-weight:400;transition:color 0.3s;}
 .nav-link:hover{color:var(--blue);text-decoration:underline;}
 .nav-actions{display:flex;align-items:center;gap:0.75rem;}
@@ -307,6 +307,8 @@ img{max-width:100%;height:auto;}
 }
 @media(max-width:768px){
   .nav{padding:0.5rem 0.75rem;}
+  .dashboard-kpi-grid{display:none !important;}
+  .product-card[style*="grid-column:1/-1"]{grid-template-columns:1fr !important;}
   .nav-links{display:none;position:absolute;top:100%;left:0;right:0;background:white;flex-direction:column;padding:16px 24px;border-bottom:1px solid var(--border);box-shadow:0 8px 24px rgba(0,0,0,0.08);}
   .nav-links.open{display:flex;}
   .mobile-toggle{display:flex;}
@@ -476,7 +478,7 @@ img{max-width:100%;height:auto;}
                 <tbody>
                   <tr style="border-bottom:1px solid #f3f4f6;">
                     <td style="padding:8px;font-weight:500;color:var(--dark);">8:00 AM</td>
-                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">Sarah Johnson</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000012</span></td>
+                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">Sarah J.</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000012</span></td>
                     <td style="padding:8px 6px;color:#555;">Dr. Anderson</td>
                     <td style="padding:8px 6px;"><span style="background:#eef6ff;color:#3b82f6;padding:2px 7px;border-radius:4px;font-size:0.55rem;">New Patient</span></td>
                     <td style="text-align:center;padding:8px 6px;"><span style="background:#dcfce7;color:#16a34a;padding:2px 8px;border-radius:4px;font-size:0.55rem;">Checked In</span></td>
@@ -484,7 +486,7 @@ img{max-width:100%;height:auto;}
                   </tr>
                   <tr style="border-bottom:1px solid #f3f4f6;">
                     <td style="padding:8px;font-weight:500;color:var(--dark);">8:30 AM</td>
-                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">William Davis</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000008</span></td>
+                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">William D.</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000008</span></td>
                     <td style="padding:8px 6px;color:#555;">Dr. Anderson</td>
                     <td style="padding:8px 6px;"><span style="background:#f0fdf4;color:#16a34a;padding:2px 7px;border-radius:4px;font-size:0.55rem;">Follow-Up</span></td>
                     <td style="text-align:center;padding:8px 6px;"><span style="background:#fef9c3;color:#a16207;padding:2px 8px;border-radius:4px;font-size:0.55rem;">Scheduled</span></td>
@@ -492,7 +494,7 @@ img{max-width:100%;height:auto;}
                   </tr>
                   <tr style="border-bottom:1px solid #f3f4f6;">
                     <td style="padding:8px;font-weight:500;color:var(--dark);">9:15 AM</td>
-                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">Maria Garcia</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000045</span></td>
+                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">Maria G.</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000045</span></td>
                     <td style="padding:8px 6px;color:#555;">Dr. Patel</td>
                     <td style="padding:8px 6px;"><span style="background:#fef3c7;color:#b45309;padding:2px 7px;border-radius:4px;font-size:0.55rem;">Urgent</span></td>
                     <td style="text-align:center;padding:8px 6px;"><span style="background:#dcfce7;color:#16a34a;padding:2px 8px;border-radius:4px;font-size:0.55rem;">Checked In</span></td>
@@ -500,7 +502,7 @@ img{max-width:100%;height:auto;}
                   </tr>
                   <tr style="border-bottom:1px solid #f3f4f6;">
                     <td style="padding:8px;font-weight:500;color:var(--dark);">10:00 AM</td>
-                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">Robert Chen</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000023</span></td>
+                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">Robert C.</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000023</span></td>
                     <td style="padding:8px 6px;color:#555;">Dr. Anderson</td>
                     <td style="padding:8px 6px;"><span style="background:#f0fdf4;color:#16a34a;padding:2px 7px;border-radius:4px;font-size:0.55rem;">Follow-Up</span></td>
                     <td style="text-align:center;padding:8px 6px;"><span style="background:#fef9c3;color:#a16207;padding:2px 8px;border-radius:4px;font-size:0.55rem;">Scheduled</span></td>
@@ -508,7 +510,7 @@ img{max-width:100%;height:auto;}
                   </tr>
                   <tr style="border-bottom:1px solid #f3f4f6;">
                     <td style="padding:8px;font-weight:500;color:var(--dark);">10:45 AM</td>
-                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">Emily Watson</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000067</span></td>
+                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">Emily W.</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000067</span></td>
                     <td style="padding:8px 6px;color:#555;">Dr. Patel</td>
                     <td style="padding:8px 6px;"><span style="background:#eef6ff;color:#3b82f6;padding:2px 7px;border-radius:4px;font-size:0.55rem;">Annual</span></td>
                     <td style="text-align:center;padding:8px 6px;"><span style="background:#fef9c3;color:#a16207;padding:2px 8px;border-radius:4px;font-size:0.55rem;">Scheduled</span></td>
@@ -516,7 +518,7 @@ img{max-width:100%;height:auto;}
                   </tr>
                   <tr style="border-bottom:1px solid #f3f4f6;">
                     <td style="padding:8px;font-weight:500;color:var(--dark);">11:15 AM</td>
-                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">James Miller</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000089</span></td>
+                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">James M.</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000089</span></td>
                     <td style="padding:8px 6px;color:#555;">Dr. Anderson</td>
                     <td style="padding:8px 6px;"><span style="background:#f0fdf4;color:#16a34a;padding:2px 7px;border-radius:4px;font-size:0.55rem;">Follow-Up</span></td>
                     <td style="text-align:center;padding:8px 6px;"><span style="background:#fef9c3;color:#a16207;padding:2px 8px;border-radius:4px;font-size:0.55rem;">Scheduled</span></td>
@@ -524,7 +526,7 @@ img{max-width:100%;height:auto;}
                   </tr>
                   <tr style="border-bottom:1px solid #f3f4f6;">
                     <td style="padding:8px;font-weight:500;color:var(--dark);">11:45 AM</td>
-                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">Fatima Ali</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000091</span></td>
+                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">Fatima A.</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000091</span></td>
                     <td style="padding:8px 6px;color:#555;">Dr. Patel</td>
                     <td style="padding:8px 6px;"><span style="background:#eef6ff;color:#3b82f6;padding:2px 7px;border-radius:4px;font-size:0.55rem;">New Patient</span></td>
                     <td style="text-align:center;padding:8px 6px;"><span style="background:#fef9c3;color:#a16207;padding:2px 8px;border-radius:4px;font-size:0.55rem;">Scheduled</span></td>
@@ -533,7 +535,7 @@ img{max-width:100%;height:auto;}
 
 
                     <td style="padding:8px;font-weight:500;color:var(--dark);">2:30 PM</td>
-                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">Rachel Kim</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000103</span></td>
+                    <td style="padding:8px 6px;"><span style="color:#1e91d3;font-weight:600;">Rachel K.</span><br><span style="color:#aaa;font-size:0.5rem;">IM-000103</span></td>
                     <td style="padding:8px 6px;color:#555;">Dr. Patel</td>
                     <td style="padding:8px 6px;"><span style="background:#f0fdf4;color:#16a34a;padding:2px 7px;border-radius:4px;font-size:0.55rem;">Follow-Up</span></td>
                     <td style="text-align:center;padding:8px 6px;"><span style="background:#fef9c3;color:#a16207;padding:2px 8px;border-radius:4px;font-size:0.55rem;">Scheduled</span></td>
@@ -564,22 +566,22 @@ img{max-width:100%;height:auto;}
               <div style="display:flex;flex-direction:column;gap:6px;">
                 <div style="display:flex;align-items:center;gap:8px;padding:8px 10px;background:#f9fafb;border-radius:8px;border:1px solid #f3f4f6;">
                   <div style="width:32px;height:32px;border-radius:50%;background:#eef6ff;display:flex;align-items:center;justify-content:center;font-size:0.6rem;font-weight:700;color:#3b82f6;flex-shrink:0;">SJ</div>
-                  <div style="flex:1;min-width:0;"><div style="font-size:0.68rem;font-weight:600;color:var(--dark);">Sarah Johnson</div><div style="font-size:0.5rem;color:#999;">8:00 AM &middot; New Patient</div></div>
+                  <div style="flex:1;min-width:0;"><div style="font-size:0.68rem;font-weight:600;color:var(--dark);">Sarah J.</div><div style="font-size:0.5rem;color:#999;">8:00 AM &middot; New Patient</div></div>
                   <span style="background:#dcfce7;color:#16a34a;padding:2px 6px;border-radius:4px;font-size:0.48rem;font-weight:500;white-space:nowrap;">Checked In</span>
                 </div>
                 <div style="display:flex;align-items:center;gap:8px;padding:8px 10px;background:#f9fafb;border-radius:8px;border:1px solid #f3f4f6;">
                   <div style="width:32px;height:32px;border-radius:50%;background:#f0fdf4;display:flex;align-items:center;justify-content:center;font-size:0.6rem;font-weight:700;color:#16a34a;flex-shrink:0;">WD</div>
-                  <div style="flex:1;min-width:0;"><div style="font-size:0.68rem;font-weight:600;color:var(--dark);">William Davis</div><div style="font-size:0.5rem;color:#999;">8:30 AM &middot; Follow-Up</div></div>
+                  <div style="flex:1;min-width:0;"><div style="font-size:0.68rem;font-weight:600;color:var(--dark);">William D.</div><div style="font-size:0.5rem;color:#999;">8:30 AM &middot; Follow-Up</div></div>
                   <span style="background:#fef9c3;color:#a16207;padding:2px 6px;border-radius:4px;font-size:0.48rem;font-weight:500;white-space:nowrap;">Scheduled</span>
                 </div>
                 <div style="display:flex;align-items:center;gap:8px;padding:8px 10px;background:#f9fafb;border-radius:8px;border:1px solid #f3f4f6;">
                   <div style="width:32px;height:32px;border-radius:50%;background:#fef3c7;display:flex;align-items:center;justify-content:center;font-size:0.6rem;font-weight:700;color:#b45309;flex-shrink:0;">MG</div>
-                  <div style="flex:1;min-width:0;"><div style="font-size:0.68rem;font-weight:600;color:var(--dark);">Maria Garcia</div><div style="font-size:0.5rem;color:#999;">9:15 AM &middot; Urgent</div></div>
+                  <div style="flex:1;min-width:0;"><div style="font-size:0.68rem;font-weight:600;color:var(--dark);">Maria G.</div><div style="font-size:0.5rem;color:#999;">9:15 AM &middot; Urgent</div></div>
                   <span style="background:#dcfce7;color:#16a34a;padding:2px 6px;border-radius:4px;font-size:0.48rem;font-weight:500;white-space:nowrap;">Checked In</span>
                 </div>
                 <div style="display:flex;align-items:center;gap:8px;padding:8px 10px;background:#f9fafb;border-radius:8px;border:1px solid #f3f4f6;">
                   <div style="width:32px;height:32px;border-radius:50%;background:#ede9fe;display:flex;align-items:center;justify-content:center;font-size:0.6rem;font-weight:700;color:#7c3aed;flex-shrink:0;">RC</div>
-                  <div style="flex:1;min-width:0;"><div style="font-size:0.68rem;font-weight:600;color:var(--dark);">Robert Chen</div><div style="font-size:0.5rem;color:#999;">10:00 AM &middot; Follow-Up</div></div>
+                  <div style="flex:1;min-width:0;"><div style="font-size:0.68rem;font-weight:600;color:var(--dark);">Robert C.</div><div style="font-size:0.5rem;color:#999;">10:00 AM &middot; Follow-Up</div></div>
                   <span style="background:#fef9c3;color:#a16207;padding:2px 6px;border-radius:4px;font-size:0.48rem;font-weight:500;white-space:nowrap;">Scheduled</span>
                 </div>
               </div>
@@ -711,7 +713,7 @@ img{max-width:100%;height:auto;}
         <div class="product-desc" style="max-width:340px;">Track clinician efficiency, note completion rates, revenue growth, claim status, and patient outcomes, all in one live command center.</div>
         <div class="product-pills"><span class="pill">KPIs</span><span class="pill">Live Metrics</span><span class="pill">Revenue Tracking</span><span class="pill">Provider Reports</span></div>
       </div>
-      <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1rem;display:grid;grid-template-columns:repeat(4,1fr);gap:0.75rem;">
+      <div class="dashboard-kpi-grid" style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1rem;display:grid;grid-template-columns:repeat(4,1fr);gap:0.75rem;">
         <div style="background:white;border:1px solid var(--border);border-radius:10px;padding:0.875rem;">
           <div style="font-size:0.65rem;color:var(--muted);font-weight:500;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px;">Notes/Day</div>
           <div style="font-family:'Noto Sans JP',sans-serif;font-size:1.5rem;font-weight:800;color:var(--dark);letter-spacing:-0.04em;">42</div>
