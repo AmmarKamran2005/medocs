@@ -3,26 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Who We Are — Medocs.ai</title>
-<meta name="description" content="Meet the team behind Medocs.ai — doctors, engineers, and AI innovators committed to enhancing healthcare efficiency and quality.">
-<meta property="og:title" content="Who We Are — Medocs.ai">
+<title>Who We Are | Medocs.ai</title>
+<meta name="description" content="Meet the team behind Medocs.ai. Doctors, engineers, and AI innovators committed to enhancing healthcare efficiency and quality.">
+<meta property="og:title" content="Who We Are | Medocs.ai">
 <meta property="og:description" content="Doctors, engineers, and AI innovators building the future of clinical documentation.">
 <meta property="og:image" content="https://app.medocs.ai/MedicalBusiness/Content/medocslogo.png">
 <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0;}
 :root{
-  --blue:#1a56db;--blue-light:#e8f0fe;--blue-mid:#2563eb;--blue-dark:#1e40af;
-  --dark:#0a1628;--charcoal:#111827;--slate:#1f2937;
-  --muted:#6b7280;--border:#e5e7eb;--surface:#f9fafb;
-  --white:#ffffff;--accent:#3b82f6;--accent-light:#60a5fa;
-  --success:#10b981;--gold:#f59e0b;--rose:#e11d48;--purple:#7c3aed;--teal:#0891b2;
+  --blue:#1e91d3;--blue-light:#e8f4fd;--blue-mid:#12a6de;--blue-dark:#1a7ab5;
+  --dark:#222222;--charcoal:#333333;--slate:#555555;
+  --muted:#666666;--border:#ddd;--surface:#faf7f7;
+  --white:#ffffff;--accent:#4e73df;--accent-light:#1e91d3;
+  --success:#1cc88a;--gold:#f59e0b;--rose:#e11d48;--purple:#7c3aed;--teal:#0891b2;
 }
 html{scroll-behavior:smooth;}
-body{font-family:'DM Sans',sans-serif;color:var(--dark);background:var(--white);-webkit-font-smoothing:antialiased;}
+body{font-family:'Noto Sans JP',sans-serif;color:var(--dark);background:var(--white);-webkit-font-smoothing:antialiased;font-weight:300;}
 a{text-decoration:none;color:inherit;}
 ul{list-style:none;}
 img{max-width:100%;height:auto;}
@@ -32,15 +32,15 @@ img{max-width:100%;height:auto;}
 .nav-logo{display:flex;align-items:center;gap:0;}
 .nav-logo img{height:36px;}
 .nav-links{display:flex;align-items:center;gap:1.5rem;}
-.nav-link{font-size:0.875rem;color:var(--muted);font-weight:500;transition:color 0.2s;}
-.nav-link:hover{color:var(--dark);}
+.nav-link{font-size:1rem;color:var(--accent-light);font-weight:400;transition:color 0.3s;}
+.nav-link:hover{color:var(--blue);text-decoration:underline;}
 .nav-link.active{color:var(--blue);font-weight:600;}
 .nav-actions{display:flex;align-items:center;gap:0.75rem;}
 .hipaa-nav{display:flex;align-items:center;gap:6px;font-size:0.72rem;font-weight:600;color:var(--blue);background:var(--blue-light);padding:4px 10px;border-radius:20px;}
-.btn-ghost{font-size:0.875rem;padding:0.5rem 1.1rem;border:1.5px solid var(--border);border-radius:8px;background:transparent;cursor:pointer;font-family:'DM Sans',sans-serif;font-weight:500;color:var(--dark);transition:all 0.2s;}
-.btn-ghost:hover{border-color:var(--blue);color:var(--blue);}
-.btn-primary{font-size:0.875rem;padding:0.5rem 1.25rem;border-radius:8px;background:var(--blue);color:white;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;font-weight:500;transition:all 0.2s;}
-.btn-primary:hover{background:var(--dark);}
+.btn-ghost{font-size:0.875rem;padding:0.5rem 1.1rem;border:1.5px solid var(--border);border-radius:150px;background:transparent;cursor:pointer;font-family:'Poppins',sans-serif;font-weight:500;color:var(--dark);transition:all 0.3s ease;}
+.btn-ghost:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px);}
+.btn-primary{font-size:0.875rem;padding:0.5rem 1.25rem;border-radius:150px;background:var(--accent);color:white;border:none;cursor:pointer;font-family:'Poppins',sans-serif;font-weight:500;transition:all 0.3s ease;box-shadow:0 4px 15px rgba(78,115,223,0.3);}
+.btn-primary:hover{background:var(--blue-dark);transform:translateY(-2px);box-shadow:0 6px 20px rgba(78,115,223,0.4);}
 .mobile-toggle{display:none;background:none;border:none;cursor:pointer;padding:8px;flex-direction:column;gap:5px;}
 .mobile-toggle span{display:block;width:22px;height:2px;background:var(--dark);border-radius:2px;transition:all 0.2s;}
 
@@ -49,7 +49,7 @@ img{max-width:100%;height:auto;}
 .hero-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:0.75rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--blue);background:var(--blue-light);padding:5px 14px;border-radius:20px;margin-bottom:1.5rem;}
 .hero-eyebrow-dot{width:6px;height:6px;border-radius:50%;background:var(--blue);animation:pulse-dot 2s infinite;}
 @keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.5;transform:scale(0.8);}}
-.hero-about h1{font-family:'Syne',sans-serif;font-size:3.1rem;font-weight:800;line-height:1.08;letter-spacing:-0.04em;color:var(--dark);margin-bottom:1.25rem;}
+.hero-about h1{font-family:'Noto Sans JP',sans-serif;font-size:3.1rem;font-weight:800;line-height:1.08;letter-spacing:-0.04em;color:var(--dark);margin-bottom:1.25rem;}
 .hero-about h1 em{font-style:normal;color:var(--blue);}
 .hero-about-sub{font-size:1.05rem;color:var(--muted);line-height:1.7;max-width:580px;margin:0 auto;}
 
@@ -58,7 +58,7 @@ img{max-width:100%;height:auto;}
 .section-header{margin-bottom:3rem;}
 .section-header.center{text-align:center;}
 .section-eyebrow{font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--blue);margin-bottom:0.75rem;}
-.section-title{font-family:'Syne',sans-serif;font-size:2.2rem;font-weight:800;letter-spacing:-0.03em;color:var(--dark);line-height:1.15;margin-bottom:0.75rem;}
+.section-title{font-family:'Noto Sans JP',sans-serif;font-size:2.2rem;font-weight:800;letter-spacing:-0.03em;color:var(--dark);line-height:1.15;margin-bottom:0.75rem;}
 .section-sub{font-size:1rem;color:var(--muted);max-width:520px;line-height:1.7;}
 .section-header.center .section-sub{margin:0 auto;}
 
@@ -69,7 +69,7 @@ img{max-width:100%;height:auto;}
 .stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;}
 .stat-card{background:var(--white);border:1px solid var(--border);border-radius:14px;padding:1.5rem;transition:all 0.25s;}
 .stat-card:hover{border-color:var(--blue);transform:translateY(-3px);box-shadow:0 12px 32px rgba(26,86,219,0.1);}
-.stat-card-num{font-family:'Syne',sans-serif;font-size:1.8rem;font-weight:800;color:var(--dark);letter-spacing:-0.03em;margin-bottom:0.25rem;}
+.stat-card-num{font-family:'Noto Sans JP',sans-serif;font-size:1.8rem;font-weight:800;color:var(--dark);letter-spacing:-0.03em;margin-bottom:0.25rem;}
 .stat-card-label{font-size:0.82rem;color:var(--muted);line-height:1.5;}
 
 /* VALUES */
@@ -81,17 +81,17 @@ img{max-width:100%;height:auto;}
 .value-card:hover::before{transform:scaleX(1);}
 .value-icon{width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;}
 .value-icon svg{width:22px;height:22px;}
-.value-name{font-family:'Syne',sans-serif;font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:0.4rem;letter-spacing:-0.02em;}
+.value-name{font-family:'Noto Sans JP',sans-serif;font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:0.4rem;letter-spacing:-0.02em;}
 .value-desc{font-size:0.83rem;color:var(--muted);line-height:1.6;}
 
 /* CTA BAND */
 .cta-band{background:var(--charcoal);padding:4.5rem 2.5rem;}
 .cta-inner{max-width:800px;margin:0 auto;text-align:center;}
-.cta-inner h2{font-family:'Syne',sans-serif;font-size:2.4rem;font-weight:800;color:white;letter-spacing:-0.04em;margin-bottom:0.75rem;}
+.cta-inner h2{font-family:'Noto Sans JP',sans-serif;font-size:2.4rem;font-weight:800;color:white;letter-spacing:-0.04em;margin-bottom:0.75rem;}
 .cta-inner h2 em{font-style:normal;color:var(--accent-light);}
 .cta-inner p{font-size:1rem;color:rgba(255,255,255,0.55);margin-bottom:2rem;line-height:1.7;}
 .cta-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;}
-.btn-hero{padding:0.875rem 2rem;border-radius:10px;font-size:0.95rem;font-weight:500;font-family:'DM Sans',sans-serif;cursor:pointer;transition:all 0.2s;border:none;}
+.btn-hero{padding:0.875rem 2rem;border-radius:10px;font-size:0.95rem;font-weight:500;font-family:'Poppins',sans-serif;cursor:pointer;transition:all 0.2s;border:none;}
 .btn-hero-primary{background:var(--blue);color:white;}
 .btn-hero-primary:hover{background:var(--accent-light);transform:translateY(-1px);}
 .btn-hero-secondary{background:transparent;color:white;border:1.5px solid rgba(255,255,255,0.2);}
@@ -170,7 +170,7 @@ img{max-width:100%;height:auto;}
     <div class="mission-text">
       <p>At Medocs, we are a team of Doctors, Engineers, Medical professionals, and AI innovators committed to enhancing healthcare efficiency and quality. We recognize the challenges healthcare providers face with excessive documentation and administrative tasks.</p>
       <p>Our mission is to ease these burdens by leveraging advanced AI tools that seamlessly integrate with existing systems, optimizing workflows and reducing administrative workload.</p>
-      <p>We believe that when clinicians spend less time on paperwork, they spend more time with patients — leading to better outcomes, reduced burnout, and a healthier healthcare system for everyone.</p>
+      <p>We believe that when clinicians spend less time on paperwork, they spend more time with patients, leading to better outcomes, reduced burnout, and a healthier healthcare system for everyone.</p>
     </div>
     <div class="stats-grid">
       <div class="stat-card">
@@ -215,7 +215,7 @@ img{max-width:100%;height:auto;}
       <div class="value-card">
         <div class="value-icon" style="background:#d1fae5;"><svg viewBox="0 0 22 22" fill="none"><path d="M11 2L4 6v5c0 5 3.5 8.5 7 10 3.5-1.5 7-5 7-10V6l-7-4z" stroke="#059669" stroke-width="1.5" fill="none"/><path d="M8 11l2 2 4-4" stroke="#059669" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
         <div class="value-name">Security</div>
-        <div class="value-desc">HIPAA compliance is not a checkbox — it is woven into every layer of our architecture, from encryption to audit trails.</div>
+        <div class="value-desc">HIPAA compliance is not a checkbox. It is woven into every layer of our architecture, from encryption to audit trails.</div>
       </div>
       <div class="value-card">
         <div class="value-icon" style="background:#ede9fe;"><svg viewBox="0 0 22 22" fill="none"><circle cx="8" cy="9" r="3" stroke="#7c3aed" stroke-width="1.5"/><circle cx="14" cy="9" r="3" stroke="#7c3aed" stroke-width="1.5"/><path d="M3 18c0-2.8 2.2-5 5-5s5 2.2 5 5M9 18c0-2.8 2.2-5 5-5s5 2.2 5 5" stroke="#7c3aed" stroke-width="1.5"/></svg></div>
