@@ -1259,8 +1259,8 @@ html, body {
    ======================================================== */
 .hero-floating-slogan {
   position: absolute;
-  top: -14px;
-  right: -10px;
+  top: 120px;
+  right: -18px;
   background: white;
   border: 1px solid var(--border);
   border-radius: 12px;
