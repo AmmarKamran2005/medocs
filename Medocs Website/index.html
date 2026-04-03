@@ -23,14 +23,14 @@
   --white:#ffffff;--accent:#4e73df;--accent-light:#1e91d3;
   --success:#1cc88a;--gold:#f59e0b;--rose:#e11d48;--purple:#7c3aed;--teal:#0891b2;
 }
-html{scroll-behavior:smooth;overflow-x:hidden;}
-body{font-family:'Noto Sans JP',sans-serif;color:var(--dark);background:var(--white);-webkit-font-smoothing:antialiased;font-weight:300;overflow-x:hidden;}
+html{scroll-behavior:smooth;overflow:clip;}
+body{font-family:'Noto Sans JP',sans-serif;color:var(--dark);background:var(--white);-webkit-font-smoothing:antialiased;font-weight:300;overflow-x:clip;padding-top:56px;}
 a{text-decoration:none;color:inherit;}
 ul{list-style:none;}
 img{max-width:100%;height:auto;}
 
 /* NAV */
-.nav{display:flex;align-items:center;justify-content:space-between;padding:0.875rem 1.5rem;border-bottom:1px solid var(--border);position:sticky;top:0;background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);z-index:100;}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:0.875rem 1.5rem;border-bottom:1px solid var(--border);position:fixed;top:0;left:0;right:0;background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);z-index:100;}
 .nav-logo{display:flex;align-items:center;gap:0;margin-right:0.5rem;}
 .nav-logo img{height:36px;}
 .nav-links{display:flex;align-items:center;gap:1.25rem;}
@@ -396,12 +396,12 @@ img{max-width:100%;height:auto;}
         </div>
         <div class="hero-slide">
           <h1>Start your <em>telehealth</em><br>practice <em>in a day</em></h1>
-          <p class="hero-sub">From AI documentation and online scheduling to cash payments and a custom practice website — everything you need to open, run, and grow your virtual or in-person clinic from day one.</p>
+          <p class="hero-sub">From AI documentation and online scheduling to cash payments and a custom practice website everything you need to open, run, and grow your virtual or in-person clinic from day one.</p>
         </div>
-        <div class="hero-slide">
+        <!-- <div class="hero-slide">
           <h1>Start your <em>practice</em><br><em>in a day</em></h1>
           <p class="hero-sub">From AI documentation and online scheduling to cash payments and a custom practice website — everything you need to open, run, and grow your clinic from day one.</p>
-        </div>
+        </div> -->
       </div>
       <div class="hero-actions">
         <a class="btn-hero btn-hero-primary" href="https://app.medocs.ai/sign-up">Start AI Scribe Free Trial &rarr;</a>
@@ -678,79 +678,6 @@ img{max-width:100%;height:auto;}
   <div class="stat-item"><div class="stat-num">HIPAA</div><div class="stat-label">Fully compliant &amp; auditable</div></div>
 </div>
 
-<!-- PLATFORM FOUNDATION -->
-<div class="platform-foundation-section" id="platform">
-  <div style="max-width:1200px;margin:0 auto;padding:4rem 2.5rem;">
-    <div class="section-header">
-      <div class="section-eyebrow">Included in Every Plan</div>
-      <div class="section-title">The complete practice foundation</div>
-      <div class="section-sub">Every Medocs package is built on four core pillars — so you're never paying extra for the basics.</div>
-    </div>
-    <div class="platform-foundation-grid">
-
-      <div class="platform-fdn-card">
-        <div class="platform-fdn-icon" style="background:var(--blue-light);">
-          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M2 6C2 4.9 2.9 4 4 4h10c1.1 0 2 .9 2 2v8c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6z" stroke="var(--blue)" stroke-width="1.5" fill="none"/><path d="M16 9l4-2.5v8L16 12V9z" stroke="var(--blue)" stroke-width="1.5" fill="none" stroke-linejoin="round"/><path d="M6 19h10" stroke="var(--blue)" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </div>
-        <div class="platform-fdn-name">AI Scribe &mdash; ambient clinical notes</div>
-        <div class="platform-fdn-desc">Records patient-provider conversations and generates structured SOAP notes instantly in 40+ languages — no typing required.</div>
-        <div class="platform-fdn-feats">
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:var(--blue);"></span>SOAP, HPI, Assessment &amp; Plan</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:var(--blue);"></span>Custom specialty templates</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:var(--blue);"></span>40+ languages, 130 countries</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:var(--blue);"></span>AI Interpreter — live translation</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:var(--blue);"></span>Works in-person &amp; via telehealth</div>
-        </div>
-      </div>
-
-      <div class="platform-fdn-card">
-        <div class="platform-fdn-icon" style="background:#dbeafe;">
-          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2" y="3" width="18" height="16" rx="2.5" stroke="#2563eb" stroke-width="1.5" fill="none"/><path d="M7 9h8M7 12.5h5" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round"/><circle cx="16" cy="12.5" r="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/><path d="M16 11.5v1l.5.5" stroke="#2563eb" stroke-width="1" stroke-linecap="round"/></svg>
-        </div>
-        <div class="platform-fdn-name">Patient portal &amp; online scheduling</div>
-        <div class="platform-fdn-desc">Patients book appointments, complete intake forms, and access their health records — before they even arrive at your clinic.</div>
-        <div class="platform-fdn-feats">
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#2563eb;"></span>Online booking 24/7 with waitlist AI</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#2563eb;"></span>Digital intake &amp; consent forms</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#2563eb;"></span>Patient health record access</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#2563eb;"></span>Automated reminders &amp; follow-up</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#2563eb;"></span>Multi-location &amp; provider support</div>
-        </div>
-      </div>
-
-      <div class="platform-fdn-card">
-        <div class="platform-fdn-icon" style="background:#ecfdf5;">
-          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2" y="5" width="18" height="13" rx="2" stroke="#16a34a" stroke-width="1.5" fill="none"/><path d="M6 9.5h4M6 12.5h3" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round"/><path d="M15 9l1.5 2L15 13" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <div class="platform-fdn-name">Cash, card &amp; insurance payments</div>
-        <div class="platform-fdn-desc">AI Copay estimates and collects patient payments at point of care — cash, credit card, HSA, and insurance billing in one seamless flow.</div>
-        <div class="platform-fdn-feats">
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#16a34a;"></span>Credit card &amp; cash-pay collection</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#16a34a;"></span>AI Copay — real-time estimation</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#16a34a;"></span>HSA / FSA &amp; membership billing</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#16a34a;"></span>837P claims &amp; ERA posting</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#16a34a;"></span>Auto CPT / ICD-10 via AI Coder</div>
-        </div>
-      </div>
-
-      <div class="platform-fdn-card">
-        <div class="platform-fdn-icon" style="background:#fef3c7;">
-          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2" y="2" width="18" height="14" rx="2.5" stroke="#b45309" stroke-width="1.5" fill="none"/><path d="M5 8.5h12M5 11.5h7" stroke="#b45309" stroke-width="1.5" stroke-linecap="round"/><path d="M7 19h8" stroke="#b45309" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </div>
-        <div class="platform-fdn-name">Custom website for your practice</div>
-        <div class="platform-fdn-desc">A branded, HIPAA-compliant practice website with your online booking widget built in — live the same day you sign up with Medocs.</div>
-        <div class="platform-fdn-feats">
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#b45309;"></span>Custom domain &amp; branding</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#b45309;"></span>Specialty page templates</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#b45309;"></span>Booking widget embedded</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#b45309;"></span>HIPAA-compliant contact forms</div>
-          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#b45309;"></span>Mobile-responsive &amp; SEO-ready</div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
 
 <!-- SPECIALTY PACKAGES -->
 <div class="packages-bg" id="packages">
@@ -942,6 +869,82 @@ img{max-width:100%;height:auto;}
     </div>
   </div>
 </div>
+
+<!-- PLATFORM FOUNDATION -->
+<div class="platform-foundation-section" id="platform">
+  <div style="max-width:1200px;margin:0 auto;padding:4rem 2.5rem;">
+    <div class="section-header">
+      <div class="section-eyebrow">Included in Every Plan</div>
+      <div class="section-title">The complete practice foundation</div>
+      <div class="section-sub">Every Medocs package is built on four core pillars — so you're never paying extra for the basics.</div>
+    </div>
+    <div class="platform-foundation-grid">
+
+      <div class="platform-fdn-card">
+        <div class="platform-fdn-icon" style="background:var(--blue-light);">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M2 6C2 4.9 2.9 4 4 4h10c1.1 0 2 .9 2 2v8c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6z" stroke="var(--blue)" stroke-width="1.5" fill="none"/><path d="M16 9l4-2.5v8L16 12V9z" stroke="var(--blue)" stroke-width="1.5" fill="none" stroke-linejoin="round"/><path d="M6 19h10" stroke="var(--blue)" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div class="platform-fdn-name">AI Scribe &mdash; ambient clinical notes</div>
+        <div class="platform-fdn-desc">Records patient-provider conversations and generates structured SOAP notes instantly in 40+ languages — no typing required.</div>
+        <div class="platform-fdn-feats">
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:var(--blue);"></span>SOAP, HPI, Assessment &amp; Plan</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:var(--blue);"></span>Custom specialty templates</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:var(--blue);"></span>40+ languages, 130 countries</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:var(--blue);"></span>AI Interpreter — live translation</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:var(--blue);"></span>Works in-person &amp; via telehealth</div>
+        </div>
+      </div>
+
+      <div class="platform-fdn-card">
+        <div class="platform-fdn-icon" style="background:#dbeafe;">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2" y="3" width="18" height="16" rx="2.5" stroke="#2563eb" stroke-width="1.5" fill="none"/><path d="M7 9h8M7 12.5h5" stroke="#2563eb" stroke-width="1.5" stroke-linecap="round"/><circle cx="16" cy="12.5" r="3" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/><path d="M16 11.5v1l.5.5" stroke="#2563eb" stroke-width="1" stroke-linecap="round"/></svg>
+        </div>
+        <div class="platform-fdn-name">Patient portal &amp; online scheduling</div>
+        <div class="platform-fdn-desc">Patients book appointments, complete intake forms, and access their health records — before they even arrive at your clinic.</div>
+        <div class="platform-fdn-feats">
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#2563eb;"></span>Online booking 24/7 with waitlist AI</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#2563eb;"></span>Digital intake &amp; consent forms</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#2563eb;"></span>Patient health record access</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#2563eb;"></span>Automated reminders &amp; follow-up</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#2563eb;"></span>Multi-location &amp; provider support</div>
+        </div>
+      </div>
+
+      <div class="platform-fdn-card">
+        <div class="platform-fdn-icon" style="background:#ecfdf5;">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2" y="5" width="18" height="13" rx="2" stroke="#16a34a" stroke-width="1.5" fill="none"/><path d="M6 9.5h4M6 12.5h3" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round"/><path d="M15 9l1.5 2L15 13" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="platform-fdn-name">Cash, card &amp; insurance payments</div>
+        <div class="platform-fdn-desc">AI Copay estimates and collects patient payments at point of care — cash, credit card, HSA, and insurance billing in one seamless flow.</div>
+        <div class="platform-fdn-feats">
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#16a34a;"></span>Credit card &amp; cash-pay collection</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#16a34a;"></span>AI Copay — real-time estimation</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#16a34a;"></span>HSA / FSA &amp; membership billing</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#16a34a;"></span>837P claims &amp; ERA posting</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#16a34a;"></span>Auto CPT / ICD-10 via AI Coder</div>
+        </div>
+      </div>
+
+      <div class="platform-fdn-card">
+        <div class="platform-fdn-icon" style="background:#fef3c7;">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2" y="2" width="18" height="14" rx="2.5" stroke="#b45309" stroke-width="1.5" fill="none"/><path d="M5 8.5h12M5 11.5h7" stroke="#b45309" stroke-width="1.5" stroke-linecap="round"/><path d="M7 19h8" stroke="#b45309" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div class="platform-fdn-name">Custom website for your practice</div>
+        <div class="platform-fdn-desc">A branded, HIPAA-compliant practice website with your online booking widget built in — live the same day you sign up with Medocs.</div>
+        <div class="platform-fdn-feats">
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#b45309;"></span>Custom domain &amp; branding</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#b45309;"></span>Specialty page templates</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#b45309;"></span>Booking widget embedded</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#b45309;"></span>HIPAA-compliant contact forms</div>
+          <div class="pfdn-feat"><span class="pfdn-dot" style="background:#b45309;"></span>Mobile-responsive &amp; SEO-ready</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
 
 <!-- INCLUDED IN EVERY PACKAGE -->
 <div style="max-width:1200px;margin:0 auto;padding:0 2.5rem 4rem;">
