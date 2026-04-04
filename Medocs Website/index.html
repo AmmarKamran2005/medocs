@@ -255,10 +255,22 @@ img{max-width:100%;height:auto;}
 .form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--accent-light);}
 .form-group select option{background:var(--charcoal);color:white;}
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
-.form-submit{width:100%;padding:0.8rem;border-radius:10px;background:var(--blue);color:white;border:none;font-size:0.9rem;font-weight:500;font-family:'Poppins',sans-serif;cursor:pointer;transition:all 0.2s;}
+.form-submit{width:100%;padding:0.8rem;border-radius:10px;background:var(--blue);color:white;border:none;font-size:0.9rem;font-weight:500;font-family:'Poppins',sans-serif;cursor:pointer;transition:all 0.2s;display:flex;align-items:center;justify-content:center;gap:8px;}
 .form-submit:hover{background:var(--accent-light);}
-.form-response{margin-top:8px;font-size:0.82rem;color:var(--success);min-height:20px;}
+.form-submit:disabled{opacity:0.7;cursor:not-allowed;}
+.form-submit .btn-spinner{display:none;width:18px;height:18px;border:2px solid rgba(255,255,255,0.3);border-top-color:#fff;border-radius:50%;animation:spin 0.6s linear infinite;}
+.form-submit.loading .btn-spinner{display:inline-block;}
+.form-submit.loading .btn-label{display:none;}
+@keyframes spin{to{transform:rotate(360deg);}}
+.form-error{margin-top:8px;font-size:0.82rem;color:#ef4444;text-align:center;}
 .form-loader{display:none;font-size:0.78rem;color:rgba(255,255,255,0.5);margin-top:6px;}
+.demo-success{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:2.5rem 1.5rem;animation:fadeInUp 0.5s ease;}
+.demo-success-icon{margin-bottom:1.25rem;animation:scaleIn 0.4s ease;}
+.demo-success-title{font-family:'Noto Sans JP',sans-serif;font-size:1.5rem;font-weight:700;color:white;margin-bottom:0.75rem;}
+.demo-success-msg{font-size:0.95rem;color:rgba(255,255,255,0.75);line-height:1.6;margin-bottom:0.5rem;}
+.demo-success-sub{font-size:0.82rem;color:rgba(255,255,255,0.45);font-style:italic;}
+@keyframes fadeInUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+@keyframes scaleIn{from{opacity:0;transform:scale(0.5);}to{opacity:1;transform:scale(1);}}
 
 /* APP DOWNLOAD */
 .app-band{padding:3rem 2.5rem;background:var(--charcoal);}
@@ -267,6 +279,7 @@ img{max-width:100%;height:auto;}
 .app-text p{font-size:0.88rem;color:rgba(255,255,255,0.5);line-height:1.6;}
 .app-badges{display:flex;gap:0.75rem;flex-wrap:wrap;}
 .app-badge{background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:0.625rem 1.25rem;display:flex;align-items:center;gap:10px;cursor:pointer;transition:all 0.2s;}
+a.app-badge{text-decoration:none;}
 .app-badge:hover{background:rgba(37,99,235,0.15);border-color:var(--blue);}
 .app-badge-text small{display:block;font-size:0.65rem;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.05em;}
 .app-badge-text strong{display:block;font-size:0.85rem;color:white;font-weight:600;}
@@ -1231,10 +1244,10 @@ img{max-width:100%;height:auto;}
 <!-- APP DOWNLOAD -->
 <div class="app-band">
   <div class="app-inner">
-    <div class="app-text"><h3>Download the Medocs App</h3><p>Available on Google Play and the App Store.<br>Get the native experience on iOS and Android.</p></div>
+    <div class="app-text"><h3>Medocs AI Scribe — Now on Mobile</h3><p>Capture clinical notes in real time, wherever you practice.<br>Our AI Scribe is available natively on iOS and Android - fast, secure, and built for clinicians on the go.</p></div>
     <div class="app-badges">
-      <div class="app-badge"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 3l12 7-12 7V3z" fill="rgba(255,255,255,0.7)"/></svg><div class="app-badge-text"><small>Get it on</small><strong>Google Play</strong></div></div>
-      <div class="app-badge"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M14 10a4 4 0 01-4 4 4 4 0 01-4-4 4 4 0 014-4 4 4 0 014 4z" fill="rgba(255,255,255,0.7)"/><path d="M10 2v16" stroke="rgba(255,255,255,0.5)" stroke-width="1"/></svg><div class="app-badge-text"><small>Download on the</small><strong>App Store</strong></div></div>
+      <a href="https://play.google.com/store/apps/details?id=com.ionic.medocsnew" target="_blank" rel="noopener noreferrer" class="app-badge"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 3l12 7-12 7V3z" fill="rgba(255,255,255,0.7)"/></svg><div class="app-badge-text"><small>Get it on</small><strong>Google Play</strong></div></a>
+      <a href="https://apps.apple.com/us/app/medocs-ai-medical-scribe/id6737786379" target="_blank" rel="noopener noreferrer" class="app-badge"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M14 10a4 4 0 01-4 4 4 4 0 01-4-4 4 4 0 014-4 4 4 0 014 4z" fill="rgba(255,255,255,0.7)"/><path d="M10 2v16" stroke="rgba(255,255,255,0.5)" stroke-width="1"/></svg><div class="app-badge-text"><small>Download on the</small><strong>App Store</strong></div></a>
     </div>
   </div>
 </div>
@@ -1252,23 +1265,30 @@ img{max-width:100%;height:auto;}
         <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 9l3 3 7-7" stroke="var(--accent-light)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>No obligation, no pressure</li>
       </ul>
     </div>
-    <div class="demo-form">
+    <div class="demo-form" id="demoFormCard">
       <h3>Request a Demo</h3>
       <form id="customDemoForm" autocomplete="off">
         <div class="form-row">
           <div class="form-group"><label for="customName">Full Name</label><input type="text" id="customName" placeholder="Dr. Jane Smith" required></div>
           <div class="form-group"><label for="customEmail">Email</label><input type="email" id="customEmail" placeholder="jane@clinic.com" required></div>
         </div>
-        <div class="form-group"><label for="customPhone">Phone Number</label><input type="tel" id="customPhone" placeholder="+1 (555) 123-4567"></div>
+        <div class="form-group"><label for="customPhone">Phone Number</label><input type="tel" id="customPhone" placeholder="+1 (555) 123-4567" maxlength="17"></div>
         <div class="form-row">
           <div class="form-group"><label for="customDate">Preferred Date</label><input type="date" id="customDate" required></div>
           <div class="form-group"><label for="customTimeSlot">Time Slot</label><select id="customTimeSlot"><option>Select a date first</option></select><div class="form-loader" id="customSlotLoader">Loading slots...</div></div>
         </div>
         <div class="form-group"><label for="customMessage">Message (Optional)</label><textarea id="customMessage" rows="3" placeholder="Tell us about your practice..."></textarea></div>
-        <button type="submit" class="form-submit">Book Your Demo &rarr;</button>
-        <div class="form-loader" id="customLoader">Submitting...</div>
-        <div class="form-response" id="customResponse"></div>
+        <button type="submit" class="form-submit" id="demoSubmitBtn"><span class="btn-label">Book Your Demo &rarr;</span><span class="btn-spinner"></span></button>
+        <div class="form-error" id="customResponse" style="display:none;"></div>
       </form>
+      <div class="demo-success" id="demoSuccess" style="display:none;">
+        <div class="demo-success-icon">
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" stroke="#22c55e" stroke-width="3"/><path d="M20 33l8 8 16-16" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="demo-success-title">You're All Set!</h3>
+        <p class="demo-success-msg">Thank you for your interest in Medocs. Our team will reach out to you shortly to confirm your demo.</p>
+        <p class="demo-success-sub">Check your inbox for a confirmation email.</p>
+      </div>
     </div>
   </div>
 </div>
@@ -1315,17 +1335,46 @@ function sendAsk(){const q=document.getElementById('askInput').value.trim();if(q
 // Live scribes count — load immediately on first render
 async function loadScribesCount(){try{const r=await fetch('https://app.medocs.ai/home/GetCountOfScribes',{cache:'no-store'});if(!r.ok)return;const ct=r.headers.get('content-type')||'';let d;if(ct.includes('json'))d=await r.json();else{const t=await r.text();try{d=JSON.parse(t)}catch{d=Number(t)}}const c=Number(d)||0;if(c>0){const formatted=c.toLocaleString()+'+';document.querySelectorAll('#scribes-count').forEach(el=>{el.textContent=formatted;});document.querySelectorAll('[data-count="179900"]').forEach(el=>{el.textContent=formatted;});}}catch(e){}}
 
-// Demo form
+// Phone mask: +1 (555) 333-5543
+function formatPhone(v){
+  const d=v.replace(/\D/g,'');
+  let n=d;
+  if(n.startsWith('1'))n=n.substring(1);
+  if(n.length===0)return '+1 ';
+  if(n.length<=3)return '+1 ('+n;
+  if(n.length<=6)return '+1 ('+n.substring(0,3)+') '+n.substring(3);
+  return '+1 ('+n.substring(0,3)+') '+n.substring(3,6)+'-'+n.substring(6,10);
+}
 document.addEventListener('DOMContentLoaded',()=>{
+  const ph=document.getElementById('customPhone');
+  if(ph){
+    ph.addEventListener('focus',function(){if(!this.value)this.value='+1 ';});
+    ph.addEventListener('input',function(){
+      const pos=this.selectionStart;const prev=this.value.length;
+      this.value=formatPhone(this.value);
+      const diff=this.value.length-prev;
+      this.setSelectionRange(pos+diff,pos+diff);
+    });
+    ph.addEventListener('keydown',function(e){
+      if(e.key==='Backspace'&&this.value.length<=3){e.preventDefault();}
+    });
+  }
+
+// Demo form
   loadScribesCount();
   const di=document.getElementById('customDate'),ts=document.getElementById('customTimeSlot'),sl=document.getElementById('customSlotLoader');
   if(di){const t=new Date().toISOString().split('T')[0];di.setAttribute('min',t);
     di.addEventListener('change',function(){sl.style.display='block';ts.disabled=true;ts.innerHTML='<option>Loading...</option>';
       fetch('https://app.medocs.ai/available-slots/'+this.value).then(r=>r.json()).then(s=>{ts.innerHTML='';if(!s.length)ts.innerHTML='<option>No slots available</option>';else s.forEach(x=>{const o=document.createElement('option');o.value=x.split(' -')[0];o.textContent=x+' (CST)';ts.appendChild(o);});}).catch(()=>{ts.innerHTML='<option>Error loading slots</option>';}).finally(()=>{sl.style.display='none';ts.disabled=false;});});}
   const f=document.getElementById('customDemoForm');
-  if(f)f.addEventListener('submit',function(e){e.preventDefault();const b=f.querySelector('button[type="submit"]'),l=document.getElementById('customLoader'),re=document.getElementById('customResponse');b.disabled=true;l.style.display='block';re.textContent='';
+  if(f)f.addEventListener('submit',function(e){e.preventDefault();
+    const b=document.getElementById('demoSubmitBtn'),re=document.getElementById('customResponse'),card=document.getElementById('demoFormCard'),success=document.getElementById('demoSuccess');
+    b.disabled=true;b.classList.add('loading');re.style.display='none';
     const bd=new URLSearchParams({name:document.getElementById('customName').value,email:document.getElementById('customEmail').value,phoneNumber:document.getElementById('customPhone').value,message:document.getElementById('customMessage').value,bookingDate:document.getElementById('customDate').value,timeSlot:document.getElementById('customTimeSlot').value});
-    fetch('https://app.medocs.ai/book',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:bd.toString()}).then(r=>r.json()).then(d=>{re.textContent=d.message;if(d.message!=='Demo booked successfully!')b.disabled=false;}).catch(()=>{re.textContent='Something went wrong. Please try again.';b.disabled=false;}).finally(()=>{l.style.display='none';});});
+    fetch('https://app.medocs.ai/book',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:bd.toString()}).then(r=>r.json()).then(d=>{
+      if(d.message&&!d.message.toLowerCase().includes('wrong')){f.style.display='none';card.querySelector('h3').style.display='none';success.style.display='flex';}
+      else{re.textContent=d.message||'Something went wrong. Please try again.';re.style.display='block';b.disabled=false;b.classList.remove('loading');}
+    }).catch(()=>{re.textContent='Something went wrong. Please try again.';re.style.display='block';b.disabled=false;b.classList.remove('loading');});});
 });
 
 // Smooth scroll
