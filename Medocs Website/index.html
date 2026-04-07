@@ -32,7 +32,7 @@ img{max-width:100%;height:auto;}
 /* NAV */
 .nav{display:flex;align-items:center;justify-content:space-between;padding:0.875rem 1.5rem;border-bottom:1px solid var(--border);position:fixed;top:0;left:0;right:0;background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);z-index:100;}
 .nav-logo{display:flex;align-items:center;gap:0;margin-right:0.5rem;}
-.nav-logo img{height:36px;}
+.nav-logo img{height:48px;}
 .nav-links{display:flex;align-items:center;gap:1.25rem;}
 .nav-link{font-size:1rem;color:var(--accent-light);font-weight:400;transition:color 0.3s;}
 .nav-link:hover{color:var(--blue);text-decoration:underline;}
@@ -354,7 +354,7 @@ a.app-badge{text-decoration:none;}
 }
 @media(max-width:480px){
   .nav{padding:0.5rem 0.5rem;}
-  .nav-logo img{height:26px;}
+  .nav-logo img{height:34px;}
   .nav-actions{gap:0.25rem;}
   .nav-actions .btn-ghost{font-size:0.58rem;padding:0.25rem 0.45rem;border-width:1px;}
   .nav-actions .btn-ask-ai{font-size:0.55rem !important;padding:0.25rem 0.45rem !important;gap:2px !important;}
@@ -380,6 +380,7 @@ a.app-badge{text-decoration:none;}
     <a class="nav-link" href="#packages">Packages</a>
     <a class="nav-link" href="#features">Features</a>
     <a class="nav-link" href="#billing">Billing</a>
+    <a class="nav-link" href="./blog/">Blog</a>
     <a class="nav-link" href="./who-we-are/">Who We Are</a>
     <a class="nav-link" href="#demo">Contact</a>
     <a class="nav-link" href="./become-partner/">Become a Partner</a>
@@ -408,13 +409,13 @@ a.app-badge{text-decoration:none;}
           <p class="hero-sub">Medocs combines ambient AI documentation, real-time coding, intelligent billing, and a full electronic health record in one HIPAA-compliant platform designed to eliminate burnout.</p>
         </div>
         <div class="hero-slide">
-          <h1>Start your <em>telehealth</em><br>practice <em>in a day</em></h1>
+          <h1>Start your <em>Telehealth</em><br>practice <em>in a day</em></h1>
           <p class="hero-sub">From AI documentation and online scheduling to cash payments and a custom practice website everything you need to open, run, and grow your virtual or in-person clinic from day one.</p>
         </div>
-        <!-- <div class="hero-slide">
+        <div class="hero-slide">
           <h1>Start your <em>practice</em><br><em>in a day</em></h1>
-          <p class="hero-sub">From AI documentation and online scheduling to cash payments and a custom practice website — everything you need to open, run, and grow your clinic from day one.</p>
-        </div> -->
+          <p class="hero-sub">Everything you need to start, operate, and grow your clinic from AI-driven documentation and online booking to secure payments and a custom-built website.</p>
+        </div>
       </div>
       <div class="hero-actions">
         <a class="btn-hero btn-hero-primary" href="https://app.medocs.ai/sign-up">Start AI Scribe Free Trial &rarr;</a>
@@ -726,7 +727,7 @@ a.app-badge{text-decoration:none;}
             <span class="pkg-pill" style="background:#ede9fe;color:#5b21b6;">Psychiatry &amp; Therapy</span>
             <span class="pkg-pill" style="background:#ede9fe;color:#5b21b6;">Urgent Care</span>
             <span class="pkg-pill" style="background:#ede9fe;color:#5b21b6;">Chronic Disease</span>
-            <span class="pkg-pill" style="background:#ede9fe;color:#5b21b6;">130 countries</span>
+            <span class="pkg-pill" style="background:#ede9fe;color:#5b21b6;">20+ specialties</span>
             <span class="pkg-pill" style="background:#ede9fe;color:#5b21b6;">And more</span>
           </div>
         </div>
@@ -1002,7 +1003,7 @@ a.app-badge{text-decoration:none;}
       <div class="product-tag" style="background:#dbeafe;color:#2563eb;">AI Interpreter</div>
       <div class="product-name">Real-Time Translation</div>
       <div class="product-desc">Live, low-latency translation during patient encounters. Remove language barriers without scheduling a human interpreter.</div>
-      <div class="product-pills"><span class="pill">Realtime</span><span class="pill">Low Latency</span><span class="pill">130 Countries</span></div>
+      <div class="product-pills"><span class="pill">Realtime</span><span class="pill">Low Latency</span><span class="pill">20+ specialties</span></div>
     </div>
     <div class="product-card">
       <div class="product-icon" style="background:#e0f2fe;"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M11 2l2 4h4l-3.2 2.4 1.2 4L11 10l-3 2.4 1.2-4L6 6h4l1-4z" stroke="#0284c7" stroke-width="1.5" fill="none"/><path d="M11 14v6M8 17h6" stroke="#0284c7" stroke-width="1.5" stroke-linecap="round"/></svg></div>
@@ -1256,7 +1257,7 @@ a.app-badge{text-decoration:none;}
 <div class="demo-band" id="demo">
   <div class="demo-inner">
     <div class="demo-text">
-      <h2>Ready to transform your<br><em>clinical documentation?</em></h2>
+      <h2>Ready to transform your<br><em>clinics?</em></h2>
       <p>Join thousands of clinicians who've reclaimed their time with Medocs AI EHR. Book a personalized demo today.</p>
       <ul class="demo-perks">
         <li><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 9l3 3 7-7" stroke="var(--accent-light)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>30-minute personalized walkthrough</li>
@@ -1280,6 +1281,15 @@ a.app-badge{text-decoration:none;}
         <div class="form-group"><label for="customMessage">Message (Optional)</label><textarea id="customMessage" rows="3" placeholder="Tell us about your practice..."></textarea></div>
         <button type="submit" class="form-submit" id="demoSubmitBtn"><span class="btn-label">Book Your Demo &rarr;</span><span class="btn-spinner"></span></button>
         <div class="form-error" id="customResponse" style="display:none;"></div>
+        <div style="display:inline-flex;align-items:center;margin-top:14px;border-radius:6px;overflow:hidden;border:2px solid #4a90d9;box-shadow:0 2px 8px rgba(0,0,0,0.15);">
+          <div style="background:#f9f9f9;padding:0;display:flex;align-items:stretch;justify-content:center;">
+            <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA" width="44" height="44" style="display:block;object-fit:cover;">
+          </div>
+          <div style="background:#4a90d9;padding:2px 14px;display:flex;flex-direction:column;gap:1px;">
+            <span style="font-size:0.82rem;font-weight:700;color:#fff;font-family:'Poppins',sans-serif;letter-spacing:0.01em;">protected by <strong>reCAPTCHA</strong></span>
+            <span style="font-size:0.68rem;color:rgba(255,255,255,0.85);font-family:'Poppins',sans-serif;"><a href="https://policies.google.com/privacy" target="_blank" style="color:rgba(255,255,255,0.9);text-decoration:none;">Privacy</a> - <a href="https://policies.google.com/terms" target="_blank" style="color:rgba(255,255,255,0.9);text-decoration:none;">Terms</a></span>
+          </div>
+        </div>
       </form>
       <div class="demo-success" id="demoSuccess" style="display:none;">
         <div class="demo-success-icon">
@@ -1301,6 +1311,7 @@ a.app-badge{text-decoration:none;}
       <a class="footer-link" href="./privacy/">Privacy Policy</a>
       <a class="footer-link" href="./terms-of-use/">Terms of Use</a>
       <a class="footer-link" href="./who-we-are/">Who We Are</a>
+      <a class="footer-link" href="./blog/">Blog</a>
       <a class="footer-link" href="#demo">Contact</a>
       <a class="footer-link" href="./become-partner/">Become a Partner</a>
     </div>

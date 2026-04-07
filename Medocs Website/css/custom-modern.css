@@ -1270,7 +1270,11 @@ html, body {
   align-items: center;
   gap: 8px;
   z-index: 3;
-  animation: slogan-float 3s ease-in-out infinite;
+  /* Burst in + repeating popup every 6s */
+  animation: slogan-popup 6s cubic-bezier(0.34,1.56,0.64,1) infinite;
+}
+.hero-floating-slogan svg {
+  animation: star-spin 6s cubic-bezier(0.34,1.56,0.64,1) infinite;
 }
 .hero-floating-slogan span {
   font-size: 0.78rem;
@@ -1278,10 +1282,77 @@ html, body {
   color: var(--dark);
   white-space: nowrap;
   letter-spacing: -0.01em;
+  animation: text-slide 6s ease-out infinite;
 }
-@keyframes slogan-float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
+
+/* Sparkle particles */
+.hero-floating-slogan::before,
+.hero-floating-slogan::after {
+  content: '\2726';
+  position: absolute;
+  font-size: 14px;
+  color: #f6c343;
+  pointer-events: none;
+  animation: sparkle-1 6s ease-out infinite;
+}
+.hero-floating-slogan::before {
+  top: -8px; right: 12px;
+}
+.hero-floating-slogan::after {
+  bottom: -6px; left: 16px;
+  animation-name: sparkle-2;
+  animation-delay: 0.15s;
+}
+
+/* Badge: scale 0 → bounce in → float → glow → settle, repeat */
+@keyframes slogan-popup {
+  0%   { opacity: 0; transform: scale(0) rotate(-8deg); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+  8%   { opacity: 1; transform: scale(1.1) rotate(1deg); }
+  12%  { opacity: 1; transform: scale(1) rotate(0deg); }
+  30%  { transform: translateY(-6px); box-shadow: 0 12px 32px rgba(246,195,67,0.3), 0 0 20px rgba(246,195,67,0.15); }
+  50%  { transform: translateY(0); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+  70%  { transform: translateY(-4px); box-shadow: 0 10px 28px rgba(246,195,67,0.2); }
+  85%  { transform: translateY(0) scale(1); opacity: 1; }
+  92%  { opacity: 0; transform: scale(0.95); }
+  100% { opacity: 0; transform: scale(0); }
+}
+
+/* Star: spin in from rotation, pulse glow mid-cycle */
+@keyframes star-spin {
+  0%   { transform: scale(0) rotate(-180deg); }
+  10%  { transform: scale(1) rotate(0deg); }
+  35%  { transform: scale(1.2); filter: drop-shadow(0 0 6px rgba(246,195,67,0.6)); }
+  50%  { transform: scale(1); filter: drop-shadow(0 0 0 transparent); }
+  65%  { transform: scale(1.15); filter: drop-shadow(0 0 5px rgba(246,195,67,0.5)); }
+  80%  { transform: scale(1); filter: none; }
+  92%  { transform: scale(0.8) rotate(30deg); }
+  100% { transform: scale(0) rotate(180deg); }
+}
+
+/* Text: slide in from left after star lands */
+@keyframes text-slide {
+  0%   { opacity: 0; transform: translateX(-12px); }
+  6%   { opacity: 0; transform: translateX(-12px); }
+  14%  { opacity: 1; transform: translateX(0); }
+  85%  { opacity: 1; transform: translateX(0); }
+  92%  { opacity: 0; transform: translateX(8px); }
+  100% { opacity: 0; transform: translateX(-12px); }
+}
+
+/* Sparkles fly out from edges */
+@keyframes sparkle-1 {
+  0%   { opacity: 0; transform: scale(0) translate(0,0); }
+  8%   { opacity: 0; transform: scale(0); }
+  13%  { opacity: 1; transform: scale(1.2) translate(6px,-10px); }
+  20%  { opacity: 0; transform: scale(0.5) translate(12px,-18px); }
+  100% { opacity: 0; }
+}
+@keyframes sparkle-2 {
+  0%   { opacity: 0; transform: scale(0) translate(0,0); }
+  10%  { opacity: 0; transform: scale(0); }
+  16%  { opacity: 1; transform: scale(1) translate(-8px,8px); }
+  23%  { opacity: 0; transform: scale(0.5) translate(-14px,14px); }
+  100% { opacity: 0; }
 }
 
 @media (max-width: 1024px) {
