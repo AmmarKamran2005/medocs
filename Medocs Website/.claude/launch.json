@@ -4,7 +4,7 @@
     {
       "name": "medocs-site",
       "runtimeExecutable": "npx",
-      "runtimeArgs": ["serve", "-l", "3456", "C:\\Main\\Medocs-Website\\Medocs Website"],
+      "runtimeArgs": ["serve", "-l", "3456", "C:\\Main\\medocswebsite_new\\Medocs Website"],
       "port": 3456
     }
   ]
